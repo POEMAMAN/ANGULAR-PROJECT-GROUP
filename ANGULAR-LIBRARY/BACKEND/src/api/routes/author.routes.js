@@ -5,13 +5,14 @@ const {
   putAuthors,
   deleteAuthors,
 } = require('../controllers/author.controller');
-const { isAuth } = require('../../middlewares/auth');
+const { isAuth } = require('../../middlewares/auth.middleware');
+const upload = require('../../middlewares/updateFile.middleware');
 
 const router = express.Router();
 
 router.get('/', getAuthors);
-router.post('/', [isAuth], postAuthors);
-router.put('/:id', [isAuth], putAuthors);
-router.delete('/:id', [isAuth], deleteAuthors);
+router.post('/post', { isAuth }, upload.single('image'), postAuthors);
+router.put('/edit/:id', upload.single('image'), [isAuth], putAuthors);
+router.get('/delete/:id', [isAuth], deleteAuthors);
 
 module.exports = router;

@@ -6,14 +6,15 @@ const {
   putCountryExpanse,
   deleteCountryExpanse,
 } = require('../../controllers/controllers.expanse/countries.honorverse.controller');
-const { isAuth } = require('../../../middlewares/auth');
+const { isAuth } = require('../../../middlewares/auth.middleware');
+const upload = require('../../../middlewares/updateFile.middleware');
 
 const countriesExpanseRoutes = express.countriesExpanseRoutes();
 
 countriesExpanseRoutes.get('/', getCountriesExpanse);
 countriesExpanseRoutes.get('/:id', getOneCountryExpanse);
-countriesExpanseRoutes.post('/', [isAuth], postCountryExpanse);
-countriesExpanseRoutes.put('/:id', [isAuth], putCountryExpanse);
-countriesExpanseRoutes.delete('/:id', [isAuth], deleteCountryExpanse);
+countriesExpanseRoutes.post('/post', [isAuth], upload.single('image'), postCountryExpanse);
+countriesExpanseRoutes.put('/edit/:id', upload.single('image'), [isAuth], putCountryExpanse);
+countriesExpanseRoutes.delete('/delete/:id', [isAuth], deleteCountryExpanse);
 
 module.exports = countriesExpanseRoutes;

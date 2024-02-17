@@ -5,13 +5,14 @@ const {
   putSagas,
   deleteSagas,
 } = require('../controllers/sagas.controller');
-const { isAuth } = require('../../middlewares/auth');
+const { isAuth } = require('../../middlewares/auth.middleware');
+const upload = require('../../middlewares/updateFile.middleware');
 
 const router = express.Router();
 
 router.get('/',getSagas);
-router.post('/',postSagas);
-router.put('/:id', [isAuth], putSagas);
-router.delete('/:id', [isAuth], deleteSagas);
+router.post('/post', { isAuth }, upload.single('image'),postSagas);
+router.put('/edit/:id', upload.single('image'), [isAuth], putSagas);
+router.delete('/delete/:id', [isAuth], deleteSagas);
 
 module.exports = router;
