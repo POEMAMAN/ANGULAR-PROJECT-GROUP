@@ -1,4 +1,4 @@
-const CountryHonorverse = require('../../models/models.honorverse/countries.honorverse.model');
+const CountryHonorverse = require('../../models/models.honorverse/countries.expanse.model');
 
 const getCountriesHonorverse = async (req, res) => {
   try {
@@ -34,8 +34,8 @@ const putCountryHonorverse = async (req, res) => {
   try {
     const { id } = req.params;
     const putCountriesHonorverse = new CountryHonorverse(req.body);
-    putCountries._id = id;
-    const updateCountriesHonorverse = await CountryHonorverse.findByIdAndUpdate(id, putCountries, {
+    putCountriesHonorverse._id = id;
+    const updateCountriesHonorverse = await CountryHonorverse.findByIdAndUpdate(id, putCountriesHonorverse, {
       new: true,
     });
     if (!updateCountriesHonorverse) {

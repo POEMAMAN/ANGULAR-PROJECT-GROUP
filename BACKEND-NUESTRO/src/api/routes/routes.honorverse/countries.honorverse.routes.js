@@ -8,12 +8,12 @@ const {
 } = require('../../controllers/controllers.honorverse/countries.honorverse.controller');
 const { isAuth } = require('../../../middlewares/auth');
 
-const router = express.Router();
+const countriesHonorverseRoutes = express.countriesHonorverseRoutes();
 
-router.get('/', getCountriesHonorverse);
-router.get('/:id', getOneCountryHonorverse);
-router.post('/', [isAuth], postCountryHonorverse);
-router.put('/:id', [isAuth], putCountryHonorverse);
-router.delete('/:id', [isAuth], deleteCountryHonorverse);
+countriesHonorverseRoutes.get('/', getCountriesHonorverse);
+countriesHonorverseRoutes.get('/:id', getOneCountryHonorverse);
+countriesHonorverseRoutes.post('/', [isAuth], postCountryHonorverse);
+countriesHonorverseRoutes.put('/:id', [isAuth], putCountryHonorverse);
+countriesHonorverseRoutes.delete('/:id', [isAuth], deleteCountryHonorverse);
 
-module.exports = router;
+module.exports = countriesHonorverseRoutes;

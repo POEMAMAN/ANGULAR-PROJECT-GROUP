@@ -12,7 +12,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac93',
     country: '65a823a371cb2d6063ee162e',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708108186/HONOVERSO/PERSONAJES/yvfcqqny7s0gjqoqopof_b0qur9.webp',
+      'https://res.',
   },
   {
     name: 'Andrew LaFollet',
@@ -22,7 +22,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac96',
     country: '65a823a371cb2d6063ee162f',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708108185/HONOVERSO/PERSONAJES/wxrgcdarhfkkxak3b5wg_aszji1.webp',
+      'https://res.clo',
   },
   {
     name: 'Thomas Theisman',
@@ -32,7 +32,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac9b',
     country: '65a823a371cb2d6063ee1630',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022854/HONOVERSO/PERSONAJES/kdrjyg5m2pfzr6hf4nb5_wxgh1z.jpg',
+      'h',
   },
   {
     name: 'Hamish Alexander',
@@ -42,7 +42,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac92',
     country: '65a823a371cb2d6063ee162e',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022858/HONOVERSO/PERSONAJES/nn8jv0pbrf1d6qnskcac_xt9g1q.webp',
+      '',
   },
   {
     name: 'Horace Harkness',
@@ -52,7 +52,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac92',
     country: '65a823a371cb2d6063ee162e',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022847/HONOVERSO/PERSONAJES/ojhv6v8cedz9sqydsvah_ojialz.webp',
+      '',
   },
   {
     name: 'Elisabeth III Winton',
@@ -62,7 +62,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac92',
     country: '65a823a371cb2d6063ee162e',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022853/HONOVERSO/PERSONAJES/jfmo5us1fc4afq8xt3hc_fmg62a.webp',
+      '',
   },
   {
     name: 'Aldona Anisimovna',
@@ -72,7 +72,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac98',
     country: '65a823a371cb2d6063ee1631',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022849/HONOVERSO/PERSONAJES/anvibig7r7eeoxpu79ly_gkdhsn.webp',
+      '',
   },
   {
     name: 'Benjamin Mayhew IX',
@@ -82,7 +82,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac96',
     country: '65a823a371cb2d6063ee162f',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708108185/HONOVERSO/PERSONAJES/h3cunplf1eqkej5wrkw3_eh3klf.webp',
+      '',
   },
   {
     name: 'Lester Tourville',
@@ -92,7 +92,7 @@ const arrayCharactersHonorverse = [
     planet: '65a8309d16f608e1d57eac9b',
     country: '65a823a371cb2d6063ee1630',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022856/HONOVERSO/PERSONAJES/lmhck7ocnbocnqw3otup_xjk4it.webp',
+      '',
   },
 ];
 

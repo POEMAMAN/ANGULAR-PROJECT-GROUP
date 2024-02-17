@@ -1,5 +1,5 @@
-const PlanetHonorverse = require('../../models/models.honorverse/planets.honorverse.model');
-const CountryHonorverse = require('../../models/models.honorverse/countries.honorverse.model');
+const PlanetHonorverse = require('../../models/models.honorverse/planets.expanse.model');
+const CountryHonorverse = require('../../models/models.honorverse/countries.expanse.model');
 
 const getPlanetsHonorverse = async (req, res) => {
   try {
@@ -22,24 +22,11 @@ const getOnePlanetHonorverse = async (req, res) => {
 
 const postPlanetHonorverse = async (req, res) => {
   try {
-    req.body.countryHonorverse = [];
-    const allPlanetHonorverse = await PlanetHonorverse.find()
-    const mapped = allPlanetHonorverse.map((elem) => {
-    return {
-      country: elem.country,
-      id: elem._id
-    };
-  });
- 
-  mapped.forEach((country) => {
-    if (country.planets === req.body.planets) {
-      req.body.country.push(country.id)
-    }
-  });
     const newPlanetHonorverse = new PlanetHonorverse(req.body);
     const createdPlanetHonorverse = await newPlanetHonorverse.save();
     return res.status(201).json(createdPlanetHonorverse);
   } catch (error) {
+    s;
     return res.status(500).json(error);
   }
 };
