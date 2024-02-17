@@ -1,0 +1,13 @@
+
+<div class="container">
+  <!-- *ngIf="$adminPermission | async" -->
+  <div style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product', producto._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', producto._id]" >Eliminar</button>
+  </div>
+  <img [src]="producto.image" />
+  <div class="descripcion-producto">
+    <h2 class="titulo-acortado">{{ producto.name }}</h2>
+    <p class="texto-acortado">{{ producto.description }}</p>
+  </div>
+</div>

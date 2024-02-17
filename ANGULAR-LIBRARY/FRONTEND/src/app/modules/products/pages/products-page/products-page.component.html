@@ -1,0 +1,11 @@
+
+<div class="product-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let producto of products"  class="product-list--producto">
+        <app-product
+        [producto]="producto"></app-product>
+      </div>
+    </div>
+  </div>

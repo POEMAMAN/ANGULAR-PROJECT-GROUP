@@ -1,0 +1,28 @@
+<form (ngSubmit)="editProduct()" [formGroup]="editProductForm">
+  <div class="form-group">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" formControlName="name" required>
+  </div>
+  <div class="form-group">
+    <label for="surname">Description:</label>
+    <textarea cols="30" rows="5" type="text" id="description" name="description" formControlName="description" required></textarea>
+  </div>
+  <div class="form-group">
+    <label for="price">Price</label>
+    <input type="number" id="price" name="price" formControlName="price" required>
+  </div>
+  <div class="form-group">
+    <label for="categories">Categoria:</label>
+    <select id="categories" name="category" formControlName="category" required>
+      <option value="ordenadores">Ordenadores</option>
+      <option value="televisores">Televisores</option>
+      <option value="moviles">Moviles</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="imagen">Seleccionar imagen:</label>
+    <input (change)="onFileChange($event)" type="file" id="image" formControlName="image" accept="image/*">
+  </div>
+
+  <button type="submit">Editar producto</button>
+</form>
