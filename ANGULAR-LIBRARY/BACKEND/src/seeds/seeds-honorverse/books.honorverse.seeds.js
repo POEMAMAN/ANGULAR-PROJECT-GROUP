@@ -11,7 +11,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: "La comandante Honor Harrington se encuentra por fin al mando de su primera gran nave estelar, el HMS Intrépido, un crucero ligero equipado con armas experimentales, y con la misión de demostrar las teorías del almirante Hemphill en los próximos juegos de guerra. Sin embargo, su habilidad en el primer ejercicio no será suficiente para superar su desventaja en armamento. Ella y su tripulación serán exiliados a la Estación Basilisco, un remoto e insignificante puesto de vigilancia. David Weber es uno de los grandes de la épica espacial, un autor extraordinario. La serie de Honor Harrington, con millones de seguidores en todo el mundo, es emocionante, intrigante, llena de acción y aventuras.",
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023032/HONOVERSO/LIBROS/ogyxnq00iwlxcbr4rwza_butnyi.webp',
   },
   {
@@ -21,7 +21,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'El reino de Mantícora necesita aliados contra la República de Haven, que considera que la guerra y la conquista son el orden lógico y natural que debería seguir el universo. El planeta Grayson es el perfecto aliado. No obstante, el Ministerio de Exteriores de Su Majestad olvidó un detalle cuando escogió a Honor Harrington como representante: las mujeres de Grayson carecen de derechos y, por tanto, no ocupan puestos de responsabilidad. Lo que, sin duda, convertirá su presencia en una afrenta intolerable para todos los varones del planeta.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023017/HONOVERSO/LIBROS/hd20bzkehpippfhds6vj_izx2jk.webp',
   },
   {
@@ -31,7 +31,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'La República Popular de Haven atraviesa tiempos de crisis. Las arcas de la tesorería están vacías, los proles se muestran inquietos y la guerra civil es inminente. La clase dirigente sabe lo que necesita para conservar las riendas del poder: otra rápida victoria militar que una al pueblo y llene las arcas. Es una carta que ya ha jugado con éxito en multitud de ocasiones durante el último medio siglo. Todo lo que se interpone en su camino es el reino de Mantícora y sus andrajosos aliados, enemigos a los que ya ha derrotado en el pasado. El problema es que esta vez tendrá que enfrentarse a la comandante Honor Harrington y a una Real Armada Manticoriana preparada para ofrecerles una guerra que en absoluto será breve... y mucho menos triunfal',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023022/HONOVERSO/LIBROS/jjb3miacky8nw9jyandi_ubnace.webp',
   },
   {
@@ -41,7 +41,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'El ataque de la República Popular de Haven sobre el Reino de Mantícora ha fracasado. Los repos están desorganizados y sus líderes luchan por el poder en una sangrienta revolución de la que la Real Armada Manticoriana sale victoriosa. Inmersa en una crisis política que nunca buscó y traicionada por un viejo enemigo que creía derrotado, Honor se queda sola. Ahora tendrá que luchar por la justicia en un campo de batalla para el que nunca recibió adiestramiento; una guerra privada que solo le dejará dos opciones: la muerte… o una victoria que puede acabar con la deshonra y la pérdida de todo lo que ama. David Weber es uno de los grandes autores de la épica espacial. La serie de Honor Harrington, que cuenta con miles de seguidores en todo el mundo, es intrigante, repleta de acción y aventuras.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023016/HONOVERSO/LIBROS/fp1kcopwjis5ho5nzxwk_kuxy4s.webp',
   },
   {
@@ -51,7 +51,7 @@ const arrayBooksHonorverse = [
     saga_index: 5,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Sentenciada al retiro y a la vergüenza por enemigos políticos, destrozada por el asesinato del hombre al que amaba, y privada de confianza en sí misma, la capitana Honor Harrington se refugia en el planeta Grayson para ocupar su papel de gobernadora y así cicatrizar sus heridas. Pero la República Popular de Haven resurge de su derrota y amenaza a Grayson de nuevo. La armada graysoniana necesita de su destreza cuanto antes. Una llamada de auxilio que Honor no puede ignorar, incluso si para ello debe enfrentarse a los fantasmas del pasado. Pero estos tienen un plan… y para que funcione, Honor Harrington debe morir. Dos fuerzas arrolladoras se precipitan sobre Grayson, y solo una mujer puede evitar la destrucción de su planeta. ',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023005/HONOVERSO/LIBROS/yyamalxhufjblz2ozquf_eipmyp.webp',
   },
   {
@@ -61,7 +61,7 @@ const arrayBooksHonorverse = [
     saga_index: 6,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'A la capitana Honor Harrington a veces le cuesta saber quién es en realidad el enemigo. A pesar de los adversarios políticos, los celos profesionales y el escándalo que la llevó al exilio, le han ofrecido la oportunidad de recuperar su carrera como oficial de la Real Armada Manticoriana. Solo hay una pega. Debe asumir el mando de un «escuadrón» de naves mercantes armadas y reformadas y comandar una tripulación sacada de entre toda la escoria del servicio. Con eso debe arreglárselas para detener a los piratas que se han aprovechado de la guerra havenita para saquear el comercio del Reino Estelar. Por si eso no fuera suficiente, algunos de los piratas no son exactamente lo que parecen... como tampoco lo son algunos de los supuestos amigos de Honor',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023033/HONOVERSO/LIBROS/t0r8s7dmfkbu8cp0eapj_qwwd69.webp',
   },
   {
@@ -71,7 +71,7 @@ const arrayBooksHonorverse = [
     saga_index: 7,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'La República Popular de Haven al fin ha encontrado a un almirante capaz de vencer a Honor Harrington, y esta cae en una emboscada. Superada en efectivos y en armas, solo le quedan dos opciones: ver cómo la gente que está bajo su mando es masacrada en una batalla inútil… o sellar la rendición de sus hombres —y la suya propia— ante los peeps.                      La Armada Popular promete dispensar un trato honorable a sus prisioneros. Sin embargo, los políticos desautorizan a la Armada, y Honor se ve a bordo de un crucero de guerra peep, camino de un planeta prisión al que llaman certeramente «Infierno»… y de su condena a muerte. Sola y humillada, Honor tendrá que encontrar la forma de salir airosa de la situación más dura en la que se ha visto envuelta hasta ahora.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023020/HONOVERSO/LIBROS/hktkf1udbn6yyzacshkb_ahkyrb.webp',
   },
   {
@@ -81,7 +81,7 @@ const arrayBooksHonorverse = [
     saga_index: 8,
     universe: 'Honorverse',
     author: 'David Wever',
-    resume: '',
+    resume: 'Honor ha caído en su batalla contra la República Popular de Haven, y ha sido entregada a las fuerzas de Seguridad Estatal… y ejecutada, según el boletín nocturno de la red interestelar. Las tropas del Reino Estelar de Mantícora claman venganza, pero se encuentran dispersas y los repos están listos para iniciar la ofensiva una vez más. Lo que ni las fuerzas de la RPH, ni la Alianza, ni Seguridad Estatal saben, es que Honor Harrington no está muerta. Junto a un puñado de sus hombres más leales, se encuentra en el planeta-cárcel Infierno, y tiene la firme determinación de contradecir la leyenda que proclama que nadie es capaz de fugarse de allí. La comodoro Harrington vuelve a casa… aunque para ello tenga que conquistar el mismísimo Infierno.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023007/HONOVERSO/LIBROS/zthukpmnrufpcxtdvssa_nmasxc.webp',
   },
   {
@@ -91,7 +91,7 @@ const arrayBooksHonorverse = [
     saga_index: 9,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: "Los informes de mi muerte han sido muy exagerados . . La República Popular de Haven cometió un pequeño error cuando anunció la ejecución de Honor Harrington. Parecía bastante seguro. Después de todo, sabían que ya estaba muerta. Ahora Honor ha escapado del planeta prisión llamado Infierno y ha regresado a la Alianza Manticoran con algunos amigos. Casi medio millón de ellos, para ser precisos . . incluyendo algunos que saben lo que realmente sucedió cuando el Comité de Seguridad Pública tomó el poder en el PRH.El regreso de Honor de los muertos llega en un momento crítico, proporcionando un enorme, muy necesario levantamiento de la moral de los aliados, porque la guerra está entrando rápidamente en una fase decisiva. Ambas partes creen que la victoria está al fin a su alcance, pero los peligros que nadie podía prever les esperan both.New armas, nuevas estrategias, nuevas tácticas, espías, diplomacia, y el asesinato. ... Todos están entrando en foco mortal, y Honor Harrington, la mujer que los newsies llaman 'la salamandra', una vez más se encuentra en el corazón de todos ellos.Pero esta vez, el horno puede ser demasiado furioso para que incluso una salamandra sobreviva.",
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022994/HONOVERSO/LIBROS/yhbnfeggagifedod7r8e_srho73.webp',
   },
   {
@@ -101,7 +101,7 @@ const arrayBooksHonorverse = [
     saga_index: 10,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: "Nadie quería otra Guerra, Thomas Theisman no lo hizo. Después de arriesgar su vida y una nueva ronda de guerra civil para derrocar el reinado de terror del Comité de Seguridad Pública y restaurar la antigua Constitución de la República de Haven, una guerra interestelar fue lo último que quería. El Primer Ministro de Manticore estaba perfectamente contento con la guerra que había tenido. Nadie estaba disparando a nadie más en ese momento, y mientras pudiera hacer girar las negociaciones sobre el tratado formal de paz, su gobierno podría seguir ordeñando todas esas 'solo hostilidades' medidas fiscales para sus propios proyectos partidistas.Su Majestad Imperial Gustav no lo hizo. Ahora que la lucha entre el Reino de las Estrellas y los Havenitas había terminado, el emperador Andermani tenía sus propios planes para Silesia, y estaba seguro de que podía lograrlos sin una guerra propia.El protector Benjamin no lo hizo. Su gente había hecho un compromiso demasiado profundo con la Alianza Manticoran, tanto en sangre como en tesoros, para que quisiera arriesgarse a ver todo tirado. El ''Salamandra'' había visto el interior de demasiados hornos ya, sabía demasiado sobre cuánto costo de guerra.Desafortunadamente, lo que querían no importaba...",
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023028/HONOVERSO/LIBROS/mk6te1tcbbmztvazonqc_c7w1fo.webp',
   },
   {
@@ -111,7 +111,7 @@ const arrayBooksHonorverse = [
     saga_index: 11,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: '¿Qué precio tiene la victoria? La guerra con la República de Haven se ha reanudado... desastrosamente para el Reino Inicial de Mantícora. La Almirante Lady Honor Harrington, Steadholder y Duquesa Harrington, la única comandante aliada victoriosa de la apertura',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022992/HONOVERSO/LIBROS/v7vxdazveacwnpl3pved_wjr6sz.webp',
   },
   {
@@ -121,7 +121,7 @@ const arrayBooksHonorverse = [
     saga_index: 12,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'El Reino Estelar de Manticore y la República de Haven han sido enemigos durante toda la vida de Honor Harrington, y ella ha pagado un precio por las victorias conseguidas en ese conflicto. Y ahora el imparable gigante de la poderosa Liga Solariana está en rumbo de colisión con Mantícora. Los millones que ya han muerto pueden haber sido sólo un anticipo de los miles de millones de víctimas que se vislumbran en el horizonte, y Honor lo ve venir. Está dispuesta a hacer lo que sea, a arriesgarse a lo que sea, para detenerlo, y tiene un plan que podría poner fin a las Guerras Havenitas e incluso hacer reflexionar a la Liga Solariana. Pero hay cosas que ni siquiera Honor conoce. Hay fuerzas en juego, enemigos ocultos en movimiento, todos convergiendo en el Reino Estelar de Manticore para aplastar la vida misma de ella, y las peores pesadillas de Honor se quedan cortas ante la realidad que se avecina. Pero puede que los enemigos de Manticore no hayan pensado en todo después de todo. Porque si todo lo que Honor Harrington ama va a ser destruido, no lo hará sola.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023013/HONOVERSO/LIBROS/fmjap8iegyufyisgui0t_znsri3.webp',
   },
   {
@@ -131,7 +131,7 @@ const arrayBooksHonorverse = [
     saga_index: 13,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Honor Harrington y compañía se enfrentan a un doble frente de peligro y lucha. Tras un brutal ataque al sistema de Manticoran, Honor Harrington y el Reino Estelar al que sirve se enfrentan a un nuevo enemigo, tecnológicamente poderoso y totalmente nefasto. Y por si eso no fuera suficiente, Honor también debe enfrentarse a una némesis centenaria en la desmoronada, pero aún poderosa, Liga Solariana.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023039/HONOVERSO/LIBROS/ul8ttgjastrpwqisjvjo_ux73e3.webp',
   },
   {
@@ -141,7 +141,7 @@ const arrayBooksHonorverse = [
     saga_index: 14,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: "HONOR ESTÁ TERMINANDO LO QUE EMPEZÓ La armada de la Liga Solariana cuenta sus superdreadnoughts por miles. Ni siquiera su propio gobierno sabe lo enorme que es realmente su economía. Y durante cientos de años, la Liga ha llevado el estandarte de la civilización humana, ha sido el ideal al que aspira la humanidad en su diáspora por toda la galaxia. Pero los burócratas conocidos como los 'Mandarines', que gobiernan la Liga actual, no son los hombres y mujeres que la fundaron hace tanto tiempo. Son corruptos, venales, no rinden cuentas a nadie... y han decidido que el naciente Reino Estelar de Mantícora debe ser destruido. Honor Harrington ha vestido el uniforme del Reino Estelar durante medio siglo y ha servido bien a su monarca y a su pueblo. En el transcurso de esos años, la mujer a la que los noticieros llaman la Salamandra ha pasado de ser una oficial subalterna tácticamente brillante pero políticamente ingenua, al mando supremo de la flota y a ocupar un puesto en los más altos consejos militares y políticos de la Gran Alianza. Muy pocas personas conocen la guerra como Honor Harrington. Muy pocos han perdido tantos hombres y mujeres, tantos amigos, tanta familia, como ella. Pero a pesar de eso, la suya ha sido una voz de cautela. Sabe que los Mandarines y la Armada de la Liga Solariana están cada vez más desesperados a medida que la verdad de su inferioridad tecnológica se hace más evidente, pero también conoce el enorme tamaño de la Liga. Y sabe cómo reaccionarán sus ciudadanos si la Gran Alianza lleva la guerra a la Liga, ataca sus sistemas estelares, destruye su infraestructura..., mata a sus civiles. La victoria de hoy, comprada en esos términos, sólo puede garantizar una futura guerra de venganza contra una resurgente Liga Solariana y su armada. Honor sabe que la Gran Alianza debe encontrar una victoria que no requiera incursiones profundas en el espacio solariano, que no deje un legado de odio sin fondo, y la estrategia que ella apoya ha estado funcionando. La Liga se desliza hacia una gloriosa derrota a medida que pierde terreno en los Protectorados y la Verge. Mientras su gobierno central se tambalea hacia la bancarrota e incluso algunos de sus sistemas centrales optan por la secesión ante la corrupción de los Mandarines. Mientras la Armada Solariana se da cuenta por fin de que no puede enfrentarse a una flota de combate de la Alianza y vencer. Pero los Mandarines han adoptado una nueva estrategia desesperada y, en pos de ella, la SLN ha cometido atrocidades como la galaxia no había conocido en mil años. La Liga ha violado su propio Edicto Eridani contra las bajas civiles masivas, ha violado la prohibición de los Acuerdos de Deneb sobre crímenes de guerra. Y finalmente han matado a demasiadas de las personas que Honor Harrington ama. Ella ya no es la voz de la cautela y el compromiso, y la galaxia está a punto de ver algo que nunca había imaginado. La Salamandra viene a por la Liga Solariana, y el Infierno viene tras ella.",
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023009/HONOVERSO/LIBROS/anhlra1trxrlcvfldiez_ljmhya.webp',
   },
   {
@@ -151,7 +151,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Erewhon, aliado del Reino de las Estrellas, está cada vez más inquieto porque el régimen ignora sus necesidades. Desesperada, la reina envía una misión a Erewhon encabezada por el capitán Zilwicki y una princesa. Su misión se ve socavada por una organización radical de esclavos liberados, dirigida por un notorio asesino, Jeremy X.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023024/HONOVERSO/LIBROS/kqtwdlhepstcfx1nvk7c_udhx5x.webp',
   },
   {
@@ -161,7 +161,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Alguien está asesinando a los líderes del Reino Estelar de Mantícora y del recientemente liberado planeta antorcha. Aunque la mayoría cree que la República de Haven está detrás de los asesinatos, Anton Zilwicki y el agente secreto havenita Victor Cachat creen que hay otro actor siniestro entre bastidores. La reina Berry de Antorcha escapó por poco de un intento de asesinato, y un oficial de seguridad de Beowulf ha sido asignado para protegerla, una tarea complicada por el resentimiento de la joven monarca hacia los guardaespaldas, y el creciente apego del oficial hacia ella. Mientras tanto, poderosas fuerzas de la Liga Solariana maniobran entre sí para hacerse con el poder, sin darse cuenta o, tal vez, sin importarles que su lucha de poder amenaza la propia existencia de la Liga y podría sumir a la galaxia en una guerra...',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023030/HONOVERSO/LIBROS/nzypdkh5grxbyednmndh_ksr8lq.webp',
   },
   {
@@ -171,7 +171,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'La Alineación Mesan: una secular cábala que pretende imponer a la raza humana su visión de una sociedad dominada por el rango genético. Ahora la conspiración queda al descubierto gracias a los espías Anton Zilwicki y Victor Cachat: uno es agente del Reino Estelar de Mantícora, de Honor Harrington, y el otro es un operativo Havenita. La revelación de la Alineación ha puesto patas arriba el marco político de la galaxia. Las viejas coaliciones se han desintegrado. Han nacido nuevas alianzas.Para empezar, la larga y reñida guerra entre la República de Haven y el Imperio Estelar de Mantícora no sólo ha terminado, sino que estos acérrimos enemigos han formado un nuevo pacto. Su enemigo común: el propio Alineamiento Mesan.                     Pero se necesita más información para sacar a la Alineación de las sombras. Ahora, desafiando las probabilidades y confiando en la magia genética para disfrazarse, Zilwicki y Cachat regresan a Mesa, sólo para descubrir que incluso ellos han subestimado la crueldad y el salvajismo de la Alineación.                                                                                 Pronto se encuentran huyendo en los bajos fondos de Mesa, no sólo perseguidos por la Alineación, sino amenazados por el conflicto que estalla en el planeta entre los señores de Mesa y los brutales esclavos y descendientes de esclavos que han sufrido bajo su dominio durante tanto tiempo. Pero si Zilwicki y Cachat consiguen desarraigar la antigua conspiración, puede que un gran mal desaparezca finalmente de la galaxia y que en un planeta oprimido durante tanto tiempo amanezca por fin la libertad.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022996/HONOVERSO/LIBROS/ytx8piyecq10ht75fsh2_at03c1.webp',
   },
   {
@@ -181,7 +181,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'La Liga Solariana yace derrotada, aplastada por la Gran Alianza de Manticore, Haven y Grayson.                   Obediente a las exigencias de rendición de la Alianza, la Liga está redactando una nueva Constitución, para evitar el resurgimiento de burócratas fuera de control, como los "mandarines" que la llevaron al desastre. La Seguridad Fronteriza se ha disuelto, los mundos exteriores han recuperado el control de sus propios destinos económicos y varios sistemas estelares pronto se separarán totalmente de la Liga.                                                                                          Sin embargo, la Liga es -y seguirá siendo- la nación estelar humana más grande y económicamente poderosa que existe y, a pesar de la abrumadora evidencia de que sus líderes políticos no elegidos fueron la fuerza impulsora de la guerra, muchos ciudadanos de la Liga están profundamente resentidos por la forma en que su nación estelar -la Liga Solariana- ha sido humillada. Y los más resentidos con la Gran Alianza siguen culpando a Mantícora del bombardeo nuclear del planeta Mesa tras su rendición. Se niegan a aceptar que la Liga -y los miembros de la Gran Alianza- podrían haber sido manipulados por una conspiración interestelar profundamente oculta llamada la Alineación Mesan. La Alineación es sólo una invención de la Gran Alianza, no más que una máscara, una tapadera, para sus propias horribles Violaciones de Eridan.                                            Esos solarianos nunca aceptarán la culpa de guerra de la Liga, porque saben que la Gran Alianza fue igual de mala. Porque están profundamente resentidos por la forma en que la Gran Alianza pretende ser los inocentes "buenos". Y en la plenitud de los tiempos, esos solarianos buscarán vengarse de sus enemigos.                                                                   No todos los solarianos piensan así, pero incluso algunos de los que aceptan que hubo una conspiración interestelar albergan dudas sobre sus orígenes. Pero sigue ahí fuera, y ahora los solarianos derrotados y los agentes de la Alianza victoriosa deben unir sus fuerzas para encontrarla. Aunque ellos no crean en ella, ella cree en ellos.                                         Deben encontrarlo e identificarlo, para demostrar a los solarianos revanchistas que hubo una conspiracion                      Y deben encontrarlo y destruirlo para acabar con su maldad de una vez por todas.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023041/HONOVERSO/LIBROS/us0ovvplvkdcyems3elk_zwkzig.webp',
   },
   {
@@ -191,7 +191,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'El Reino Estelar de Mantícora vuelve a estar en guerra con la República de Haven tras un impresionante ataque sorpresa. La promoción de graduados de la Isla Saganami, la academia de la Marina Real de Manticora, pasa directamente de las aulas a la ardiente realidad de la guerra total.                                                                          Excepto los guardiamarinas asignados al crucero pesado HMS Hexapuma. Han sido asignados a la agrupación de Talbott, un remanso apartado, lejos del frente de batalla. Lo máximo que pueden esperar es la captura de algún que otro crucero pirata y el aburrido deber de apoyar la integración pacífica del Cluster con el Reino Estelar por voluntad libremente expresada del ochenta por ciento de los ciudadanos del Cluster. Con un capitán que puede haber visto demasiada guerra y un comandante de estación que no destaca precisamente por su brillante y perspicaz estilo de mando, no es exactamente lo que esperaban los alumnos de Honor Harrington, la "Salamandra".                                                                                                 Pero las cosas no son tan sencillas -o tranquilas- como parecen. Los "piratas" que encuentran no son lo que parecen, y la "integración pacífica" que esperaban se convierte en algo muy diferente. Una poderosa alianza de burócratas corruptos de la Liga Solariana y despiadadas corporaciones interestelares está decidida a impedir la anexión del Cluster al Reino Estelar... por todos los medios. Piratas, terroristas, traficantes de esclavos genéticos, armas de contrabando, odios personales de larga data y una feroz alianza de avaricia corporativa, arrogancia burocrática y un corrupto gobierno estelar local... son algunos de los factores que intervienen                                                                                                  Un grupo de burócratas y despiadadas corporaciones interestelares está decidido a impedir la anexión del Cluster por el Reino Estelar... por cualquier medio necesario. Piratas, terroristas, traficantes de esclavos genéticos, armas de contrabando, odios personales de larga data y una viciosa alianza de avaricia corporativa, arrogancia burocrática y una nación estelar local corrupta con una poderosa flota, se están uniendo, y sólo Hexapuma, su capitán cansado de la guerra, y los estudiantes de Honor Harrington se interponen en el camino.                                                                                        Sólo tienen una cosa para apoyarles y guiarles: la tradición de Saganami. La tradición de que a veces el deber de un oficial de la Reina es enfrentarse a probabilidades imposibles... y morir luchando. ',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023011/HONOVERSO/LIBROS/brtvcpvwehmvsrav0w1q_wyqhq7.webp',
   },
   {
@@ -201,7 +201,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'La Armada de la Liga Solariana ha sido la primera de la galaxia durante siglos. De hecho, nadie puede recordar una época en la que no haya sido reconocida como la flota más poderosa que existe.Hasta ahora.                                    Se ha programado una conferencia para poner fin a la terrible guerra entre los Píos de Haven y el Reino Estelar Manticoreano. La paz está finalmente al alcance de la mano. Sí, claro.                                                                      No con la conspiración de esclavistas que se hace llamar Manpower, Inc. manejando los hilos intergalácticos. El plan es sumir al Reino Estelar en una guerra en dos frentes con Peeps y Sollies, ¡un proceso calculado para llevar el sistema natal de Honor Harrington a la ruina!                                                                                                                          El asesinato está en marcha. Y en la frontera galáctica conocida como Verge, la arrogancia de la Liga Solariana se enfrenta a la férrea determinación de la protegida de Harrington, Michelle Henke, también conocida como Almirante Gold Peak.Lástima por los solarianos. Los oficiales de Harrington tienen la costumbre de salir airosos de los apuros y encontrar la forma de arrancar la victoria de las fauces de la derrota. Pero, sobre todo, nunca abandonan la lucha, sean cuales sean las adversidades.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023026/HONOVERSO/LIBROS/nvjabiu3sbhyho3kdecq_qme0v0.webp',
   },
   {
@@ -211,7 +211,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: '¿Número equivocado? Cualquier disputa tiene dos caras... a menos que haya más.La prima hermana de la reina Isabel de Mantícora y mejor amiga de Honor Harrington, Michelle Henke, acaba de propinar a la ""invencible"" invencible" a la Armada de la Liga Solariana la derrota más humillante y unilateral de sus casi mil años de historia en defensa de los habitantes del Cuadrante Talbott del Imperio Estelar. Pero la Liga es la nación estelar más poderosa de la historia de la humanidad. Su armada va a volver, y esta vez con miles de superdreadnoughts.                                                                      Sin embargo, también sabe que decenas de otros sistemas estelares -algunos independientes, otros controlados por regímenes títere y otros simplemente conquistados por la Oficina Solariana de Seguridad Fronteriza- están en manos de la Liga a lo largo de su frontera con el Cuadrante Talbott. A medida que el combate se extiende desde la confrontación inicial, toda la frontera ha empezado a hervir de inquietud, y Michelle simpatiza con las poblaciones oprimidas que sólo desean liberarse de sus odiados amos.                                                                                                                          Y eso la pone en un aprieto cuando llega un mensajero de Mobius, porque es evidente que alguien se ha equivocado de número. Según él, el levantamiento de los mobianos ha sido cuidadosamente planeado para coordinarse con un poderoso aliado exterior: el Imperio Estelar de Mantícora. Sólo que Manticore -y Mike Henke- nunca han oído hablar del Frente de Liberación de Mobius.Es una trampa... y Michelle sabe quién está detrás. La tenebrosa Alineación Mesan ha lanzado un audaz movimiento para destruir la reputación de Manticore como paladín de la libertad. Y cuando la RMN no llegue, cuando el MLF sea brutal y sangrientamente aplastado, ningún sistema estelar independiente volverá a confiar en Manticore.                                               Mike Henke sabe que no tiene órdenes de su gobierno de ayudar a ninguna rebelión o movimiento de liberación, que sólo tiene un número determinado de naves, que sólo pueden estar en un número determinado de lugares a la vez... y que no puede justificar el desvío de ninguna de sus limitadas y superadas fuerzas a misiones de liberación que el Imperio Estelar nunca firmó. Ella lo sabe... y no le importa.                                                                                                    Nadie va a enviar a miles de patriotas a la muerte, confiando en la ayuda de Manticoran que nunca llegará.No bajo el mandato de Mike Henke.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023037/HONOVERSO/LIBROS/u1gkpywvtdlz0g3sr8fa_yiu1hl.webp',
   },
   {
@@ -221,7 +221,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'A veces las cosas no salen exactamente como se planean.La Alineación Mesan tiene un plan en el que ha estado trabajando durante siglos. Un plan para rehacer la galaxia y mejorar genéticamente la raza humana, a su manera.             Hasta hace poco, las cosas habían ido más o menos según lo previsto, pero entonces la Alineación se topó con un pequeño bache en el camino llamado el Imperio Estelar de Mantícora. Así que la Alineación ideó una guerra entre la Liga Solariana, la mayor y más formidable potencia interestelar de la historia humana. Para ayudar a impulsar las cosas, la Alineación lanzó un devastador ataque furtivo que destruyó la infraestructura industrial de la Marina Real de Manticora.                                       Y para socavar la reputación de Manticora en toda la galaxia como nación estelar de palabra, lanzó la Operación Janus, una operación encubierta de falsa bandera para alentar rebeliones que sabe que fracasarán prometiendo el apoyo de Manticoran. El doble propósito es endurecer la determinación solariana de destruir el Imperio Estelar de una vez por todas, y devastar la reputación del Imperio Estelar ante el resto de la galaxia.                                                                                                                    Pero incluso los planes mejor trazados pueden tener consecuencias imprevistas, y una de esas consecuencias en este caso podría ser un nuevo amanecer de libertad para las naciones estelares oprimidas de todo el mundo.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023035/HONOVERSO/LIBROS/t88spdthqwitxhucplat_vgliy8.webp',
   },
   {
@@ -231,7 +231,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Al crecer, Travis Uriah Long anhelaba orden y disciplina en su vida... las dos cosas que su negligente madre no podía o no quería proporcionarle. Así que cuando Travis se alistó en la Marina Real de Manticor, pensó que por fin había encontrado la estructura que siempre había deseado desesperadamente.                                                                      Pero la vida en la RMN no es exactamente lo que esperaba. El campo de entrenamiento es duro y frustrante; su primer destino en un barco es laxo y desordenado; y con el Reino Estelar de Mantícora aún recuperándose de una plaga devastadora, la Armada está posiblemente al borde de la extinción presupuestaria.                                                                         El Reino Estelar es una nación menor entre los mundos de la Diáspora, sus vecinos más cercanos se encuentran a semanas o meses de distancia, con pocos recursos. Con sólo un modesto comercio interestelar, sin contactos en el extranjero de los que hablar, una economía devastada por la plaga que reconstruir, y sin enemigos acechando en el hiperlímite, hay facciones en el Parlamento que no quieren otra cosa que desguazar la Armada y trasladar sus recursos y mano de obra a otra parte.                        Pero esas facciones se equivocan. El universo no es un lugar seguro.Travis Long está a punto de descubrirlo.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708106297/HONOVERSO/LIBROS/A_CALL_TO_DUTY_yawhxm.jpg',
   },
   {
@@ -241,7 +241,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'El teniente Travis Long, de la Marina Real de Manticor, es el tipo de persona a la que le gusta un universo ordenado. Uno en el que la gente siga las reglas.Por desgracia, vive en el universo real.                                                La buena noticia es que Travis es una de esas raras personas a las que les gustan las reglas, pero que tienen talento para pensar al margen de ellas cuando todo empieza a desmoronarse. Ese talento le ha servido de mucho en el pasado, y al Reino de las Estrellas también, y es una de las razones por las que ahora es un "mustang", un ex alistado al que se le ha otorgado una comisión como oficial del Rey.                                                                                                  La mala noticia es que dos de las mejores maneras de ganarse enemigos que se han inventado son insistir en hacer cumplir las normas... y pensar al margen de ellas cuando otros no lo hacen. . y pensar al margen de ellas cuando los demás no lo hacen. Travis aprendió esa lección por las malas cuando era un joven voluntario en el entrenamiento básico, y sabe que si pudiera mantener la cabeza gacha, hacer la vista gorda ante las infracciones de las normas y evitar pisar los pies a los oficiales superiores, le iría bien. Pero la única regla que Travis Long no puede romper es la que dice que un oficial de la Royal Navy cumple con su deber, sean cuales sean las consecuencias.                                                                                                                Por el momento, hay fuerzas poderosas en el Parlamento del joven Reino Estelar de Mantícora que no creen necesitarle. Para el caso, están bastante seguros de que tampoco necesitan a la Marina Real de Manticor. Al fin y al cabo, ¿para qué necesita una armada una pequeña y somnolienta nación estelar de un solo sistema situada en el borde exterior de la galaxia explorada?     Por desgracia para ellos, el borde de la galaxia explorada puede ser un lugar mucho más peligroso de lo que creen. Están a punto de descubrir por qué necesitan a la Marina... y lo muy, muy afortunados que son de que Travis Long esté en ella.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708106297/HONOVERSO/LIBROS/A_CALL_TO_ARMS_yvtc9v.jpg',
   },
   {
@@ -251,7 +251,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Tras el desastroso ataque al sistema natal de Manticor por fuerzas desconocidas, la Marina Real de Manticor se encuentra al borde del colapso. Un oscuro enemigo con recursos para lanzar naves de guerra a través de cientos de años luz pretende conquistar el Reino Estelar por razones desconocidas, mientras que fuerzas del propio gobierno de Manticora buscan desacreditar y debilitar a la Armada por razones muy conocidas: su propio beneficio político.                                Depende de oficiales como Travis Long y Lisa Donnelly defender al Reino Estelar y a la Marina Real de Manticora de estas amenazas, pero el desafío es mayor que cualquiera al que se hayan enfrentado antes. Debilitadas pero no derrotadas, las fuerzas mercenarias y su misterioso empleador podrían regresar en cualquier momento, y la facción contraria a la Marina dentro del Parlamento está creciendo. La situación se vuelve aún más grave cuando una nueva tragedia golpea el Reino de las Estrellas.                                                                                                                Mientras la Casa de Winton se enfrenta a sus enemigos en casa, Travis, Lisa y los demás oficiales de la Marina Real de Manticora deben reunirse con viejos amigos y unirse a nuevos aliados para dar caza y eliminar a las fuerzas que se han organizado contra ellos en una conspiración que abarca toda la galaxia.                                                   Mantícora ha aprendido que el universo no es un lugar seguro, pero los enemigos del Reino Estelar están a punto de aprender que es peligroso meterse con Mantícora.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708106297/HONOVERSO/LIBROS/A_CALL_TO_VENGEANCE_mduxiq.jpg',
   },
   {
@@ -261,7 +261,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'El Reino Estelar de Mantícora era ayer un pequeño remanso interestelar sin importancia. Una pequeña y tranquila nación estelar, recién recuperada del devastador golpe de los Años de la Plaga. Más próspera que otras, quizás, pero con poco para atraer el comercio interestelar, tenía poca necesidad de una armada... y aún menos interés en pagar por una.                Pero Manticore se ha convertido en un objetivo. El Reino Estelar no sabe con certeza quién lo ataca, ni por qué, ni qué puede querer su misterioso enemigo, pero la reina Isabel I sabe que tiene que averiguarlo. Y sabe que, independientemente de lo que piensen algunos de sus súbditos, Manticore necesita una armada. Y necesita aliados, amigos como la dinámica República de Haven y el Imperio Andermani. Necesita su comercio... y aprender de sus armadas más poderosas y experimentadas.                      Es el trabajo de oficiales como Travis Long y su esposa, Lisa, adquirir esa experiencia. De diplomáticos totalmente inexpertos como el hermano de Travis, Gavin, Conde Winterfall, construir esas alianzas.Han sido enviados al poderoso Imperio Andermani para hacer precisamente eso, ya que la Armada Imperial es una de las flotas más potentes y experimentadas de la galaxia. Pero los Andermani tienen sus propios problemas. La muerte de su Emperador es el detonante de la insurrección, y ahora esa poderosa y experimentada armada está inmersa en una guerra civil.                                                                      Los visitantes de Manticora se encuentran justo en el camino de la tormenta, y antes de que Travis, Lisa y Gavin puedan conseguir nada más, primero tienen que sobrevivir.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708106297/HONOVERSO/LIBROS/A_CALL_TO_INSURRECTION_fnaesn.jpg',
   },
   {
@@ -271,7 +271,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Stephanie Harrington odia absolutamente estar confinada en el recinto de su familia en el planeta pionero de Sphinx, un mundo salvaje y fronterizo poblado por peligrosos animales nativos que fácilmente podrían despedazar a un humano. Sin embargo, Stephanie es una joven decidida a hacer descubrimientos, y el mayor de todos le aguarda: una especie alienígena inteligente.                                                                                                                  Los Treecats son criaturas parecidas a un cruce entre un gato montés y un lémur (pero con seis patas y garras mucho más mortíferas). No sólo son plenamente sensibles, sino que también son telepáticos y capaces de establecer vínculos con ciertos humanos dotados, como Stephanie, genéticamente mejorada. Sin embargo, el hallazgo de Stephanie y su vínculo con un turón, el primero de su especie, provocan un nuevo torrente de peligros. Una serie de enemigos muy bien situados, con riquezas de tamaño galáctico en juego, están decididos a asegurarse de que el planeta Esfinge permanezca enteramente en manos humanas, aunque esto signifique el exterminio de otra especie pensante.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708107654/HONOVERSO/LIBROS/a_beatiful_friendship_fyyxwf.jpg',
   },
   {
@@ -281,7 +281,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Un incendio en el bosque y el grito de auxilio de una madre alienígena atrapada y desesperada. Por desgracia, es un grito que ningún humano puede oír. Stephanie Harrington, una precoz Guardabosques Provisional de catorce años del planeta Esfinge, sabe que algo va mal por la inquietante emoción que le transmite su amigo treecat, Trepa Rápido. Pero aunque el camarada alienígena de Stephanie comparte un estrecho vínculo con sus dos patas, no puede comunicarle directamente la angustiosa llamada de uno de los suyos.                                                                                       Aun así, su fuerte y directo vínculo de sentimientos puede ser suficiente. Stephanie y su compañero guardabosques Karl Zivonik responden a las crecientes olas de angustia de Climbs Quickly. La temporada de incendios en el mundo pionero de Sphinx ha comenzado. Pero hay quienes quieren utilizar el ciclo natural del planeta en beneficio propio y deshacerse del único obstáculo que se interpone en su camino para adquirir aún más tierras y poder en Sphinx: los treecats nativos.                          Ahora depende de Stephanie y Escala Rápido, junto con sus amigos, familiares y aliados, evitar que el desastre y la injusticia se abatan sobre un clan de treecats. Pero en el proceso, Stephanie debe asegurarse de preservar el mayor secreto de todos. Saber que los turones de Esfinge no son meras mascotas o sirvientes, sino que son muy inteligentes por derecho propio, que son una especie que merece derechos, respeto y libertad. Y guardar el secreto les dará tiempo para desarrollar una relación mutuamente beneficiosa con la humanidad.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708107652/HONOVERSO/LIBROS/fire_season_wwxv7h.jpg',
   },
   {
@@ -291,7 +291,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Los incendios se han apagado, pero los problemas no han hecho más que empezar para los treecats. En el planeta pionero Esfinge, las tierras en ruinas y la llegada del invierno obligan al Clan de los Sin Tierra a buscar un nuevo territorio. Tienen un gran problema: no tienen adónde ir. Peor aún, sus esfuerzos por encontrar un nuevo hogar despiertan la enemistad del clan de treecats más cercano, un grupo más fuerte que no va a renunciar a una sola rama sin luchar.                             Stephanie Harrington, la mayor defensora de los treecats, se ha marchado a Manticore para recibir un entrenamiento exhaustivo, y allí está hasta arriba de desafíos. Eso deja sólo a los mejores amigos de Stephanie, Jessica y Anders, para salvar a los treecats de sí mismos. Y ahora un grupo de xenoantropólogos está de nuevo tras el gran secreto de los treecats -que son telépatas inteligentes y empáticos- y su agenda les llevará nada menos que a la explotación de los treecats.                  Por último, Jessica y Anders se enfrentan a sus propios problemas, incluida la creciente atracción que sienten el uno por el otro. Una atracción que parece una traición a Stephanie Harrington, la mejor amiga que ninguno de los dos ha tenido jamás.',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708107653/HONOVERSO/LIBROS/treecat_wrs_ezdp8m.jpg',
   },
   {
@@ -301,7 +301,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
-    resume: '',
+    resume: 'Está el nuevo gato trepador adoptado, al que hay que evitar que se convierta en un riesgo para el secreto cuidadosamente guardado de lo inteligentes que son realmente los habitantes arborícolas de Sphinx.Está el periodista entusiasta cuya campaña para proteger a los treecats de la explotación como la mascota más nueva y guay del planeta podría amenazar a las mismas criaturas que intenta defender.                                                                                          Y está la misteriosa racha de extraños accidentes que asolan a los habitantes más jóvenes de Sphinx, incluidos algunos de los más cercanos y queridos de Stephanie.Al intentar conseguir pruebas suficientes para que las escasas autoridades de su planeta pionero actúen, Stephanie se verá obligada a intentar cosas que nunca imaginó hacer, como ir de incógnito a los clubes nocturnos, un reino al que su fiel guardián, Lionheart, no puede seguir. . . .',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708107652/HONOVERSO/LIBROS/a_new_clan_zgnk31.jpg',
   },
 ]
