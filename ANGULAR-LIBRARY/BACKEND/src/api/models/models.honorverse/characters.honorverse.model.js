@@ -10,7 +10,8 @@ const charactersSchema = new Schema(
     birthday: { type: String, required: false },
     planet: [{ type: Schema.Types.ObjectId, ref: 'planetHonorverse' }],
     country: [{ type: Schema.Types.ObjectId, ref: 'countryhonorverse' }],
-    picture: { type: String },
+    resume: {type: String},
+    picture: {type: String}
   },
   {
     timestamps: true,

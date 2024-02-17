@@ -10,6 +10,7 @@ const booksSchema = new Schema(
     saga_index: {type:Number},
     universe:[{type:mongoose.Schema.Types.ObjectId,ref:"universe"}],
     author: {type:String, require:true},
+    resume: {type: String},
     picture: {type: String}
 
 },

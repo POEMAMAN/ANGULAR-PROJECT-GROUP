@@ -11,6 +11,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023032/HONOVERSO/LIBROS/ogyxnq00iwlxcbr4rwza_butnyi.webp',
   },
   {
@@ -20,6 +21,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023017/HONOVERSO/LIBROS/hd20bzkehpippfhds6vj_izx2jk.webp',
   },
   {
@@ -29,6 +31,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023022/HONOVERSO/LIBROS/jjb3miacky8nw9jyandi_ubnace.webp',
   },
   {
@@ -38,6 +41,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023016/HONOVERSO/LIBROS/fp1kcopwjis5ho5nzxwk_kuxy4s.webp',
   },
   {
@@ -47,6 +51,7 @@ const arrayBooksHonorverse = [
     saga_index: 5,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023005/HONOVERSO/LIBROS/yyamalxhufjblz2ozquf_eipmyp.webp',
   },
   {
@@ -56,6 +61,7 @@ const arrayBooksHonorverse = [
     saga_index: 6,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023033/HONOVERSO/LIBROS/t0r8s7dmfkbu8cp0eapj_qwwd69.webp',
   },
   {
@@ -65,6 +71,7 @@ const arrayBooksHonorverse = [
     saga_index: 7,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023020/HONOVERSO/LIBROS/hktkf1udbn6yyzacshkb_ahkyrb.webp',
   },
   {
@@ -74,6 +81,7 @@ const arrayBooksHonorverse = [
     saga_index: 8,
     universe: 'Honorverse',
     author: 'David Wever',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023007/HONOVERSO/LIBROS/zthukpmnrufpcxtdvssa_nmasxc.webp',
   },
   {
@@ -83,6 +91,7 @@ const arrayBooksHonorverse = [
     saga_index: 9,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022994/HONOVERSO/LIBROS/yhbnfeggagifedod7r8e_srho73.webp',
   },
   {
@@ -92,6 +101,7 @@ const arrayBooksHonorverse = [
     saga_index: 10,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023028/HONOVERSO/LIBROS/mk6te1tcbbmztvazonqc_c7w1fo.webp',
   },
   {
@@ -101,6 +111,7 @@ const arrayBooksHonorverse = [
     saga_index: 11,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022992/HONOVERSO/LIBROS/v7vxdazveacwnpl3pved_wjr6sz.webp',
   },
   {
@@ -110,6 +121,7 @@ const arrayBooksHonorverse = [
     saga_index: 12,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023013/HONOVERSO/LIBROS/fmjap8iegyufyisgui0t_znsri3.webp',
   },
   {
@@ -119,6 +131,7 @@ const arrayBooksHonorverse = [
     saga_index: 13,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023039/HONOVERSO/LIBROS/ul8ttgjastrpwqisjvjo_ux73e3.webp',
   },
   {
@@ -128,6 +141,7 @@ const arrayBooksHonorverse = [
     saga_index: 14,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023009/HONOVERSO/LIBROS/anhlra1trxrlcvfldiez_ljmhya.webp',
   },
   {
@@ -137,6 +151,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023024/HONOVERSO/LIBROS/kqtwdlhepstcfx1nvk7c_udhx5x.webp',
   },
   {
@@ -146,6 +161,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023030/HONOVERSO/LIBROS/nzypdkh5grxbyednmndh_ksr8lq.webp',
   },
   {
@@ -155,6 +171,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022996/HONOVERSO/LIBROS/ytx8piyecq10ht75fsh2_at03c1.webp',
   },
   {
@@ -164,6 +181,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023041/HONOVERSO/LIBROS/us0ovvplvkdcyems3elk_zwkzig.webp',
   },
   {
@@ -173,6 +191,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023011/HONOVERSO/LIBROS/brtvcpvwehmvsrav0w1q_wyqhq7.webp',
   },
   {
@@ -182,6 +201,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023026/HONOVERSO/LIBROS/nvjabiu3sbhyho3kdecq_qme0v0.webp',
   },
   {
@@ -191,6 +211,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023037/HONOVERSO/LIBROS/u1gkpywvtdlz0g3sr8fa_yiu1hl.webp',
   },
   {
@@ -200,6 +221,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708023035/HONOVERSO/LIBROS/t88spdthqwitxhucplat_vgliy8.webp',
   },
   {
@@ -209,6 +231,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708106297/HONOVERSO/LIBROS/A_CALL_TO_DUTY_yawhxm.jpg',
   },
   {
@@ -218,6 +241,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708106297/HONOVERSO/LIBROS/A_CALL_TO_ARMS_yvtc9v.jpg',
   },
   {
@@ -227,6 +251,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708106297/HONOVERSO/LIBROS/A_CALL_TO_VENGEANCE_mduxiq.jpg',
   },
   {
@@ -236,6 +261,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708106297/HONOVERSO/LIBROS/A_CALL_TO_INSURRECTION_fnaesn.jpg',
   },
   {
@@ -245,6 +271,7 @@ const arrayBooksHonorverse = [
     saga_index: 1,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708107654/HONOVERSO/LIBROS/a_beatiful_friendship_fyyxwf.jpg',
   },
   {
@@ -254,6 +281,7 @@ const arrayBooksHonorverse = [
     saga_index: 2,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708107652/HONOVERSO/LIBROS/fire_season_wwxv7h.jpg',
   },
   {
@@ -263,6 +291,7 @@ const arrayBooksHonorverse = [
     saga_index: 3,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708107653/HONOVERSO/LIBROS/treecat_wrs_ezdp8m.jpg',
   },
   {
@@ -272,6 +301,7 @@ const arrayBooksHonorverse = [
     saga_index: 4,
     universe: 'Honorverse',
     author: 'David Weber',
+    resume: '',
     picture: 'https://res.cloudinary.com/dqfaa272n/image/upload/v1708107652/HONOVERSO/LIBROS/a_new_clan_zgnk31.jpg',
   },
 ]

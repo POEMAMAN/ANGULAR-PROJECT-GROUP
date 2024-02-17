@@ -12,7 +12,8 @@ const planetsSchema = new Schema(
     gravity: { type: String, required: false },
     country: {type: Schema.Types.ObjectId, ref: 'countryHonorverse'},
     moons: { type: String, required: false },
-    picture: { type: String },
+    resume: {type: String},
+    picture: {type: String}
   },
   {
     timestamps: true,

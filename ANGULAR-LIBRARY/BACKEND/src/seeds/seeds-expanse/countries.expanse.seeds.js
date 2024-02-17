@@ -8,6 +8,7 @@ const arrayCountriesExpanse = [
     name: 'O.N.U.',
     capital: 'New York',
     foundation_date: 'Siglo 20',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171703/THE%20EXPANSE/PAISES/ONU_gegjot.webp',
   },
@@ -15,6 +16,7 @@ const arrayCountriesExpanse = [
     name: 'Mars Congresionnl Republic',
     capital: 'Londres Nova, Mars, SOL',
     foundation_date: 'Siglo 21',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171699/THE%20EXPANSE/PAISES/Mars_Congressional_Republic_flags_nqqzoy.webp',
   },
@@ -22,6 +24,7 @@ const arrayCountriesExpanse = [
     name: 'O.P.A, Outer Planets Alliance',
     capital: 'Ceres, Belt, SOL',
     foundation_date: 'Siglo 22',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171755/THE%20EXPANSE/PAISES/OPA_logo_dr7wpf.webp',
   },
@@ -29,6 +32,7 @@ const arrayCountriesExpanse = [
     name: 'Free Navy',
     capital: 'Ceres',
     foundation_date: 'siglo 23',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171712/THE%20EXPANSE/PAISES/Free_navy_show_badge_s5_cdg38s.webp',
   },
@@ -36,6 +40,7 @@ const arrayCountriesExpanse = [
     name: 'Protogen',
     capital: 'eARTH',
     foundation_date: 'siglo 22',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708172311/THE%20EXPANSE/PAISES/PROTOGEN_lribhr.webp',
   },
@@ -43,6 +48,7 @@ const arrayCountriesExpanse = [
     name: 'Transport Union',
     capital: '',
     foundation_date: 'siglo 21',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708172320/THE%20EXPANSE/PAISES/Transport_Union_Logo_2_o6vsfi.webp',
   },
@@ -50,6 +56,7 @@ const arrayCountriesExpanse = [
     name: 'Mao-Kwikowski Mercantile',
     capital: 'Earth',
     foundation_date: 'siglo 22',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708172315/THE%20EXPANSE/PAISES/Mao-kwik_sn7zuw.webp',
   },
@@ -57,6 +64,7 @@ const arrayCountriesExpanse = [
     name: 'M.C.R.N.',
     capital: 'Mars',
     foundation_date: 'siglo 21',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708172458/THE%20EXPANSE/PAISES/MCRN_logo_ch6oay.webp',
   },
@@ -64,6 +72,7 @@ const arrayCountriesExpanse = [
     name: 'Royal Charter Energy',
     capital: 'Earth',
     foundation_date: 'siglo 21',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708172462/THE%20EXPANSE/PAISES/Rcenewterrabadge_txvubi.webp',
   },
