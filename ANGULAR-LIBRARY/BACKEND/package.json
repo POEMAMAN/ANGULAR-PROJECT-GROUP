@@ -4,9 +4,19 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node server.js",
-        "dev": "nodemon index.js"
-    },
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "AwardsSeed": "node ./src/seeds/awards.seeds.js",
+        "booksSeed": "node ./src/seeds/books.seed.js",
+        "authorSeed": "node ./src/seeds/authors.seed.js",
+        "sagasSeed": "node ./src/seeds/sagas.seed.js",
+        "universeSeed": "node ./src/seeds/universe.seeds.js",
+        "images": "node ./src/api/images/upload.js",
+        "booksHonorverseSeed": "node ./src/seeds/seeds-honorverse/books.honorverse.seeds.js",
+        "characterHonorverseSeed": "node ./src/seeds/seeds-honorverse/characters.honorverse.seeds.js",
+        "countriesHonorverseSeed": "node ./src/seeds/seeds-honorverse/countries.honorverse.seeds.js",
+        "planetsHonorverseSeed": "node ./src/seeds/seeds-honorverse/planets.honorverse.seeds.js"
+      },
     "keywords": [
         "Node",
         "Nodemon",
@@ -14,7 +24,7 @@
         "Mongoose",
         "Cors"
     ],
-    "author": "Cristian Farriol",
+    "author": "Luis Y David Campos",
     "license": "ISC",
     "dependencies": {
         "bcrypt": "^5.1.1",
