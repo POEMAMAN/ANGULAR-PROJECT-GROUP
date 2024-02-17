@@ -11,6 +11,7 @@ const arrayBooksExpanse = [
     saga_index: 1,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977781/APISCIFI/BOOKS/Leviathan%20Wakes.jpg',
   },
@@ -21,6 +22,7 @@ const arrayBooksExpanse = [
     saga_index: 2,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977465/APISCIFI/BOOKS/La%20Guerra%20de%20Caliban.jpg',
   },
@@ -31,6 +33,7 @@ const arrayBooksExpanse = [
     saga_index: 3,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701975544/APISCIFI/BOOKS/La%20puerta%20de%20Abadon.jpg',
   },
@@ -41,6 +44,7 @@ const arrayBooksExpanse = [
     saga_index: 4,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977480/APISCIFI/BOOKS/La%20quema%20de%20Cibola.jpg',
   },
@@ -51,6 +55,7 @@ const arrayBooksExpanse = [
     saga_index: 5,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701981066/APISCIFI/BOOKS/Los%20Juegos%20de%20Nemesis.jpg',
   },
@@ -61,6 +66,7 @@ const arrayBooksExpanse = [
     saga_index: 6,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701981339/APISCIFI/BOOKS/Babylon%20Ashes.jpg',
   },
@@ -71,6 +77,7 @@ const arrayBooksExpanse = [
     saga_index: 7,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977918/APISCIFI/BOOKS/Persepolis%20Rising.jpg',
   },
@@ -81,6 +88,7 @@ const arrayBooksExpanse = [
     saga_index: 8,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701978251/APISCIFI/BOOKS/La%20Colera%20de%20Tiamat.jpg',
   },
@@ -91,6 +99,7 @@ const arrayBooksExpanse = [
     saga_index: 9,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977792/APISCIFI/BOOKS/Leviathan%20Falls.jpg',
   },
@@ -101,6 +110,7 @@ const arrayBooksExpanse = [
     saga_index: null,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977123/APISCIFI/BOOKS/Auberon.jpg',
   },

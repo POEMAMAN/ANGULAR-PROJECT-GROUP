@@ -13,6 +13,7 @@ const arrayPlanetsHonorverse = [
     gravity: '1,01 G',
     country: 'Manticore',
     moons: '1 (Thorson)',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022812/HONOVERSO/PLANETAS/fs4w5hz1ccr38mfzgpva_ini48y.png',
   },
@@ -25,6 +26,7 @@ const arrayPlanetsHonorverse = [
     gravity: '1,35 G',
     country: 'Manticore',
     moons: '2 (Perseus, Bellerefonte)',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022811/HONOVERSO/PLANETAS/uyimfkiwbgm8ie5ihsae_s32anq.webp',
   },
@@ -37,6 +39,7 @@ const arrayPlanetsHonorverse = [
     gravity: '1,05 G',
     country: 'Manticore',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022809/HONOVERSO/PLANETAS/tvq5hmayj9k2m06xng31_sgyij5.webp',
   },
@@ -49,6 +52,7 @@ const arrayPlanetsHonorverse = [
     gravity: '2,7 G',
     country: 'Manticore',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022807/HONOVERSO/PLANETAS/t7m2a2iy3xux4eydr4d0_z1pqp9.webp',
   },
@@ -61,6 +65,7 @@ const arrayPlanetsHonorverse = [
     gravity: '1,17 G',
     country: 'Grayson',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022805/HONOVERSO/PLANETAS/s9yqqhjcxvhmrpxesncl_ojbtfu.jpg',
   },
@@ -73,6 +78,7 @@ const arrayPlanetsHonorverse = [
     gravity: '0,85 G',
     country: 'Manticore',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022804/HONOVERSO/PLANETAS/qekouhi6i5sigdhqjqsx_ds7p07.webp',
   },
@@ -85,6 +91,7 @@ const arrayPlanetsHonorverse = [
     gravity: '1,02',
     country: 'Liga Solariana',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022802/HONOVERSO/PLANETAS/j6dzftqnfmtmpuduxia2_gaqi22.webp',
   },
@@ -97,6 +104,7 @@ const arrayPlanetsHonorverse = [
     gravity: '1',
     country: 'Liga Solariana',
     moons: '1 (Luna)',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022802/HONOVERSO/PLANETAS/j6dzftqnfmtmpuduxia2_gaqi22.webp',
   },
@@ -109,6 +117,7 @@ const arrayPlanetsHonorverse = [
     gravity: '1',
     country: 'Liga Solariana',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022799/HONOVERSO/PLANETAS/hkpwq4cvowqsii7adqgm_lojkkm.webp',
   },
@@ -121,6 +130,7 @@ const arrayPlanetsHonorverse = [
     gravity: '1',
     country: 'Haven',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708022797/HONOVERSO/PLANETAS/heam5qdideud0bemi0pl_isyzio.jpg',
   },

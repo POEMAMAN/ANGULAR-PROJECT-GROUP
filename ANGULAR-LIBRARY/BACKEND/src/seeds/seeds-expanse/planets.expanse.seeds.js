@@ -13,6 +13,7 @@ const arrayPlanetsExpanse = [
     gravity: '1.00 g',
     country: 'O.N.I.',
     moons: '1 (Moon)',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708172839/THE%20EXPANSE/PLANETAS/erth2_i8cv5s.jpg',
   },
@@ -25,6 +26,7 @@ const arrayPlanetsExpanse = [
     gravity: '0.376 g',
     country: 'Mars Congresionnl Republic',
     moons: '2 (Fobos,Deimos)',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708172835/THE%20EXPANSE/PLANETAS/MarsMCR_cra9ic.webp',
   },
@@ -37,6 +39,7 @@ const arrayPlanetsExpanse = [
     gravity: '0,3 G (Artificial)',
     country: 'O.P.A.',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171676/THE%20EXPANSE/PLANETAS/Anderson_Station_keczni.webp',
   },
@@ -49,6 +52,7 @@ const arrayPlanetsExpanse = [
     gravity: '0,3 G (artificial)',
     country: 'O.N.U.',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171680/THE%20EXPANSE/PLANETAS/Ceres_w4t1gv.webp',
   },
@@ -61,6 +65,7 @@ const arrayPlanetsExpanse = [
     gravity: '0,3 G (Artificial)',
     country: 'O.N.O. / M.C.R',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171685/THE%20EXPANSE/PLANETAS/Eros_station_jynnim.webp',
   },
@@ -73,6 +78,7 @@ const arrayPlanetsExpanse = [
     gravity: '0,38 G',
     country: '',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708173095/THE%20EXPANSE/PLANETAS/Mercury_qnglf0.webp',
   },
@@ -85,6 +91,7 @@ const arrayPlanetsExpanse = [
     gravity: '0,022 G (artificial)',
     country: 'Free Navy',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171689/THE%20EXPANSE/PLANETAS/Pallas_S5_mzzpdh.webp',
   },
@@ -97,6 +104,7 @@ const arrayPlanetsExpanse = [
     gravity: '581.4 g (Artificial)',
     country: 'M.C.R',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708173100/THE%20EXPANSE/PLANETAS/phobos_nddrbr.webp',
   },
@@ -109,6 +117,7 @@ const arrayPlanetsExpanse = [
     gravity: '0.004 g',
     country: 'M.C.R.',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171694/THE%20EXPANSE/PLANETAS/Phoebe_qhr9hr.webp',
   },
@@ -121,6 +130,7 @@ const arrayPlanetsExpanse = [
     gravity: '0,38 G (artificial)',
     country: 'Protogen',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171663/THE%20EXPANSE/PLANETAS/S02E02thothstation27m55s_nrmiwu.webp',
   },
@@ -133,6 +143,7 @@ const arrayPlanetsExpanse = [
     gravity: '0,022 G ',
     country: 'O.P.A. / Tycho Manufacturing',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171667/THE%20EXPANSE/PLANETAS/S05E01tychostation08m31s_oys9vj.webp',
   },
@@ -145,6 +156,7 @@ const arrayPlanetsExpanse = [
     gravity: '0.904 g',
     country: '',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708173090/THE%20EXPANSE/PLANETAS/venus_xzswol.jpg',
   },
@@ -157,6 +169,7 @@ const arrayPlanetsExpanse = [
     gravity: '0.004 g',
     country: 'Free Navy.',
     moons: '0',
+    resume: '',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171672/THE%20EXPANSE/PLANETAS/Vesta_in_natural_color_qaiioc.webp',
   },
