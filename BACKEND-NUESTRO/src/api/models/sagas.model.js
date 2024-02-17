@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const sagasSchema = new Schema(
     {
-        saga:{type:String},
+        saga:{type:String,required:true},
         book:[{type:mongoose.Schema.Types.ObjectId,ref:"book"}]
     },{
         timestamps:true

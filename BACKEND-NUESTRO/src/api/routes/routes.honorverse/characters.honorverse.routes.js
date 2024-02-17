@@ -8,12 +8,12 @@ const {
 } = require('../../controllers/controllers.honorverse/characters.honorverse.controller');
 const { isAuth } = require('../../../middlewares/auth');
 
-const characterRoutes = express.Router();
+const characterHonorverseRoutes = express.Router();
 
-characterRoutes.get('/', getCharactersHonorverse);
-characterRoutes.get('/:id', getOneCharacterHonorverse);
-characterRoutes.post('/', [isAuth], postCharacterHonorverse);
-characterRoutes.put('/:id', [isAuth], putCharacterHonorverse);
-characterRoutes.delete('/:id', [isAuth], deleteCharacterHonorverse);
+characterHonorverseRoutes.get('/', getCharactersHonorverse);
+characterHonorverseRoutes.get('/:id', getOneCharacterHonorverse);
+characterHonorverseRoutes.post('/', [isAuth], postCharacterHonorverse);
+characterHonorverseRoutes.put('/:id', [isAuth], putCharacterHonorverse);
+characterHonorverseRoutes.delete('/:id', [isAuth], deleteCharacterHonorverse);
 
-module.exports = characterRoutes;
+module.exports = characterHonorverseRoutes;

@@ -14,6 +14,11 @@ const charactersHonorverseRoutes = require("./src/api/routes/routes.honorverse/c
 const countriesHonorverseRoutes = require("./src/api/routes/routes.honorverse/countries.honorverse.routes");
 const planetsHonorverseRoutes = require('./src/api/routes/routes.honorverse/planets.honorverse.routes');
 //
+const booksExpanseRoutes = require("./src/api/routes/routes.expanse/books.expanse.routes");
+const charactersExpanseRoutes = require("./src/api/routes/routes.expanse/characters.expanse.routes");
+const countriesExpanseRoutes = require("./src/api/routes/routes.expanse/countries.expanse.routes");
+const planetsExpanseRoutes = require('./src/api/routes/routes.expanse/planets.expanse.routes');
+//
 dotenv.config();
 
 const {connect} = require('./src/utils/db');
@@ -36,8 +41,12 @@ app.use('/user', userRouter);
 app.use("/universes/honorverse/books", booksHonorverseRoutes)
 app.use("/universes/honorverse/characters", charactersHonorverseRoutes)
 app.use("/universes/honorverse/countries", countriesHonorverseRoutes)
-app.use('/universes/honorverse/planets', planetsHonorverseRoutes);
-
+app.use('/universes/honorverse/planets', planetsHonorverseRoutes)
+//
+app.use("/universes/expanse/books", booksExpanseRoutes)
+app.use("/universes/expanse/characters", charactersExpanseRoutes)
+app.use("/universes/expanse/countries", countriesExpanseRoutes)
+app.use('/universes/expanse/planets', planetsExpanseRoutes)
 //
 
 app.listen(PORT, () => console.log('listening on port ' + PORT));
