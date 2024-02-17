@@ -6,14 +6,15 @@ const {
   putBook,
   deleteBook,
 } = require('../controllers/book.controller');
-const { isAuth } = require('../../middlewares/auth');
+const { isAuth } = require('../../middlewares/auth.middleware');
+const upload = require('../../middlewares/updateFile.middleware');
 
 const router = express.Router();
 
 router.get('/', getBooks);
 router.get('/:id', getOneBook);
-router.post('/', [isAuth], postBook);
-router.put('/:id', [isAuth], putBook);
-router.delete('/:id', [isAuth], deleteBook);
+router.post('/post', { isAuth }, upload.single('image'), postBook);
+router.put('/edit/:id', upload.single('image'), [isAuth], putBook);
+router.delete('/delete/:id', [isAuth], deleteBook);
 
 module.exports = router;

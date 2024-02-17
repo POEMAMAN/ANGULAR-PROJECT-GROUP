@@ -6,14 +6,15 @@ const {
   putCharacterExpanse,
   deleteCharacterExpanse,
 } = require('../../controllers/controllers.expanse/characters.expanse.controller');
-const { isAuth } = require('../../../middlewares/auth');
+const { isAuth } = require('../../../middlewares/auth.middleware');
+const upload = require('../../../middlewares/updateFile.middleware');
 
 const characterExpanseRoutes = express.Router();
 
 characterExpanseRoutes.get('/', getCharactersExpanse);
 characterExpanseRoutes.get('/:id', getOneCharacterExpanse);
-characterExpanseRoutes.post('/', [isAuth], postCharacterExpanse);
-characterExpanseRoutes.put('/:id', [isAuth], putCharacterExpanse);
-characterExpanseRoutes.delete('/:id', [isAuth], deleteCharacterExpanse);
+characterExpanseRoutes.post('/post', [isAuth], upload.single('image'), postCharacterExpanse);
+characterExpanseRoutes.put('/edit/:id', upload.single('image'), [isAuth], putCharacterExpanse);
+characterExpanseRoutes.delete('/delete/:id', [isAuth], deleteCharacterExpanse);
 
 module.exports = characterExpanseRoutes;
