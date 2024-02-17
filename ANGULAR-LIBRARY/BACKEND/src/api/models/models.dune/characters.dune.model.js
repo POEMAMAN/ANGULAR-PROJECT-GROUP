@@ -10,14 +10,13 @@ const charactersSchema = new Schema(
     birthday: { type: String, required: false },
     planet: { type: String, required: false },
     country: { type: String, required: false },
-    resume: {type: String},
-    picture: {type: String}
+    picture: { type: String },
   },
   {
     timestamps: true,
   }
 );
 
-const CharactersHonorverse = mongoose.model('characterHonorverse', charactersSchema);
+const CharactersDune = mongoose.model('characterDune', charactersSchema);
 
-module.exports = CharactersHonorverse;
+module.exports = CharactersDune;

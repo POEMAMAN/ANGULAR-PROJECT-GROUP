@@ -10,7 +10,6 @@ const booksSchema = new Schema(
     saga_index: {type:Number},
     universe:{ type: String, required: false },
     author: {type:String, required:true},
-    resume: {type: String},
     picture: {type: String}
 
 },
@@ -19,6 +18,6 @@ const booksSchema = new Schema(
   }
 );
 
-const BooksHonorverse = mongoose.model('booksHonorverse', booksSchema);
+const BooksDune = mongoose.model('booksDune', booksSchema);
 
-module.exports = BooksHonorverse;
+module.exports = BooksDune;
