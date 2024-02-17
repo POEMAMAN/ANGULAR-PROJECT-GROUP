@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
+
 const planetsSchema = new Schema(
   {
     name: { type: String, required: false },
@@ -10,7 +11,7 @@ const planetsSchema = new Schema(
     capital: { type: String, required: false },
     location: { type: String, required: false },
     gravity: { type: String, required: false },
-    country: { type: String, required: false },
+    country: {type:String,required:false},
     moons: { type: String, required: false },
     picture: { type: String },
   },
@@ -19,6 +20,6 @@ const planetsSchema = new Schema(
   }
 );
 
-const PlanetsExpanse = mongoose.model('planetExpanse', planetsSchema);
+const PlanetsDune = mongoose.model('planetDune', planetsSchema);
 
-module.exports = PlanetsExpanse;
+module.exports = PlanetsDune;

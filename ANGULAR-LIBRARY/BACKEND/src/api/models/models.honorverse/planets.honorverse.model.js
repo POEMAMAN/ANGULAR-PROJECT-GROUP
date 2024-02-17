@@ -10,7 +10,7 @@ const planetsSchema = new Schema(
     capital: { type: String, required: false },
     location: { type: String, required: false },
     gravity: { type: String, required: false },
-    country: {type: Schema.Types.ObjectId, ref: 'countryHonorverse'},
+    country: { type: String, required: false },
     moons: { type: String, required: false },
     picture: { type: String },
   },

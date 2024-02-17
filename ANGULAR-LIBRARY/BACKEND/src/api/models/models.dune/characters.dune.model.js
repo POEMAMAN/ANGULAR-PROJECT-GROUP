@@ -17,6 +17,6 @@ const charactersSchema = new Schema(
   }
 );
 
-const CharactersExpanse = mongoose.model('characterExpanse', charactersSchema);
+const CharactersDune = mongoose.model('characterDune', charactersSchema);
 
-module.exports = CharactersExpanse;
+module.exports = CharactersDune;

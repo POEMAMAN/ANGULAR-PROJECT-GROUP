@@ -34,7 +34,7 @@ const putBookHonorverse = async (req, res) => {
     const { id } = req.params;
     const putBooksHonorverse = new BooksHonorverse(req.body);
     putvs._id = id;
-    const updateBooksHonorverse = await BookHonorverse.findByIdAndUpdate(id, putBooksHonorverse, {
+    const updateBooksHonorverse = await BooksHonorverse.findByIdAndUpdate(id, putBooksHonorverse, {
       new: true,
     });
     if (!updateBooksHonorverse) {

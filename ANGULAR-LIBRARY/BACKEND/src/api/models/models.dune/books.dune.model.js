@@ -18,6 +18,6 @@ const booksSchema = new Schema(
   }
 );
 
-const BooksExpanse = mongoose.model('booksExpanse', booksSchema);
+const BooksDune = mongoose.model('booksDune', booksSchema);
 
-module.exports = BooksExpanse;
+module.exports = BooksDune;

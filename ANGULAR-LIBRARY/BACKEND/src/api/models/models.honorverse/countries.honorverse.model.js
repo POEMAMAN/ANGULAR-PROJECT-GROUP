@@ -14,5 +14,5 @@ const countrySchema = new Schema(
   }
 );
 
-const CountryHonorverse = mongoose.model('countryHonorverse', countrySchema);
-module.exports = CountryHonorverse;
+const CountryHonoverse = mongoose.model('countryHonoverse', countrySchema);
+module.exports = CountryHonoverse;

@@ -8,8 +8,8 @@ const charactersSchema = new Schema(
     profession: { type: String, required: true },
     rank: { type: String, required: false },
     birthday: { type: String, required: false },
-    planet: [{ type: Schema.Types.ObjectId, ref: 'planetHonorverse' }],
-    country: [{ type: Schema.Types.ObjectId, ref: 'countryhonorverse' }],
+    planet: { type: String, required: false },
+    country: { type: String, required: false },
     picture: { type: String },
   },
   {
@@ -17,6 +17,6 @@ const charactersSchema = new Schema(
   }
 );
 
-const CharactersHonorverse = mongoose.model('characterhonorverse', charactersSchema);
+const CharactersHonorverse = mongoose.model('characterHonorverse', charactersSchema);
 
 module.exports = CharactersHonorverse;
