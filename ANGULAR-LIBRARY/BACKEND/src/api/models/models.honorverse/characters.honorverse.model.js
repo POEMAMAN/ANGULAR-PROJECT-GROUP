@@ -10,7 +10,8 @@ const charactersSchema = new Schema(
     birthday: { type: String, required: false },
     planet: { type: String, required: false },
     country: { type: String, required: false },
-    picture: { type: String },
+    resume: {type: String},
+    picture: {type: String}
   },
   {
     timestamps: true,
