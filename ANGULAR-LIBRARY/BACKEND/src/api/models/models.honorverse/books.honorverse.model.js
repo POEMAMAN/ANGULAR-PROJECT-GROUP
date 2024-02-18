@@ -10,6 +10,7 @@ const booksSchema = new Schema(
     saga_index: {type:Number},
     universe:{ type: String, required: false },
     author: {type:String, required:true},
+    resume: {type:String, required:false},
     picture: {type: String}
 
 },

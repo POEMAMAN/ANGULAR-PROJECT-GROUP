@@ -19,7 +19,7 @@ const booksSchema = new Schema(
   }
 );
 
-const BooksSeaford = mongoose.model('booksSeaford', booksSchema);
+const BooksUplift = mongoose.model('booksUplift', booksSchema);
 
-module.exports = BooksSeaford;
+module.exports = BooksUplift;
 
