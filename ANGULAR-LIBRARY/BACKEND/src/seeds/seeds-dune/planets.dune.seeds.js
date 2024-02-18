@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
-const PlanetExpanse = require('../../api/models/models.expanse/planets.expanse.model');
+const PlanetDune = require('../../api/models/models.dune/planets.dune.model');
 
-const arrayPlanetsExpanse = [
+const arrayPlanetsDune = [
   {
     name: 'Earth',
     settled: 'Antiguedad',
@@ -142,9 +142,9 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(async () => {
-    const allPlanetsExpanse = await PlanetExpanse.find();
-    if (allPlanetsExpanse.length > 0) {
-      await PlanetExpanse.collection.drop();
+    const allPlanetsDune = await PlanetDune.find();
+    if (allPlanetsDune.length > 0) {
+      await PlanetDune.collection.drop();
       console.log('PLanetas borrados');
     }
   })
@@ -152,8 +152,8 @@ mongoose
     console.log('error borrando los planetas', err);
   })
   .then(async () => {
-    const planetsExpanseMap = arrayPlanetsExpanse.map((planet) => new PlanetExpanse(planet));
-    await PlanetExpanse.insertMany(planetsExpanseMap);
+    const planetsDuneMap = arrayPlanetsDune.map((planet) => new PlanetDune(planet));
+    await PlanetDune.insertMany(planetsDuneMap);
     console.log('planetas insertados');
   })
   .catch((err) => {

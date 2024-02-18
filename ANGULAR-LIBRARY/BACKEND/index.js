@@ -23,6 +23,23 @@ const booksExpanseRoutes = require("./src/api/routes/routes.expanse/books.expans
 const charactersExpanseRoutes = require("./src/api/routes/routes.expanse/characters.expanse.routes");
 const countriesExpanseRoutes = require("./src/api/routes/routes.expanse/countries.expanse.routes");
 const planetsExpanseRoutes = require('./src/api/routes/routes.expanse/planets.expanse.routes');
+// Dune
+const booksDuneRoutes = require("./src/api/routes/routes.dune/books.dune.routes");
+const charactersDuneRoutes = require("./src/api/routes/routes.dune/characters.dune.routes");
+const countriesDuneRoutes = require("./src/api/routes/routes.dune/countries.dune.routes");
+const planetsDuneRoutes = require('./src/api/routes/routes.dune/planets.dune.routes');
+// ForeverWar
+const booksForeverWarRoutes = require("./src/api/routes/routes.foreverWar/books.foreverWar.routes");
+const charactersForeverWarRoutes = require("./src/api/routes/routes.foreverWar/characters.foreverWar.routes");
+const countriesForeverWarRoutes = require("./src/api/routes/routes.foreverWar/countries.foreverWar.routes");
+const planetsForeverWarRoutes = require('./src/api/routes/routes.foreverWar/planets.foreverWar.routes');
+// Seaford
+const booksSeafordRoutes = require("./src/api/routes/routes.seaford/books.seaford.routes");
+const charactersSeafordRoutes = require("./src/api/routes/routes.seaford/characters.seaford.routes");
+const countriesSeafordRoutes = require("./src/api/routes/routes.seaford/countries.seaford.routes");
+const planetsSeafordRoutes = require('./src/api/routes/routes.seaford/planets.seaford.routes');
+
+
 
 //Ruta a cambiar a MAIN PAGE
 const ProductRoutes = require("./src/api/products/products.routes.js");
@@ -88,6 +105,21 @@ app.use("/universes/expanse/books", booksExpanseRoutes)
 app.use("/universes/expanse/characters", charactersExpanseRoutes)
 app.use("/universes/expanse/countries", countriesExpanseRoutes)
 app.use('/universes/expanse/planets', planetsExpanseRoutes)
+// Dune
+app.use("/universes/dune/books", booksDuneRoutes)
+app.use("/universes/dune/characters", charactersDuneRoutes)
+app.use("/universes/dune/countries", countriesDuneRoutes)
+app.use('/universes/dune/planets', planetsDuneRoutes)
+// Forever War
+app.use("/universes/foreverWar/books", booksForeverWarRoutes)
+app.use("/universes/foreverWar/characters", charactersForeverWarRoutes)
+app.use("/universes/foreverWar/countries", countriesForeverWarRoutes)
+app.use('/universes/foreverWar/planets', planetsForeverWarRoutes)
+// Seaford
+app.use("/universes/seaford/books", booksSeafordRoutes)
+app.use("/universes/seaford/characters", charactersSeafordRoutes)
+app.use("/universes/seaford/countries", countriesSeafordRoutes)
+app.use('/universes/seaford/planets', planetsSeafordRoutes)
 //
 
 const PORT = process.env.PORT || 8084;

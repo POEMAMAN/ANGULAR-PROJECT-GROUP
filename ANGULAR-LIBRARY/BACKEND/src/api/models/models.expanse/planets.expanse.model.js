@@ -12,8 +12,7 @@ const planetsSchema = new Schema(
     gravity: { type: String, required: false },
     country: {type:String,required:false},
     moons: { type: String, required: false },
-    resume: {type: String},
-    picture: {type: String}
+    picture: { type: String },
   },
   {
     timestamps: true,
