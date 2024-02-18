@@ -5,9 +5,8 @@ const Schema = mongoose.Schema;
 const countrySchema = new Schema(
   {
     name: { type: String, required: true },
-    clan: { type: String, required: true },
-    foundatorSpecie: { type: String, required: false },
-    clientSpecie: { type: String, required: false },
+    capital: { type: String, required: true },
+    foundation_date: { type: String, required: false },
     resume: {type:String, required:false},
     picture: { type: String },
   },
@@ -16,5 +15,5 @@ const countrySchema = new Schema(
   }
 );
 
-const CountryUplift = mongoose.model('countryUplift', countrySchema);
-module.exports = CountryUplift;
+const CountryOldManWar = mongoose.model('countryOldManWar', countrySchema);
+module.exports = CountryOldManWar;
