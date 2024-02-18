@@ -7,8 +7,7 @@ const countrySchema = new Schema(
     name: { type: String, required: true },
     capital: { type: String, required: true },
     foundation_date: { type: String, required: false },
-    resume: {type: String},
-    picture: {type: String}
+    picture: { type: String },
   },
   {
     timestamps: true,

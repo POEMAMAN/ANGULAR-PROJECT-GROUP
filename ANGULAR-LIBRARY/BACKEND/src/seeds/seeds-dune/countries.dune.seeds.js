@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
-const CountryExpanse = require('../../api/models/models.universo/countries.expanse.model');
+const CountryDune = require('../../api/models/models.dune/countries.dune.model');
 
-const arrayCountriesExpanse = [
+const arrayCountriesDune = [
   {
     name: 'Casa Vernius',
     capital: 'Ix',
@@ -68,9 +68,9 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(async () => {
-    const allCountriesExpanse = await CountryExpanse.find();
-    if (allCountriesExpanse.length > 0) {
-      await CountryExpanse.collection.drop();
+    const allCountriesDune = await CountryDune.find();
+    if (allCountriesDune.length > 0) {
+      await CountryDune.collection.drop();
       console.log('Paises borrados');
     }
   })
@@ -78,8 +78,8 @@ mongoose
     console.log('error borrando los paises', err);
   })
   .then(async () => {
-    const countriesExpanseMap = arrayCountriesExpanse.map((country) => new CountryExpanse(country));
-    await CountryExpanse.insertMany(countriesExpanseMap);
+    const countriesDuneMap = arrayCountriesDune.map((country) => new CountryDune(country));
+    await CountryDune.insertMany(countriesDuneMap);
     console.log('paises insertados');
   })
   .catch((err) => {

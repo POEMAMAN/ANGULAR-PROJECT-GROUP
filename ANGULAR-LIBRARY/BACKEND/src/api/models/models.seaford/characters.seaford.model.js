@@ -17,6 +17,6 @@ const charactersSchema = new Schema(
   }
 );
 
-const CharactersExpanse = mongoose.model('characterExpanse', charactersSchema);
+const CharactersSeaford = mongoose.model('characterSeaford', charactersSchema);
 
-module.exports = CharactersExpanse;
+module.exports = CharactersSeaford;

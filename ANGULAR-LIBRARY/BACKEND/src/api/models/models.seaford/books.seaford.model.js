@@ -18,6 +18,7 @@ const booksSchema = new Schema(
   }
 );
 
-const BooksHonorverse = mongoose.model('booksHonorverse', booksSchema);
+const BooksSeaford = mongoose.model('booksSeaford', booksSchema);
 
-module.exports = BooksHonorverse;
+module.exports = BooksSeaford;
+

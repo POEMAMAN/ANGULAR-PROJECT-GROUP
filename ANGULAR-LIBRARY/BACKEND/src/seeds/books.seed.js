@@ -877,8 +877,8 @@ const arrayBooks = [
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708090308/APISCIFI/BOOKS/Children_of_Hope_ssohlv.jpg',
   },
   {
-    title: 'Hope Rearmed',
-    publication_year: 2008,
+    title: "Hope Rearmed/Galahad's Hope",
+    publication_year: 'Not Published',
     saga: 'Seafort Saga',
     saga_index: 8,
     universe: 'Seafort Saga',

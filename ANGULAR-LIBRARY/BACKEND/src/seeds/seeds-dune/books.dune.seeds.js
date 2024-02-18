@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
-const BookExpanse = require('../../api/models/models.dune/books.dune.model');
+const BookDune = require('../../api/models/models.dune/books.dune.model');
 
-const arrayBooksExpanse = [
+const arrayBooksDune = [
   
   {
     title: 'Dune',
@@ -122,9 +122,9 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(async () => {
-    const allBooksExpanse = await BookExpanse.find();
-    if (allBooksExpanse.length > 0) {
-      await BookExpanse.collection.drop();
+    const allBooksDune = await BookDune.find();
+    if (allBooksDune.length > 0) {
+      await BookDune.collection.drop();
       console.log('Libros borrados');
     }
   })
@@ -132,8 +132,8 @@ mongoose
     console.log('error borrando los Libros', err);
   })
   .then(async () => {
-    const booksExpanseMap = arrayBooksExpanse.map((book) => new BookExpanse(book));
-    await BookExpanse.insertMany(booksExpanseMap);
+    const booksDuneMap = arrayBooksDune.map((book) => new BookDune(book));
+    await BookDune.insertMany(booksDuneMap);
     console.log('Libros insertados');
   })
   .catch((err) => {
