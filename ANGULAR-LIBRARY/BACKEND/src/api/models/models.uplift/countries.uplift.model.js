@@ -15,5 +15,5 @@ const countrySchema = new Schema(
   }
 );
 
-const CountryExpanse = mongoose.model('countryExpanse', countrySchema);
-module.exports = CountryExpanse;
+const CountryUplift = mongoose.model('countryUplift', countrySchema);
+module.exports = CountryUplift;
