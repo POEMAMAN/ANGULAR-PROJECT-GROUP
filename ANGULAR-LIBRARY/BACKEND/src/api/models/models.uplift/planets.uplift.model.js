@@ -21,6 +21,6 @@ const planetsSchema = new Schema(
   }
 );
 
-const PlanetsForeverWar = mongoose.model('planetForeverWar', planetsSchema);
+const PlanetsUplift = mongoose.model('planetUplift', planetsSchema);
 
-module.exports = PlanetsForeverWar;
+module.exports = PlanetsUplift;

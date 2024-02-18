@@ -38,7 +38,12 @@ const booksSeafordRoutes = require("./src/api/routes/routes.seaford/books.seafor
 const charactersSeafordRoutes = require("./src/api/routes/routes.seaford/characters.seaford.routes");
 const countriesSeafordRoutes = require("./src/api/routes/routes.seaford/countries.seaford.routes");
 const planetsSeafordRoutes = require('./src/api/routes/routes.seaford/planets.seaford.routes');
-
+// Uplift
+const booksUpliftRoutes = require("./src/api/routes/routes.uplift/books.uplift.routes");
+const charactersUpliftRoutes = require("./src/api/routes/routes.uplift/characters.uplift.routes");
+const countriesUpliftRoutes = require("./src/api/routes/routes.uplift/countries.uplift.routes");
+const planetsUpliftRoutes = require('./src/api/routes/routes.uplift/planets.uplift.routes');
+const ordersUpliftRoutes = require('./src/api/routes/routes.uplift/orders.uplift.routes');
 
 
 //Ruta a cambiar a MAIN PAGE
@@ -115,11 +120,17 @@ app.use("/universes/foreverWar/books", booksForeverWarRoutes)
 app.use("/universes/foreverWar/characters", charactersForeverWarRoutes)
 app.use("/universes/foreverWar/countries", countriesForeverWarRoutes)
 app.use('/universes/foreverWar/planets', planetsForeverWarRoutes)
-// Seaford
+// Seaford 
 app.use("/universes/seaford/books", booksSeafordRoutes)
 app.use("/universes/seaford/characters", charactersSeafordRoutes)
 app.use("/universes/seaford/countries", countriesSeafordRoutes)
 app.use('/universes/seaford/planets', planetsSeafordRoutes)
+// Uplift
+app.use("/universes/uplift/books", booksUpliftRoutes)
+app.use("/universes/uplift/characters", charactersUpliftRoutes)
+app.use("/universes/uplift/countries", countriesUpliftRoutes)
+app.use('/universes/uplift/planets', planetsUpliftRoutes)
+app.use('/universes/uplift/orders', ordersUpliftRoutes)
 //
 
 const PORT = process.env.PORT || 8084;

@@ -18,6 +18,6 @@ const charactersSchema = new Schema(
   }
 );
 
-const CharactersHonorverse = mongoose.model('characterHonorverse', charactersSchema);
+const CharactersUplift = mongoose.model('characterUplift', charactersSchema);
 
-module.exports = CharactersHonorverse;
+module.exports = CharactersUplift;
