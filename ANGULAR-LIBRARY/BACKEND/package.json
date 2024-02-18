@@ -44,7 +44,7 @@
         "characterUltra40WKSeed": "node ./src/seeds/seeds-ultra40WK/characters.ultra40WK/.seeds.js",
         "countriesUltra40WKSeed": "node ./src/seeds/seeds-ultra40WK/countries.ultra40WK/.seeds.js",
         "planetsUltra40WKSeed": "node ./src/seeds/seeds-ultra40WK/planets.ultra40WK/.seeds.js"
-      },
+    },
     "keywords": [
         "Node",
         "Nodemon",
@@ -61,7 +61,7 @@
         "cors": "^2.8.5",
         "dotenv": "^16.0.0",
         "express": "^4.17.3",
-        "jsonwebtoken": "^8.5.1",
+        "jsonwebtoken": "^9.0.2",
         "mongoose": "^6.2.4",
         "multer": "^1.4.5-lts.1",
         "multer-storage-cloudinary": "^4.0.0",

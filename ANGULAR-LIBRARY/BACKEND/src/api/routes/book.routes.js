@@ -13,7 +13,7 @@ const router = express.Router();
 
 router.get('/', getBooks);
 router.get('/:id', getOneBook);
-router.post('/post', { isAuth }, upload.single('image'), postBook);
+// router.post('/post', { isAuth }, upload.single('image'), postBook);
 router.put('/edit/:id', upload.single('image'), [isAuth], putBook);
 router.delete('/delete/:id', [isAuth], deleteBook);
 

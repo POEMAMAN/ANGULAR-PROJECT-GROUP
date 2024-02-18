@@ -9,7 +9,7 @@ const {
 const { isAuth } = require('../../../middlewares/auth.middleware');
 const upload = require('../../../middlewares/updateFile.middleware');
 
-const countriesDuneRoutes = express.countriesDuneRoutes();
+const countriesDuneRoutes = express.Router();
 
 countriesDuneRoutes.get('/', getCountriesDune);
 countriesDuneRoutes.get('/:id', getOneCountryDune);

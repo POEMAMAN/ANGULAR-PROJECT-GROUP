@@ -9,7 +9,7 @@ const {
 const { isAuth } = require('../../../middlewares/auth.middleware');
 const upload = require('../../../middlewares/updateFile.middleware');
 
-const countriesExpanseRoutes = express.countriesExpanseRoutes();
+const countriesExpanseRoutes = express.Router();
 
 countriesExpanseRoutes.get('/', getCountriesExpanse);
 countriesExpanseRoutes.get('/:id', getOneCountryExpanse);
