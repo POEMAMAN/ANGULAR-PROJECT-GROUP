@@ -5,8 +5,9 @@ const Schema = mongoose.Schema;
 const countrySchema = new Schema(
   {
     name: { type: String, required: true },
-    capital: { type: String, required: true },
-    foundation_date: { type: String, required: false },
+    clan: { type: String, required: true },
+    foundatorSpecie: { type: String, required: false },
+    clientSpecie: { type: String, required: false },
     resume: {type:String, required:false},
     picture: { type: String },
   },

@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 
-const planetsSchema = new Schema(
+const ordersSchema = new Schema(
   {
     name: { type: String, required: false },
     resume: {type:String, required:false},
@@ -14,6 +14,6 @@ const planetsSchema = new Schema(
   }
 );
 
-const PlanetsUplift = mongoose.model('planetUplift', planetsSchema);
+const ordersUplift = mongoose.model('orderUplift', ordersSchema);
 
-module.exports = PlanetsUplift;
+module.exports = ordersUplift;

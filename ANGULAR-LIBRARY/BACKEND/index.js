@@ -44,6 +44,7 @@ const charactersUpliftRoutes = require("./src/api/routes/routes.uplift/character
 const countriesUpliftRoutes = require("./src/api/routes/routes.uplift/countries.uplift.routes");
 const planetsUpliftRoutes = require('./src/api/routes/routes.uplift/planets.uplift.routes');
 const ordersUpliftRoutes = require('./src/api/routes/routes.uplift/orders.uplift.routes');
+const speciesUpliftRoutes = require('./src/api/routes/routes.uplift/species.uplift.routes');
 
 
 //Ruta a cambiar a MAIN PAGE
@@ -131,6 +132,7 @@ app.use("/universes/uplift/characters", charactersUpliftRoutes)
 app.use("/universes/uplift/countries", countriesUpliftRoutes)
 app.use('/universes/uplift/planets', planetsUpliftRoutes)
 app.use('/universes/uplift/orders', ordersUpliftRoutes)
+app.use('/universes/uplift/species', speciesUpliftRoutes)
 //
 
 const PORT = process.env.PORT || 8084;
