@@ -44,7 +44,13 @@ const charactersUpliftRoutes = require("./src/api/routes/routes.uplift/character
 const countriesUpliftRoutes = require("./src/api/routes/routes.uplift/countries.uplift.routes");
 const planetsUpliftRoutes = require('./src/api/routes/routes.uplift/planets.uplift.routes');
 const ordersUpliftRoutes = require('./src/api/routes/routes.uplift/orders.uplift.routes');
-const speciesUpliftRoutes = require('./src/api/routes/routes.uplift/species.uplift.routes');
+// OldManWar
+const booksOldManWarRoutes = require("./src/api/routes/routes.oldManWar/books.oldManWar.routes");
+const charactersOldManWartRoutes = require("./src/api/routes/routes.oldManWar/characters.oldManWar.routes");
+const countriesOldManWarRoutes = require("./src/api/routes/routes.oldManWar/countries.oldManWar.routes");
+const planetsOldManWarRoutes = require('./src/api/routes/routes.oldManWar/planets.oldManWar.routes');
+const ordersOldManWarRoutes = require('./src/api/routes/routes.oldManWar/orders.oldManWar.routes');
+
 
 
 //Ruta a cambiar a MAIN PAGE
@@ -132,7 +138,11 @@ app.use("/universes/uplift/characters", charactersUpliftRoutes)
 app.use("/universes/uplift/countries", countriesUpliftRoutes)
 app.use('/universes/uplift/planets', planetsUpliftRoutes)
 app.use('/universes/uplift/orders', ordersUpliftRoutes)
-app.use('/universes/uplift/species', speciesUpliftRoutes)
+// OldManWar
+app.use("/universes/oldManWar/books", booksOldManWarRoutes)
+app.use("/universes/oldManWar/characters", charactersOldManWarRoutes)
+app.use("/universes/oldManWar/countries", countriesOldManWarRoutes)
+app.use('/universes/oldManWar/planets', planetsOldManWarRoutes)
 //
 
 const PORT = process.env.PORT || 8084;
