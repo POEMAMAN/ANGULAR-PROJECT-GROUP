@@ -306,7 +306,7 @@ const arrayBooksHonorverse = [
   },
 ]
 mongoose
-  .connect(process.env.DB_URL, {
+  .connect('mongodb+srv://dcpousa:Cunado1978@angular-library.cnzt7z4.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

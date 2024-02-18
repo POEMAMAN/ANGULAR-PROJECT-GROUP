@@ -11,7 +11,7 @@ const upload = require('../../middlewares/updateFile.middleware');
 const router = express.Router();
 
 router.get('/', getAwards);
-router.post('/post', { isAuth }, upload.single('image'), postAward);
+// router.post('/post', { isAuth }, upload.single('image'), postAward);
 router.put('/edit/:id', upload.single('image'), [isAuth], putAward);
 router.delete('/delete/:id', [isAuth], deleteAward);
 

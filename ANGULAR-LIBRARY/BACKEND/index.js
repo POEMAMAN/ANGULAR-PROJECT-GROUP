@@ -6,11 +6,12 @@ const { configCloudinary } = require('./src/utils/cloudinary/config.js');
 const { connect } = require("./src/utils/db.js");
 
 //Rutas Componentes Principales
-const booksRouter = require("./src/api/routes/book.routes");
+const booksRouter = require("./src/api/routes/book.routes.js");
 const sagasRouter = require("./src/api/routes/sagas.routes");
 const universeRouter = require("./src/api/routes/universes.routes");
 const authorsRouter = require("./src/api/routes/author.routes");
 const awardsRouter = require("./src/api/routes/awards.routes");
+const userRouter = require("./src/api/users/users.routes.js");
 
 // Rutas Componentes hijos (universos)
 // Honoverse
@@ -44,14 +45,16 @@ const charactersUpliftRoutes = require("./src/api/routes/routes.uplift/character
 const countriesUpliftRoutes = require("./src/api/routes/routes.uplift/countries.uplift.routes");
 const planetsUpliftRoutes = require('./src/api/routes/routes.uplift/planets.uplift.routes');
 const ordersUpliftRoutes = require('./src/api/routes/routes.uplift/orders.uplift.routes');
-// OldManWar
-const booksOldManWarRoutes = require("./src/api/routes/routes.oldManWar/books.oldManWar.routes");
-const charactersOldManWartRoutes = require("./src/api/routes/routes.oldManWar/characters.oldManWar.routes");
-const countriesOldManWarRoutes = require("./src/api/routes/routes.oldManWar/countries.oldManWar.routes");
-const planetsOldManWarRoutes = require('./src/api/routes/routes.oldManWar/planets.oldManWar.routes');
-const ordersOldManWarRoutes = require('./src/api/routes/routes.oldManWar/orders.oldManWar.routes');
-
-
+// GauntW40K
+const booksGauntW40KRoutes = require("./src/api/routes/routes.GauntW40K/books.GauntW40K.routes.js");
+const charactersGauntW40KRoutes = require("./src/api/routes/routes.GauntW40K/characters.GauntW40K.routes.js");
+const countriesGauntW40KRoutes = require("./src/api/routes/routes.GauntW40K/countries.GauntW40K.routes.js");
+const planetsGauntW40KRoutes = require("./src/api/routes/routes.GauntW40K/planets.GauntW40K.routes.js");
+// UltraW40K
+const booksUltraW40KRoutes = require("./src/api/routes/routes.UltraW40K/books.UltraW40K.routes.js");
+const charactersUltraW40KRoutes = require("./src/api/routes/routes.UltraW40K/characters.UltraW40K.routes.js");
+const countriesUltraW40KRoutes = require("./src/api/routes/routes.UltraW40K/countries.UltraW40K.routes.js");
+const planetsUltraW40KRoutes = require("./src/api/routes/routes.UltraW40K/planets.UltraW40K.routes.js");
 
 //Ruta a cambiar a MAIN PAGE
 const ProductRoutes = require("./src/api/products/products.routes.js");
@@ -138,12 +141,16 @@ app.use("/universes/uplift/characters", charactersUpliftRoutes)
 app.use("/universes/uplift/countries", countriesUpliftRoutes)
 app.use('/universes/uplift/planets', planetsUpliftRoutes)
 app.use('/universes/uplift/orders', ordersUpliftRoutes)
-// OldManWar
-app.use("/universes/oldManWar/books", booksOldManWarRoutes)
-app.use("/universes/oldManWar/characters", charactersOldManWarRoutes)
-app.use("/universes/oldManWar/countries", countriesOldManWarRoutes)
-app.use('/universes/oldManWar/planets', planetsOldManWarRoutes)
-//
+// GauntW40K
+app.use("/universes/GauntW40K/books", booksGauntW40KRoutes)
+app.use("/universes/GauntW40K/characters", charactersGauntW40KRoutes)
+app.use("/universes/GauntW40K/countries", countriesGauntW40KRoutes)
+app.use('/universes/GauntW40K/planets', planetsGauntW40KRoutes)
+// UltraW40K
+app.use("/universes/UltraW40K/books", booksUltraW40KRoutes)
+app.use("/universes/UltraW40K/characters", charactersUltraW40KRoutes)
+app.use("/universes/UltraW40K/countries", countriesUltraW40KRoutes)
+app.use('/universes/UltraW40K/planets', planetsUltraW40KRoutes)
 
 const PORT = process.env.PORT || 8084;
 

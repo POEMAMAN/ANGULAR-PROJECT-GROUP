@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
-const CharacterHonorverse = require('../../api/models/models.universo/characters.model');
+const CharacterHonorverse = require('../../api/models/models.honorverse/characters.honorverse.model');
 
 const arrayCharactersHonorverse = [
   {

@@ -83,7 +83,7 @@ const arrayBooksSeaford = [
   },
   {
     title: "Hope Rearmed/Galahad's Hope",
-    publication_year: 'Not Published',
+    publication_year: 0,
     saga: 'Seafort Saga',
     saga_index: 8,
     universe: 'Seafort Saga',
