@@ -1,69 +1,69 @@
-const PlanetUplift = require('../../models/models.uplift/planets.uplift.model');
+const OrderUplift = require('../../models/models.uplift/orders.uplift.model');
 const CountryUplift = require('../../models/models.uplift/countries.uplift.model');
 
-const getPlanetsUplift = async (req, res) => {
+const getOrdersUplift = async (req, res) => {
   try {
-    const allPlanetsUplift = await PlanetUplift.find();
-    return res.status(200).json(allPlanetsUplift);
+    const allOrdersUplift = await OrderUplift.find();
+    return res.status(200).json(allOrdersUplift);
   } catch (error) {
     return res.status(500).json(error);
   }
 };
 
-const getOnePlanetUplift = async (req, res) => {
+const getOneOrderUplift = async (req, res) => {
   try {
     const { id } = req.params;
-    const onePlanetUplift = await PlanetUplift.findById(id).populate('planetUplift');
-    return res.status(200).json(onePlanetUplift);
+    const oneOrderUplift = await OrderUplift.findById(id).populate('OrderUplift');
+    return res.status(200).json(oneOrderUplift);
   } catch (error) {
     return res.status(500).json(error);
   }
 };
 
-const postPlanetUplift = async (req, res) => {
+const postOrderUplift = async (req, res) => {
   try {
-    const newPlanetUplift = new PlanetUplift(req.body);
-    const createdPlanetUplift = await newPlanetUplift.save();
-    return res.status(201).json(createdPlanetUplift);
+    const newOrderUplift = new OrderUplift(req.body);
+    const createdOrderUplift = await newOrderUplift.save();
+    return res.status(201).json(createdOrderUplift);
   } catch (error) {
     s;
     return res.status(500).json(error);
   }
 };
-const putPlanetUplift = async (req, res) => {
+const putOrderUplift = async (req, res) => {
   try {
     const { id } = req.params;
-    const putPlanetsUplift = new PlanetUplift(req.body);
-    putPlanetsUplift._id = id;
-    const updatePlanetsUplift = await PlanetUplift.findByIdAndUpdate(id, putPlanetsUplift, {
+    const putOrdersUplift = new OrderUplift(req.body);
+    putOrdersUplift._id = id;
+    const updateOrdersUplift = await OrderUplift.findByIdAndUpdate(id, putOrdersUplift, {
       new: true,
     });
     if (!updatevs) {
-      return res.status(404).json({ message: 'Planet not found' });
+      return res.status(404).json({ message: 'Order not found' });
     }
-    return res.status(200).json(updatePlanetsUplift);
+    return res.status(200).json(updateOrdersUplift);
   } catch (error) {
     return res.status(500).json(error);
   }
 };
 
-const deletePlanetUplift = async (req, res) => {
+const deleteOrderUplift = async (req, res) => {
   try {
     const { id } = req.params;
-    const deletePlanetUplift = await PlanetUplift.findByIdAndDelete(id);
-    if (!deletePlanetUplift) {
-      return res.status(404).json({ message: 'Planet not found' });
+    const deleteOrderUplift = await OrderUplift.findByIdAndDelete(id);
+    if (!deleteOrderUplift) {
+      return res.status(404).json({ message: 'Order not found' });
     }
-    return res.status(200).json(deletePlanetUplift);
+    return res.status(200).json(deleteOrderUplift);
   } catch (error) {
     return res.status(500).json(error);
   }
 };
 
 module.exports = {
-  getPlanetsUplift,
-  getOnePlanetUplift,
-  postPlanetUplift,
-  putPlanetUplift,
-  deletePlanetUplift,
+  getOrdersUplift,
+  getOneOrderUplift,
+  postOrderUplift,
+  putOrderUplift,
+  deleteOrderUplift,
 };

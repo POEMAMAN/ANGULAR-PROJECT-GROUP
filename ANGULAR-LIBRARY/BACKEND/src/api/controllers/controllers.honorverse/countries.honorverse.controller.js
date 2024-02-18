@@ -1,4 +1,4 @@
-const CountryHonorverse = require('../../models/models.honorverse/countries.expanse.model');
+const CountryHonorverse = require('../../models/models.honorverse/countries.honorverse.model');
 
 const getCountriesHonorverse = async (req, res) => {
   try {

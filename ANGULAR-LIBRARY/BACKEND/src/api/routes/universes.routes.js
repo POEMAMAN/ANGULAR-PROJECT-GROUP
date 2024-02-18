@@ -11,7 +11,7 @@ const upload = require('../../middlewares/updateFile.middleware');
 const router = express.Router();
 
 router.get('/', getUniverses);
-router.post('/post', { isAuth }, upload.single('image'), postUniverse);
+// router.post('/post', { isAuth }, upload.single('image'), postUniverse);
 router.put('/edit/:id', upload.single('image'), [isAuth], putUniverse);
 router.delete('/delete/:id', [isAuth], deleteUniverse);
 

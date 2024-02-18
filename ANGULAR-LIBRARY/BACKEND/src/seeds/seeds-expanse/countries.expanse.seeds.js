@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
-const CountryExpanse = require('../../api/models/models.universo/countries.expanse.model');
+const CountryExpanse = require('../../api/models/models.expanse/countries.expanse.model');
 
 const arrayCountriesExpanse = [
   {

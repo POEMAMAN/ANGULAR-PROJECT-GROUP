@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
-const PlanetHonorverse = require('../../api/models/models.universo/planets.model');
+const PlanetHonorverse = require('../../api/models/models.honorverse/planets.honorverse.model');
 
 const arrayPlanetsHonorverse = [
   {

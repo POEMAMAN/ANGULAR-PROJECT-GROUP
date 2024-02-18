@@ -1,5 +1,5 @@
-const PlanetHonorverse = require('../../models/models.honorverse/planets.expanse.model');
-const CountryHonorverse = require('../../models/models.honorverse/countries.expanse.model');
+const PlanetHonorverse = require('../../models/models.honorverse/planets.honorverse.model');
+const CountryHonorverse = require('../../models/models.honorverse/countries.honorverse.model');
 
 const getPlanetsHonorverse = async (req, res) => {
   try {

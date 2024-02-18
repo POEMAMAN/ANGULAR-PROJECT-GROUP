@@ -9,7 +9,7 @@ const {
 const { isAuth } = require('../../../middlewares/auth.middleware');
 const upload = require('../../../middlewares/updateFile.middleware');
 
-const countriesSeafordRoutes = express.countriesSeafordRoutes();
+const countriesSeafordRoutes = express.Router();
 
 countriesSeafordRoutes.get('/', getCountriesSeaford);
 countriesSeafordRoutes.get('/:id', getOneCountrySeaford);

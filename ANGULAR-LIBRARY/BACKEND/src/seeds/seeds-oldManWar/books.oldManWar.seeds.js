@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
 const BookOldManWar = require('../../api/models/models.oldManWar/books.oldManWar.model');
-OldManWar
+
 const arrayBooksOldManWar = [
   {
     title: "Old Man's War",

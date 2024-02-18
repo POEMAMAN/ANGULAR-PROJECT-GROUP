@@ -1,5 +1,5 @@
 const BooksUplift = require('../../models/models.uplift/books.uplift.model');
-Uplift
+
 const getBooksUplift = async (req, res) => {
   try {
     const allBooksUplift = await BooksUplift.find();
