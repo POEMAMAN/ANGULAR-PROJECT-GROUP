@@ -7,7 +7,11 @@ import { AppComponent } from './app.component';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { AssignTokenInterceptor } from './modules/auth/interceptors/assign-token.interceptor';
-import { MainComponent } from './modules/main/main.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderUniverseComponent } from './components/header-universe/header-universe.component';
+import { HeaderLogoutComponent } from './components/header-logout/header-logout.component';
+import { MainComponent } from './components/main/main.component';
+import { LibraryComponent } from './components/library/library.component';
 
 
 
@@ -15,7 +19,11 @@ import { MainComponent } from './modules/main/main.component';
 @NgModule({
   declarations: [
     AppComponent,
+    FooterComponent,
+    HeaderUniverseComponent,
+    HeaderLogoutComponent,
     MainComponent,
+    LibraryComponent
   ],
   imports: [
     BrowserModule,
