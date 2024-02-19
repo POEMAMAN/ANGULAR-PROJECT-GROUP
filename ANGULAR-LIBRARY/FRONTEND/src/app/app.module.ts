@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { AssignTokenInterceptor } from './modules/auth/interceptors/assign-token.interceptor';
+import { MainComponent } from './modules/main/main.component';
 
 
 
@@ -14,6 +15,7 @@ import { AssignTokenInterceptor } from './modules/auth/interceptors/assign-token
 @NgModule({
   declarations: [
     AppComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
