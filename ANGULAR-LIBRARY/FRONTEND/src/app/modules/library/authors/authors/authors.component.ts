@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Author } from '../authors-interface';
 
 @Component({
   selector: 'app-authors',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./authors.component.css']
 })
 export class AuthorsComponent {
-
+  @Input() authorsList: Author[] = [];
 }

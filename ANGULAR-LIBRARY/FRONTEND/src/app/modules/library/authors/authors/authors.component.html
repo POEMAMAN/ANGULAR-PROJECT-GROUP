@@ -1,0 +1,8 @@
+<div class="library-authors-component" *ngFor="let author of authorsList">
+    <h2>{{author.name}}</h2>
+    <img [src]="author.image"/>
+    <h3>{{author.species}}</h3>
+    <h3>{{author.type}}</h3>
+    <h3>{{author.status}}</h3>
+    <button [routerLink]="['/detail',author.id]">Detalles</button>
+  </div>
