@@ -1,1 +1,1 @@
-Fallo en la estructura de GIT el 18/02/24, p`rocedemos a crear un nuevo proyecto
+Biblioteca de Ciencia Ficcion con acceso a fcichas de libros y una seccion especial con sesiones monograficas de diferentes universos de Ciencia Ficcion
