@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from '../../modules/auth/services/auth.service';
 
 @Component({
   selector: 'app-header-logout',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class HeaderLogoutComponent {
 
+  constructor(private authService: AuthService) { }
+
+  logout(): void {
+    this.authService.logout();
+  }
 }

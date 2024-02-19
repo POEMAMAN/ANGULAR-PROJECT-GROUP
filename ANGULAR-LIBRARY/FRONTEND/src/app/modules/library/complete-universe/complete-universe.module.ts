@@ -1,39 +1,39 @@
+import { ForeverWarUniverseModule } from './forever-war-universe/forever-war-universe.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { CompleteUniverseRoutingModule } from './complete-universe-routing.module';
-import { DuneUniverseComponent } from './dune-universe/dune-universe.component';
-import { ExpanseUniverseComponent } from './expanse-universe/expanse-universe.component';
-import { ForeverWarUniverseComponent } from './forever-war-universe/forever-war-universe.component';
-import { FundacionUniverseComponent } from './fundacion-universe/fundacion-universe.component';
-import { GalacticCenterUniverseComponent } from './galactic-center-universe/galactic-center-universe.component';
-import { GauntW40KUniverseComponent } from './gaunt-w40-kuniverse/gaunt-w40k-universe.component';
-import { HonorverseUniverseComponent } from './honorverse-universe/honorverse-universe.component';
-import { OldManWarUniverseComponent } from './old-man-war-universe/old-man-war-universe.component';
-import { SeafordUniverseComponent } from './seaford-universe/seaford-universe.component';
-import { UltraW40KUniverseComponent } from './UltraW40K-Universe/ultra-w40k-universe.component';
-import { UpliftUniverseComponent } from './uplift-universe/uplift-universe.component';
+import { DuneUniverseModule } from './dune-universe/dune-universe.module';
+import { ExpanseUniverseModule } from './expanse-universe/expanse-universe.module';
+import { FundacionUniverseModule } from './fundacion-universe/fundacion-universe.module';
+import { GalacticCenterUniverseModule } from './galactic-center-universe/galactic-center-universe.module';
+import { GauntW40KUniverseModule } from './gaunt-w40k-universe/gaunt-w40k-universe.module';
+import { HonorverseUniverseModule } from './honorverse-universe/honorverse-universe.module';
+import { OldManWarUniverseModule } from './old-man-war-universe/old-man-war-universe.module';
+import { SeafordUniverseModule } from './seaford-universe/seaford-universe.module';
+import { UltraW40KUniverseModule } from './UltraW40K-Universe/ultra-w40k-universe.module';
+import { UpliftUniverseModule } from './uplift-universe/uplift-universe.module';
 
 
 
 @NgModule({
   declarations: [
-    DuneUniverseComponent,
-    ExpanseUniverseComponent,
-    ForeverWarUniverseComponent,
-    FundacionUniverseComponent,
-    GalacticCenterUniverseComponent,
-    GauntW40KUniverseComponent,
-    HonorverseUniverseComponent,
-    OldManWarUniverseComponent,
-    SeafordUniverseComponent,
-    UltraW40KUniverseComponent,
-    UpliftUniverseComponent
     
   ],
   imports: [
     CommonModule,
-    CompleteUniverseRoutingModule
-  ]
+    CompleteUniverseRoutingModule,
+    DuneUniverseModule,
+    ExpanseUniverseModule,
+    ForeverWarUniverseModule,
+    // FundacionUniverseModule,
+    // GalacticCenterUniverseModule,
+    GauntW40KUniverseModule,
+    HonorverseUniverseModule,
+    OldManWarUniverseModule,
+    SeafordUniverseModule,
+    UltraW40KUniverseModule,
+    UpliftUniverseModule
+
+  ],
 })
 export class CompleteUniverseModule { }

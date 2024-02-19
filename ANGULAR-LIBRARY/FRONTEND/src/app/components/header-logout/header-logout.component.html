@@ -1,4 +1,7 @@
 <div>
     <h1>Biblioteca de Ciencia Ficcion "Campos Pousa"</h1>    
-    <button [routerLink]="'/logout'">Logout</button>
+    <form (ngSubmit)="logout()">
+        <button type="submit">Logout</button>
+      </form>
 </div>
+    
