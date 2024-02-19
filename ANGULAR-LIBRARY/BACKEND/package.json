@@ -42,7 +42,11 @@
         "booksUltra40WKSeed": "node ./src/seeds/seeds-ultra40WK/books.ultra40WK/.seeds.js",
         "characterUltra40WKSeed": "node ./src/seeds/seeds-ultra40WK/characters.ultra40WK/.seeds.js",
         "countriesUltra40WKSeed": "node ./src/seeds/seeds-ultra40WK/countries.ultra40WK/.seeds.js",
-        "planetsUltra40WKSeed": "node ./src/seeds/seeds-ultra40WK/planets.ultra40WK/.seeds.js"
+        "planetsUltra40WKSeed": "node ./src/seeds/seeds-ultra40WK/planets.ultra40WK/.seeds.js",
+        "booksGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/books.galacticCenter.seeds.js",
+        "characterGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/characters.galacticCenter.seeds.js",
+        "countriesGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/countries.galacticCenter.seeds.js",
+        "planetsGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/planets.galacticCenter.seeds.js"
       },
     "keywords": [
         "Node",
