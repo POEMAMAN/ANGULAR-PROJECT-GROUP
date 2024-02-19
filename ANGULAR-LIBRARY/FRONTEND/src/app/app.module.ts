@@ -11,7 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderUniverseComponent } from './components/header-universe/header-universe.component';
 import { HeaderLogoutComponent } from './components/header-logout/header-logout.component';
 import { MainComponent } from './components/main/main.component';
-import { LibraryComponent } from './components/library/library.component';
+import { LibraryComponent } from './modules/library/library.component';
+
 
 
 
@@ -24,6 +25,7 @@ import { LibraryComponent } from './components/library/library.component';
     HeaderLogoutComponent,
     MainComponent,
     LibraryComponent
+
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,8 @@ import { BooksComponent } from './books/books.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { AwardsComponent } from './awards/awards.component';
 import { UniverseComponent } from './universe/universe.component';
-import { CompleteUniverseComponent } from './complete-universe/complete-universe.component';
+import { CompleteUniverseModule } from './complete-universe/complete-universe.module';
+
 
 
 
@@ -16,12 +17,18 @@ import { CompleteUniverseComponent } from './complete-universe/complete-universe
     AuthorsComponent,
     AwardsComponent,
     UniverseComponent,
-    CompleteUniverseComponent,
+   
   
   ],
   imports: [
     CommonModule,
-    LibraryRoutingModule
+    LibraryRoutingModule,
+    CompleteUniverseModule
+  ],
+  exports: [
+    CompleteUniverseModule
   ]
 })
-export class LibraryModule { }
+export class LibraryModule {
+  
+ }
