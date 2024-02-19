@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const charactersSchema = new Schema(
   {
     name: { type: String, required: true },
-    profession: { type: String, required: false },
+    profession: { type: String, required: true },
     rank: { type: String, required: false },
     birthday: { type: String, required: false },
     planet: { type: String, required: false },
@@ -18,6 +18,6 @@ const charactersSchema = new Schema(
   }
 );
 
-const CharactersUplift = mongoose.model('characterUplift', charactersSchema);
+const CharactersGalacticCenter = mongoose.model('characterGalacticCenter', charactersSchema);
 
-module.exports = CharactersUplift;
+module.exports = CharactersGalacticCenter;
