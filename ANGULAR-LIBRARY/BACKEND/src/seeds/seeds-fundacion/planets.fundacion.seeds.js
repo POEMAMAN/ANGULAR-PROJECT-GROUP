@@ -6,7 +6,7 @@ const PlanetDune = require('../../api/models/models.dune/planets.dune.model');
 const arrayPlanetsDune = [
   {
     name: 'Trantor',
-    settled: '(3508 TIERRA -8038 ERAGALACTICA -20105 ERAFUNDACIONAL)',
+    settled: '(5708 TIERRA -10238 ERAGALACTICA -22305 ERAFUNDACIONAL)',
     population: '120.000.000',
     capital: 'Tarntor',
     location: 'Trantor System',
