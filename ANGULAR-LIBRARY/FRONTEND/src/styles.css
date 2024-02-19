@@ -30,7 +30,7 @@ label {
 button:hover {
   background-color: #45eeee;
 }
-  
+
 
 .auth-container {
   max-width: 50%;
@@ -163,6 +163,11 @@ h1 {
 }
 
 /*Header*/
+.header-logout{
+  top: 3%;
+  position: fixed;
+  
+}
 
 .container-session {
   display: flex;
@@ -411,6 +416,8 @@ footer{
   font-weight: bold;
   display: flex;
   justify-content: space-between;
+  position:fixed;
+  bottom: 3%;
 }
 .footer-copy{
   width: 100%;
