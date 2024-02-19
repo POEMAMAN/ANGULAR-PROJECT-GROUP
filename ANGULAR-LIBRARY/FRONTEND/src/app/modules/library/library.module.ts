@@ -8,8 +8,9 @@ import { LibraryComponent } from './components/library/library.component';
 
 @NgModule({
   declarations: [
-    LibraryPageComponent,
-    LibraryComponent
+    LibraryComponent,
+    LibraryPageComponent
+
   ],
   imports: [
     CommonModule,

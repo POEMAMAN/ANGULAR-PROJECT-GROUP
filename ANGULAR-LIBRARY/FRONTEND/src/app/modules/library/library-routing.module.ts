@@ -6,9 +6,6 @@ const routes: Routes = [
   {
     path: '', children: [
       {
-      path: 'list', component: LibraryPageComponent
-      },
-      {
         path: 'books', component: LibraryPageComponent
       },
       {
@@ -21,7 +18,7 @@ const routes: Routes = [
       path: 'awards', component: LibraryPageComponent
       },
       {
-        path: '**', redirectTo: 'list', pathMatch: 'full'
+        path: '**', redirectTo: '', pathMatch: 'full'
       }
   ]
   }
