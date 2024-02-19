@@ -55,6 +55,11 @@ const booksUltraW40KRoutes = require("./src/api/routes/routes.UltraW40K/books.Ul
 const charactersUltraW40KRoutes = require("./src/api/routes/routes.UltraW40K/characters.UltraW40K.routes.js");
 const countriesUltraW40KRoutes = require("./src/api/routes/routes.UltraW40K/countries.UltraW40K.routes.js");
 const planetsUltraW40KRoutes = require("./src/api/routes/routes.UltraW40K/planets.UltraW40K.routes.js");
+// Fundacion
+const booksFundacionRoutes = require("./src/api/routes/routes.fundacion/books.fundacion.routes.js");
+const charactersFundacionRoutes = require("./src/api/routes/routes.fundacion/characters.fundacion.routes.js");
+const countriesFundacionRoutes = require("./src/api/routes/routes.fundacion/countries.fundacion.routes.js");
+const planetsFundacionRoutes = require("./src/api/routes/routes.fundacion/planets.fundacion.routes.js");
 
 //Ruta a cambiar a MAIN PAGE
 const ProductRoutes = require("./src/api/products/products.routes.js");
@@ -142,15 +147,21 @@ app.use("/universes/uplift/countries", countriesUpliftRoutes)
 app.use('/universes/uplift/planets', planetsUpliftRoutes)
 app.use('/universes/uplift/orders', ordersUpliftRoutes)
 // GauntW40K
-app.use("/universes/GauntW40K/books", booksGauntW40KRoutes)
-app.use("/universes/GauntW40K/characters", charactersGauntW40KRoutes)
-app.use("/universes/GauntW40K/countries", countriesGauntW40KRoutes)
-app.use('/universes/GauntW40K/planets', planetsGauntW40KRoutes)
+app.use("/universes/gauntW40K/books", booksGauntW40KRoutes)
+app.use("/universes/gauntW40K/characters", charactersGauntW40KRoutes)
+app.use("/universes/gauntW40K/countries", countriesGauntW40KRoutes)
+app.use('/universes/gauntW40K/planets', planetsGauntW40KRoutes)
 // UltraW40K
-app.use("/universes/UltraW40K/books", booksUltraW40KRoutes)
-app.use("/universes/UltraW40K/characters", charactersUltraW40KRoutes)
-app.use("/universes/UltraW40K/countries", countriesUltraW40KRoutes)
-app.use('/universes/UltraW40K/planets', planetsUltraW40KRoutes)
+app.use("/universes/ultraW40K/books", booksUltraW40KRoutes)
+app.use("/universes/ultraW40K/characters", charactersUltraW40KRoutes)
+app.use("/universes/ultraW40K/countries", countriesUltraW40KRoutes)
+app.use('/universes/ultraW40K/planets', planetsUltraW40KRoutes)
+// Fundacion
+app.use("/universes/fundacion/books", booksFundacionRoutes)
+app.use("/universes/fundacion/characters", charactersFundacionRoutes)
+app.use("/universes/fundacion/countries", countriesFundacionRoutes)
+app.use('/universes/fundacion/planets', planetsFundacionRoutes)
+
 
 const PORT = process.env.PORT || 8084;
 
