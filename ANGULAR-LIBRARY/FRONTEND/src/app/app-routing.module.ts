@@ -1,3 +1,4 @@
+import { MainComponent } from './modules/main/main.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { adminGuard } from './modules/auth/guards/admin.guard';
@@ -5,7 +6,9 @@ import { verifyTokenGuard } from './modules/auth/guards/verify-token.guard';
 
 const routes: Routes = [
 
-  
+{
+  path: 'main', component: MainComponent
+},
 {
   path: 'auth', loadChildren: () => import('./modules/auth/auth.module').then(module => module.AuthModule)
 },
