@@ -1,4 +1,6 @@
+
 <form (ngSubmit)="handleLogin()">
+  <p>Acceso a la Web (Login)</p>
   <div class="form-group">
     <label for="email">Usuario:</label>
     <input type="text" id="email" name="email" [(ngModel)]="email" required>
@@ -8,4 +10,10 @@
     <input type="password" id="password" name="password" [(ngModel)]="password" required>
   </div>
   <button type="submit">Iniciar sesión</button>
+<br>
+<br>
 </form>
+<div *ngIf="status === 'not registered'">
+  <button [routerLink]="'/auth/register'">Si no estas registrado, o has olvidado tu usuario, ** REGISTRATE **</button>
+  <h2>{{message}}</h2>
+  </div>

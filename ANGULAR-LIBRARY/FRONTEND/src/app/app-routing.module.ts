@@ -5,8 +5,12 @@ import { verifyTokenGuard } from './modules/auth/guards/verify-token.guard';
 
 const routes: Routes = [
 
+  
 {
   path: 'auth', loadChildren: () => import('./modules/auth/auth.module').then(module => module.AuthModule)
+},
+{
+  path: 'library', canActivate: [verifyTokenGuard], loadChildren: () => import('./modules/library/library.module').then(m => m.LibraryModule)
 },
 {
   path: 'products', canActivate: [verifyTokenGuard], loadChildren: () => import('./modules/products/products.module').then(m => m.ProductsModule)

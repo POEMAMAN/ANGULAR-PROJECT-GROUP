@@ -1,0 +1,40 @@
+<!-- 
+<div class="product-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let producto of products"  class="product-list--producto">
+        <app-product
+        [producto]="producto"></app-product>
+      </div>
+    </div>
+  </div> -->
+  <header className="container-header">
+    <nav>
+      <ul className="header-title-list">
+        <button [routerLink]="'/library'">Home</button>
+        <button [routerLink]="'/login'">Login</button>
+        <button [routerLink]="'/login'">Register</button>
+
+      </ul>
+    </nav>
+  </header>
+<div>
+  <div className="home-container">
+    <h2 className="home-title">Bienvenido Fans de la Ciencia Ficcion</h2>
+  <p className="home-parragraph">
+    Esta pagina surge como un referente de las sagas de ciencia ficcion que
+    han revolucionado el genero, especialmente las Space Opera como Fundacion
+    o Old `s Man War.`
+  </p>
+  <p className="home-parragraph">
+    Además, del acceso a la informacion de estas sagas, proximamemte
+    comenzaremos a completar la biblioteca con Free Epubs, mantete al dia con
+    nuestra actualizaciones.
+  </p>
+  <button [routerLink]="'/library/books'">Books</button>
+  <button [routerLink]="'/library/authors'">Authors</button>
+  <button [routerLink]="'/library/universe'">Universe</button>
+  <button [routerLink]="'/library/awards'">Awards</button>
+  </div>
+</div>
