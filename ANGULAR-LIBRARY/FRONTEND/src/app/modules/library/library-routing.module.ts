@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BooksComponent } from './books/books.component';
-import { AuthorsComponent } from './authors/authors.component';
+import { AuthorsComponent } from './authors/authors/authors.component';
 import { AwardsComponent } from './awards/awards.component';
 import { UniverseComponent } from './universe/universe.component';
 import { verifyTokenGuard } from '../auth/guards/verify-token.guard';
