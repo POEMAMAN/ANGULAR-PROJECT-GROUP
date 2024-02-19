@@ -30,10 +30,10 @@ label {
 button:hover {
   background-color: #45eeee;
 }
-
+  
 
 .auth-container {
-  max-width: 300px;
+  max-width: 50%;
   margin: auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -179,12 +179,17 @@ html {
   -o-background-size: cover;
 }
 
+.library {
+  border-radius: 50%;
+}
 
 ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
+  justify-content: space-evenly;
   list-style-type: none;
+}
 
   li {
     padding: 6px 0;
@@ -208,7 +213,7 @@ ul {
       }
     }
   }
-}
+
 .container-register {
   display: flex;
   flex-direction: unset;
