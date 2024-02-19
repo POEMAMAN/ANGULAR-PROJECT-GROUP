@@ -5,11 +5,15 @@ import { AuthorsComponent } from './authors/authors.component';
 import { AwardsComponent } from './awards/awards.component';
 import { UniverseComponent } from './universe/universe.component';
 import { verifyTokenGuard } from '../auth/guards/verify-token.guard';
+import { LibraryComponent } from './library.component';
 
 
 const routes: Routes = [
   {
       path: '', children: [
+    {
+      path: 'library', component: LibraryComponent
+    },
     {
       path: 'books', component: BooksComponent
     },
