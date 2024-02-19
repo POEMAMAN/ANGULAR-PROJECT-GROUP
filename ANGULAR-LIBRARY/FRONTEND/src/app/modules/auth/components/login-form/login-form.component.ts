@@ -26,7 +26,7 @@ handleLogin() {
       next: (response: any) => {
           if(response){
             sessionStorage.setItem('token-app', JSON.stringify(response.token))
-              this.router.navigate(['products'])
+              this.router.navigate(['library'])
           }
       },
       error: (error) => {

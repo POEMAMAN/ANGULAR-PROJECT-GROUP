@@ -1,6 +1,6 @@
 <!-- 
 <div class="container">
-  <!-- *ngIf="$adminPermission | async" -->
+  <!-*ngIf="$adminPermission | async" -->
   <!-- <div style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product', producto._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', producto._id]" >Eliminar</button>
@@ -10,4 +10,11 @@
     <h2 class="titulo-acortado">{{ producto.name }}</h2>
     <p class="texto-acortado">{{ producto.description }}</p>
   </div>
-</div> --> -->
+</div> -->
+<button [routerLink]="'/logout'">Logout</button>
+<div>
+  <button [routerLink]="'/library/books'">Books</button>
+  <button [routerLink]="'/library/authors'">Authors</button>
+  <button [routerLink]="'/library/universe'">Universe</button>
+  <button [routerLink]="'/library/awards'">Awards</button>
+</div>
