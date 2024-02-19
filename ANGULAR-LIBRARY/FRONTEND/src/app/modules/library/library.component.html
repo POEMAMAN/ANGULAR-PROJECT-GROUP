@@ -1,14 +1,27 @@
 <app-header-logout></app-header-logout>
 
-
-
-<div>
-  <button [routerLink]="'/library/books'">Books</button>
-  <button [routerLink]="'/library/authors'">Authors</button>
-  <button [routerLink]="'/library/universe'">Universe</button>
-  <button [routerLink]="'/library/awards'">Awards</button>
+<div class="container-library-routes">
+  <ul>
+    <li><button [routerLink]="'/library/books'">Books<img class="container-library-routes-img" src="https://res.cloudinary.com/dqfaa272n/image/upload/v1705792965/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/_ea736ba5-f041-4b3b-87b1-4ae4b7c27545_fyplvn.jpg" alt="Books" /></button>
+      
+    </li>
+    <li>
+      <button [routerLink]="'/library/authors'">Authors
+        <img class="container-library-routes-img" src="https://res.cloudinary.com/dqfaa272n/image/upload/v1705792135/APISCIFI/AWARDS/MenuAuthors_pdllkz.jpg" alt="Authors" /></button>
+    </li>
+    <li><button [routerLink]="'/library/universe'">Universe<img class="container-library-routes-img" src="https://res.cloudinary.com/dqfaa272n/image/upload/v1705792137/APISCIFI/AWARDS/MenuUniverses_fwqylw.jpg" alt="Universes" /></button>
+      </li>
+    <li>
+      <button [routerLink]="'/library/awards'">Awards<img class="container-library-routes-img" src="https://res.cloudinary.com/dqfaa272n/image/upload/v1705862887/APISCIFI/AWARDS/_3f2b8830-90b2-420c-86f1-2945b8dde744_lp0wh0.jpg" alt="Awards" /></button>
+      
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <button class="button-library-routes-universos" [routerLink]="'/library/complete-universe'">Universos Completos<img class="button-library-routes-universos-img" src="https://res.cloudinary.com/dqfaa272n/image/upload/v1708367409/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/view-space-planet-earth-galaxies-260nw-1888087447_nkgtqi.webp" alt="Awards" /></button>
+      
+    </li>
+  </ul>
 </div>
-
-
 
 <app-footer></app-footer>
