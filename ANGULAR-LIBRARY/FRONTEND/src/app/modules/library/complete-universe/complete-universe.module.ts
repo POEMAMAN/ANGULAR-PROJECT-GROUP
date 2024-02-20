@@ -12,11 +12,13 @@ import { UpliftUniverseModule } from './uplift-universe/uplift-universe.module';
 import { GauntW40KUniverseModule } from './gaunt-w40k-universe/gaunt-w40k-universe.module';
 import { GalacticCenterUniverseModule } from './galactic-center-universe/galactic-center-universe.module';
 import { FundacionUniverseModule } from './fundacion-universe/fundacion-universe.module';
+import { CompleteUniverseComponent } from './complete-universe.component';
 
 
 
 @NgModule({
   declarations: [
+    CompleteUniverseComponent
     
   ],
   imports: [
