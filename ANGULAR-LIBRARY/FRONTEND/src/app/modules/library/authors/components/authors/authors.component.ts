@@ -23,7 +23,5 @@ ngOnInit(): void {
       this.isAdmin = false;
     }
   })
-  
 }
-
 }

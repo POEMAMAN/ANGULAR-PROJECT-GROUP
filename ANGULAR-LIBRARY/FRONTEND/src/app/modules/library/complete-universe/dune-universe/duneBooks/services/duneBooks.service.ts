@@ -1,5 +1,5 @@
 
-import { Award } from './../interfaces/Awards.interface';
+import { DuneBook } from './../interfaces/DuneBooks.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -7,13 +7,13 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class AwardsService {
+export class DuneBooksService {
 
   
 
   constructor(private http: HttpClient) { }
 
-  getAwards(){
-      return this.http.get<Award[]>('http://localhost:8084/awards')
+  getDuneBooks(){
+      return this.http.get<DuneBook[]>('http://localhost:8084/universes/dune/books')
   }
 }

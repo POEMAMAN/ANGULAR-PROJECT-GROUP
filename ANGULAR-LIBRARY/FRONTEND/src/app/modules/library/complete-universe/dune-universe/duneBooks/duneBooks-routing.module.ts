@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AwardsPageComponent } from './pages/awards-page/awards-page.component';
-import { verifyTokenGuard } from '../../auth/guards/verify-token.guard';
+import { DuneBooksPageComponent } from './pages/duneBooks-page/duneBooks-page.component';
+import { verifyTokenGuard } from 'src/app/modules/auth/guards/verify-token.guard';
+
 
 const routes: Routes = [
   {
     path: '', children: [
       {
-      path: 'list', component: AwardsPageComponent
+      path: '', canActivate: [verifyTokenGuard], component: DuneBooksPageComponent
       },
       {
-        path: '**', redirectTo: 'list', pathMatch: 'full'
+        path: '**', redirectTo: '', pathMatch: 'full'
       }
   ]
   }
@@ -20,4 +21,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AwardsRoutingModule { }
+export class DuneBooksRoutingModule { }
