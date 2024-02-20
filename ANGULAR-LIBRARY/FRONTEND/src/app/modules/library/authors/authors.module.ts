@@ -6,14 +6,22 @@ import { AuthorsPageComponent } from './pages/authors-page/authors-page.componen
 import { AuthorsComponent } from './components/authors/authors.component';
 
 
+
+
+
 @NgModule({
   declarations: [
     AuthorsPageComponent,
-    AuthorsComponent
+    AuthorsComponent,
+
+
   ],
   imports: [
     CommonModule,
-    AuthorsRoutingModule
+    AuthorsRoutingModule,
+
+
+
   ]
 })
 export class AuthorsModule { }

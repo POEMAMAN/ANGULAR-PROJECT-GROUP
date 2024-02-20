@@ -10,7 +10,7 @@ const routes: Routes = [
   {
       path: '', children: [
     {
-      path: 'library', canActivate: [verifyTokenGuard], component: LibraryComponent
+      path: '', canActivate: [verifyTokenGuard], component: LibraryComponent
     },
     {
       path: 'books', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/books/books.module').then(m => m.BooksModule)
