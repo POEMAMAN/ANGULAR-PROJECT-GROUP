@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { verifyTokenGuard } from 'src/app/modules/auth/guards/verify-token.guard';
-import { CompleteUniverseComponent } from '../complete-universe.component';
 import { DuneUniverseComponent } from './dune-universe.component';
 
 const routes: Routes = [
