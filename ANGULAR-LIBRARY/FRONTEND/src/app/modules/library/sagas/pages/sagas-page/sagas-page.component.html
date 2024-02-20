@@ -1,0 +1,11 @@
+
+<div class="saga-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let saga of sagas"  class="saga-list--saga">
+        <app-sagas
+        [saga]="saga"></app-sagas>
+      </div>
+    </div>
+  </div>
