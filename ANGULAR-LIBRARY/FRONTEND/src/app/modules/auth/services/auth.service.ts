@@ -20,14 +20,14 @@ export class AuthService {
   login(user: any) {
     return this.http.post('http://localhost:8084/api/users/login',user)
   }
-  logout() {
-    return this.http.get('http://localhost:8084/api/users/logout')
-  }
-
-  // logout(token: string): void {
-  //   sessionStorage.removeItem(`${token}`); 
-  //   this.router.navigate(['/main']);
+  // logout() {
+  //   return this.http.get('http://localhost:8084/api/users/logout')
   // }
+
+  logout(): void {
+    sessionStorage.removeItem('token-app'); 
+    this.router.navigate(['/main']);
+  }
 
   isAdmin(): Observable<boolean> {
     return this.http.get<boolean>('http://localhost:8084/api/users/is-admin')

@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BooksPageComponent } from './pages/books-page/books-page.component';
+import { AwardsPageComponent } from './pages/awards-page/awards-page.component';
 import { verifyTokenGuard } from '../../auth/guards/verify-token.guard';
-import { adminGuard } from '../../auth/guards/admin.guard';
 
 const routes: Routes = [
   {
     path: '', children: [
       {
-      path: 'list', component: BooksPageComponent
+      path: 'list', component: AwardsPageComponent
       },
       {
         path: '**', redirectTo: 'list', pathMatch: 'full'
@@ -21,4 +20,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class BooksRoutingModule { }
+export class AwardsRoutingModule { }

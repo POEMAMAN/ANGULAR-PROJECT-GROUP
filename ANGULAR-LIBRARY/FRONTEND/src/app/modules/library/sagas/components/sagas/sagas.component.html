@@ -6,7 +6,13 @@
   </div>
   <div class="description-saga">
     <h2 class="short-tittle">{{ saga.saga }}</h2>
-    <p class="short-text">{{ saga.book }}</p>
+    <!-- <p class="short-text">{{ saga.books}}</p> -->
+    <div *ngFor="let bookData of saga.book">
+      <p class="short-tittle">{{ bookData.title }}</p>
+      <img [src]="bookData.picture" />
+
+    </div>
+
 
   </div>
 </div>

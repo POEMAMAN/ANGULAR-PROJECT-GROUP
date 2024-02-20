@@ -1,4 +1,4 @@
-.book-container {
+.award-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@ border-radius: 8px;
 object-fit: cover;
 }
 
-.description-book {
+.description-award {
 text-align: center;
 color: #ffffff;
 }

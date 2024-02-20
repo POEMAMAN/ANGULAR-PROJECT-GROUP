@@ -38,7 +38,7 @@ const register = async (req, res, next) => {
         await user.save();
 
         await transporter.sendMail({
-            from: '"Cristian Farriol " <//emisor>', // sender address
+            from: '"Luis y David " <//emisor>', // sender address
             to: `${req.body.email}`, // list of receivers
             subject: "Enviado desde nodemailer ✔", // Subject line
             text: "Hello world?", // plain text body
