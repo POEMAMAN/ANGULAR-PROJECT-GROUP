@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-awards',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./awards.component.css']
 })
 export class AwardsComponent {
-
+@Input() award: any
 }
