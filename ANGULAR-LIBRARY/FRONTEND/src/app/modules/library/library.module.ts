@@ -8,7 +8,7 @@ import { UniverseComponent } from './universe/universe.component';
 import { CompleteUniverseModule } from './complete-universe/complete-universe.module';
 import { AuthorsDetailComponent } from './authors/authors-detail/authors-detail.component';
 import { AuthorspageComponent } from './authors/page/authors-page/authors-page.component';
-import { AwardsModule } from './products/awards.module';
+import { AwardsModule } from './awards/awards.module';
 
 
 
