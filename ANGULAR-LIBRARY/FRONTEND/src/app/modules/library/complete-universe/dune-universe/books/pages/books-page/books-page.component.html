@@ -1,0 +1,14 @@
+<!-- <app-header-return-library></app-header-return-library> -->
+
+<div class="book-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let book of books"  class="book-list--book">
+        <app-books
+        [book]="book"></app-books>
+      </div>
+    </div>
+  </div>
+
+  <!-- <app-footer></app-footer> -->
