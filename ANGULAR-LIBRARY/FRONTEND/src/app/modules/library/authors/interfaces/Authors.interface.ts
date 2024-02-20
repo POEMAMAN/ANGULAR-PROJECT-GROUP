@@ -1,4 +1,4 @@
-export interface Award {
+export interface Author {
   _id:string;
   name: string;
   categories: string;
