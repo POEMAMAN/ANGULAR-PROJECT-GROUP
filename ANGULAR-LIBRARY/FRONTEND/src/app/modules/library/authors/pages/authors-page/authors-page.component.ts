@@ -2,6 +2,7 @@ import { Author } from '../../interfaces/Authors.interface';
 import { AuthorsService } from '../../services/authors.service';
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-authors-page',
   templateUrl: './authors-page.component.html',

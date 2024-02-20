@@ -12,6 +12,7 @@ import { HeaderUniverseComponent } from './components/header-universe/header-uni
 import { HeaderLogoutComponent } from './components/header-logout/header-logout.component';
 import { MainComponent } from './components/main/main.component';
 import { LibraryComponent } from './modules/library/library.component';
+import { HeaderReturnLibraryComponent } from './components/header-return-library/header-return-library.component';
 
 
 
@@ -23,8 +24,10 @@ import { LibraryComponent } from './modules/library/library.component';
     FooterComponent,
     HeaderUniverseComponent,
     HeaderLogoutComponent,
+    HeaderReturnLibraryComponent,
     MainComponent,
-    LibraryComponent
+    LibraryComponent,
+
 
   ],
   imports: [
