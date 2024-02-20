@@ -5,15 +5,15 @@ const Schema = mongoose.Schema;
 const universesSchema = new Schema(
     {
         nameUniverse:{type:String,required:true},
-        author:{type:String,required:true},
-        sagas1:{type:String,required:true},
-        sagas2:{type:String,required:true},
-        sagas3:{type:String,required:true},
-        sagas4:{type:String,required:true},
-        sagas5:{type:String,required:true},
-        sagas6:{type:String,required:true},
-        sagas7:{type:String,required:true},
-        resume:{type:String,required:true},
+        author:{type:String,required:false},
+        sagas1:{type:String,required:false},
+        sagas2:{type:String,required:false},
+        sagas3:{type:String,required:false},
+        sagas4:{type:String,required:false},
+        sagas5:{type:String,required:false},
+        sagas6:{type:String,required:false},
+        sagas7:{type:String,required:false},
+        resume:{type:String,required:false},
         picture: {type: String}
     },{
         timestamps:true

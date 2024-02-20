@@ -1,21 +1,21 @@
-import { Award } from '../../interfaces/Awards.interface';
-import { AwardsService } from '../../services/awards.service';
+import { Author } from '../../interfaces/Authors.interface';
+import { AuthorsService } from '../../services/authors.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-awards-page',
-  templateUrl: './awards-page.component.html',
-  styleUrls: ['./awards-page.component.css']
+  selector: 'app-authors-page',
+  templateUrl: './authors-page.component.html',
+  styleUrls: ['./authors-page.component.css']
 })
-export class AwardsPageComponent implements OnInit {
-  awards: Award[] = []
-  constructor(private awardsService: AwardsService ) {}
+export class AuthorsPageComponent implements OnInit {
+  authors: Author[] = []
+  constructor(private authorsService: AuthorsService ) {}
 
 
   ngOnInit(){
-    this.awardsService.getAwards().subscribe({
-      next: (awards: Award[]) => {
-        this.awards = awards
+    this.authorsService.getAuthors().subscribe({
+      next: (authors: Author[]) => {
+        this.authors = authors
       },
       error: () => {}
     })

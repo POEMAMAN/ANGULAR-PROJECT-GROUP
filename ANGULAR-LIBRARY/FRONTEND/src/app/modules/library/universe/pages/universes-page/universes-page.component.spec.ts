@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AwardsPageComponent } from './awards-page.component';
+import { UniversesPageComponent } from './universes-page.component';
 
-describe('AwardsPageComponent', () => {
-  let component: AwardsPageComponent;
-  let fixture: ComponentFixture<AwardsPageComponent>;
+describe('UniversesPageComponent', () => {
+  let component: UniversesPageComponent;
+  let fixture: ComponentFixture<UniversesPageComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AwardsPageComponent]
+      declarations: [UniversesPageComponent]
     });
-    fixture = TestBed.createComponent(AwardsPageComponent);
+    fixture = TestBed.createComponent(UniversesPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

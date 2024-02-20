@@ -1,19 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { AwardsRoutingModule } from './awards-routing.module';
-import { AwardsPageComponent } from './pages/awards-page/awards-page.component';
-import { AwardsComponent } from './components/awards/awards.component';
+import { UniversesRoutingModule } from './universes-routing.module';
+import { UniversesComponent } from './components/universes/universes.component';
+import { UniversesPageComponent } from './pages/universes-page/universes-page.component';
+
 
 
 @NgModule({
   declarations: [
-    AwardsPageComponent,
-    AwardsComponent
+  UniversesComponent,
+  UniversesPageComponent
+
   ],
   imports: [
     CommonModule,
-    AwardsRoutingModule
+    UniversesRoutingModule
   ]
 })
-export class AwardsModule { }
+export class UniversesModule { }

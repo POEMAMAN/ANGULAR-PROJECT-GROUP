@@ -1,8 +1,8 @@
+import { UniversesModule } from './universe/universes.module';
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 // import { BooksComponent } from './books/books.component';
-import { UniverseComponent } from './universe/universe.component';
 import { verifyTokenGuard } from '../auth/guards/verify-token.guard';
 import { LibraryComponent } from './library.component';
 
@@ -24,7 +24,7 @@ const routes: Routes = [
       path: 'awards', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/awards/awards.module').then(m => m.AwardsModule)
     },
     {
-      path: 'universe', component: UniverseComponent
+      path: 'universes', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/universe/universes.module').then(m => m.UniversesModule)
     },
     {
       path: 'completeUniverse', canActivate: [verifyTokenGuard],loadChildren: () => import('./complete-universe/complete-universe.module').then(m => m.CompleteUniverseModule)

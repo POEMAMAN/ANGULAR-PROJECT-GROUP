@@ -1,5 +1,5 @@
 
-import { Award } from './../interfaces/Awards.interface';
+import { Universe } from './../interfaces/Universes.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -7,13 +7,13 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class AwardsService {
+export class UniversesService {
 
   
 
   constructor(private http: HttpClient) { }
 
-  getAwards(){
-      return this.http.get<Award[]>('http://localhost:8084/awards')
+  getUniverses(){
+      return this.http.get<Universe[]>('http://localhost:8084/universes')
   }
 }

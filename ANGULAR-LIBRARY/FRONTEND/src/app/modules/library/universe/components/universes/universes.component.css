@@ -1,4 +1,4 @@
-.award-container {
+.universe-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@ border-radius: 8px;
 object-fit: cover;
 }
 
-.description-award {
+.description-universe {
 text-align: center;
 color: #ffffff;
 }

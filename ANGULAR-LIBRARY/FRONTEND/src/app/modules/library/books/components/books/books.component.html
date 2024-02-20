@@ -1,16 +1,17 @@
 
-<div class="award-container">
-  <!-- *ngIf="$adminPermission | async" -->
-  <!-- <div style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
-      <button [routerLink]="['/admin/edit-product', producto._id]" >Editar</button>
-      <button [routerLink]="['/admin/delete-product', producto._id]" >Eliminar</button>
-  </div> -->
-  <img [src]="award.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ award.name }}</h2>
-    <p class="short-text">{{ award.categories }}</p>
-    <p class="short-text">{{ award.organization }}</p>
-    <p class="short-text">{{ award.countrie }}</p>
-    <p class="short-text">{{ award.resume }}</p>
+<div class="book-container">
+<div style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product', book._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', book._id]" >Eliminar</button>
+  </div>
+  <img [src]="book.picture" />
+  <div class="description-book">
+    <h2 class="short-tittle">{{ book.title }}</h2>
+    <p class="short-text">{{ book.publication_year }}</p>
+    <p class="short-text">{{ book.saga }}</p>
+    <p class="short-text">{{ book.saga_index }}</p>
+    <p class="short-text">{{ book.universe }}</p>
+    <p class="short-text">{{ book.author }}</p>
   </div>
 </div>
+
