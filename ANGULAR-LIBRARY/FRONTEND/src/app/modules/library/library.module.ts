@@ -5,8 +5,9 @@ import { LibraryRoutingModule } from './library-routing.module';
 import { CompleteUniverseModule } from './complete-universe/complete-universe.module';
 import { AwardsModule } from './awards/awards.module';
 import { BooksModule } from './books/books.module';
-import { UniversesModule } from './universe/universes.module';
+
 import { AuthorsModule } from './authors/authors.module';
+import { UniversesModule } from './universes/universes.module';
 
 @NgModule({
   declarations: [

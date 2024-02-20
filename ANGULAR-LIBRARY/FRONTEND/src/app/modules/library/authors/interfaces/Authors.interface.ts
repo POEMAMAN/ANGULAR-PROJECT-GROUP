@@ -1,11 +1,12 @@
 export interface Author {
-  _id:string;
-  name: string;
-  categories: string;
-  organization: string;
+  author: string;
   countrie: string;
-  resume: string;
+  books: object;
   picture: string;
+  life: string;
+  resume: string;
+
+
 
 }
 
