@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BooksPageComponent } from './pages/books-page/books-page.component';
+import { verifyTokenGuard } from '../../auth/guards/verify-token.guard';
+import { adminGuard } from '../../auth/guards/admin.guard';
 
 const routes: Routes = [
   {
