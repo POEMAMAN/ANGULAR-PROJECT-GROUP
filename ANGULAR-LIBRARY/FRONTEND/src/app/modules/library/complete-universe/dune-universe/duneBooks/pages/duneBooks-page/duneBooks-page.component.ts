@@ -15,7 +15,7 @@ export class DuneBooksPageComponent implements OnInit {
   ngOnInit(){
     this.duneBooksService.getDuneBooks().subscribe({
       next: (duneBooks: DuneBook[]) => {
-        this.duneBooks = duneBooks
+        // this.duneBooks = duneBooks
       },
       error: () => {}
     })
