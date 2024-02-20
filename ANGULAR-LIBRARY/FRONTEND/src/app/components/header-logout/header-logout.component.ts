@@ -8,6 +8,10 @@ import { AuthService } from '../../modules/auth/services/auth.service';
 })
 export class HeaderLogoutComponent {
 
+  isTokenPresent(): boolean {
+    return !!sessionStorage.getItem('token-app');
+  }
+
   constructor(private authService: AuthService) { }
 
   logout(): void {

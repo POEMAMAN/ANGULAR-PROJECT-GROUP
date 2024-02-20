@@ -1,21 +1,21 @@
-import { Award } from '../../interfaces/Awards.interface';
-import { AwardsService } from '../../services/awards.service';
+import { DuneBooksService } from './../../services/duneBooks.service';
+import { DuneBook } from '../../interfaces/DuneBooks.interface';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-awards-page',
-  templateUrl: './awards-page.component.html',
-  styleUrls: ['./awards-page.component.css']
+  selector: 'app-duneBooks-page',
+  templateUrl: './duneBooks-page.component.html',
+  styleUrls: ['./duneBooks-page.component.css']
 })
-export class AwardsPageComponent implements OnInit {
-  awards: Award[] = []
-  constructor(private awardsService: AwardsService ) {}
+export class DuneBooksPageComponent implements OnInit {
+  awards: DuneBook[] = []
+  constructor(private duneBooksService: DuneBooksService ) {}
 
 
   ngOnInit(){
-    this.awardsService.getAwards().subscribe({
-      next: (awards: Award[]) => {
-        this.awards = awards
+    this.duneBooksService.getDuneBooks().subscribe({
+      next: (duneBooks: DuneBook[]) => {
+        this.duneBooks = duneBooks
       },
       error: () => {}
     })
