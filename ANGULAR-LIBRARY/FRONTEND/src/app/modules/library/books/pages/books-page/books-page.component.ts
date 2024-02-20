@@ -1,21 +1,21 @@
-import { Book } from '../../interfaces/Books.interface';
-import { BooksService } from '../../services/books.service';
+import { Award } from '../../interfaces/Awards.interface';
+import { AwardsService } from '../../services/awards.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-books-page',
-  templateUrl: './books-page.component.html',
-  styleUrls: ['./books-page.component.css']
+  selector: 'app-awards-page',
+  templateUrl: './awards-page.component.html',
+  styleUrls: ['./awards-page.component.css']
 })
-export class BooksPageComponent implements OnInit {
-  books: Book[] = []
-  constructor(private booksService: BooksService ) {}
+export class AwardsPageComponent implements OnInit {
+  awards: Award[] = []
+  constructor(private awardsService: AwardsService ) {}
 
 
   ngOnInit(){
-    this.booksService.getBooks().subscribe({
-      next: (books: Book[]) => {
-        this.books = books
+    this.awardsService.getAwards().subscribe({
+      next: (awards: Award[]) => {
+        this.awards = awards
       },
       error: () => {}
     })
