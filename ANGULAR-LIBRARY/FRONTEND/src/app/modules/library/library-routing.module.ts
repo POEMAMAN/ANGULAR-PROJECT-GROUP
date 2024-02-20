@@ -2,9 +2,9 @@ import { UniversesModule } from './universe/universes.module';
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-// import { BooksComponent } from './books/books.component';
 import { verifyTokenGuard } from '../auth/guards/verify-token.guard';
 import { LibraryComponent } from './library.component';
+
 
 
 
@@ -12,7 +12,7 @@ const routes: Routes = [
   {
       path: '', children: [
     {
-      path: 'library', component: LibraryComponent
+      path: 'library', canActivate: [verifyTokenGuard], component: LibraryComponent
     },
     {
       path: 'books', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/books/books.module').then(m => m.BooksModule)
