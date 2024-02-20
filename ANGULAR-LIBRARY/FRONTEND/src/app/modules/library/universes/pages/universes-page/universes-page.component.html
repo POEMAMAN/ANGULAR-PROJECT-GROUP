@@ -1,0 +1,14 @@
+<!-- <app-header-return-library></app-header-return-library> -->
+
+<div class="universe-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let universe of universes"  class="award-list--universe">
+        <app-universes
+        [universe]="universe"></app-universes>
+      </div>
+    </div>
+  </div>
+
+  <!-- <app-footer></app-footer> -->

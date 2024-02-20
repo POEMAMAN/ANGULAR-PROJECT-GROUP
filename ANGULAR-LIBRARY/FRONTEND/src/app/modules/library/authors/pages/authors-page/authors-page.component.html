@@ -1,0 +1,12 @@
+<div class="author-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let author of authors"  class="author-list--author">
+        <app-authors
+        [author]="author"></app-authors>
+      </div>
+    </div>
+  </div>
+
+

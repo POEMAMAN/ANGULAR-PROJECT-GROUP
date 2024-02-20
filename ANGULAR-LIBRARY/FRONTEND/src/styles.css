@@ -33,7 +33,7 @@ button:hover {
 
 
 .auth-container {
-  max-width: 300px;
+  max-width: 50%;
   margin: auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -57,7 +57,7 @@ button:hover {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.special-buttom {
+/* .special-buttom {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -108,14 +108,14 @@ button:hover {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
-}
-input, button {
+} */
+/* input, button {
   display: block;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
 
-}
+} */
 
 
 a {
@@ -127,9 +127,9 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  /* display: flex;
-  flex-direction: column; */
+/* body {
+  display: flex;
+  flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
   font-family: Arial, sans-serif;
@@ -145,7 +145,7 @@ body {
   background-image: url(https://res.cloudinary.com/dqfaa272n/image/upload/v1708061310/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/BackgroundMainLibrary_egzry6.jpg);
   background-size: inherit;
   background-repeat: no-repeat;
-}
+} */
 
 p, h2, label {
   font: 150 2rem Raleway, sans-serif;
@@ -163,13 +163,21 @@ h1 {
 }
 
 /*Header*/
+.header-logout{
+  top: 3%;
+  position: relative;
+  display: flex;
+  align-items: baseline;
 
-.container-session {
+  
+}
+
+/* .container-session {
   display: flex;
   align-items:baseline;
   justify-content: space-evenly;
 
-}
+} */
 
 html {
   background: url(https://res.cloudinary.com/dqfaa272n/image/upload/v1708061310/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/BackgroundMainLibrary_egzry6.jpg) no-repeat center center fixed;
@@ -179,13 +187,14 @@ html {
   -o-background-size: cover;
 }
 
-
 ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
+  justify-content: space-evenly;
   list-style-type: none;
-
+}
+/* 
   li {
     padding: 6px 0;
 
@@ -207,33 +216,43 @@ ul {
         background-size: 100%;
       }
     }
-  }
-}
-.container-register {
+  } */
+
+/* .container-register {
   display: flex;
   flex-direction: unset;
   align-items: center;
   flex-direction: column;
-}
-label {  
+} */
+/* label {  
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
 
-}
-/*Main Page*/
-.mainpage {
+} */
+/* /-----/library-component/-----/ */
+.library-component {
   display: flex;
   flex-direction: row;
 }
 
-.img-menu {
+.container-library-routes-img {
   width: 95%;
   height: 95%;
 }
+.button-library-routes-universos {
+  width: 85%wh;
+  height: 50%;
+
+}
+
+.button-library-routes-universos-img {
+  width: 50%;
+  height: 50%;
+}
 
 /*Container*/
-.container {
+/* .container {
   width: 100vw;
   height: 80vh;
   position: relative;
@@ -243,15 +262,15 @@ label {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-}
+} */
 
-form {
+/* form {
   margin: 20px;
   padding: 20px;
   border: none;
   display: flex;
   flex-direction: column;
-}
+} */
 
 input,
 button {
@@ -261,7 +280,7 @@ button {
   border-radius: 10px;
 }
 
-.picture {
+/* .picture {
   color: transparent;
 }
 .picture::-webkit-file-upload-button {
@@ -291,16 +310,16 @@ button {
 }
 .picture:active::before {
   background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
-}
+} */
 
-.container-books-List, .container-authors-List {
+/* .container-books-List, .container-authors-List {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction:row;
   padding: 20px;
-}
-.container-universes-List, .container-awards-List {
+} */
+/* .container-universes-List, .container-awards-List {
   display: flex;
   flex-wrap: nowrap;
   align-items:center;
@@ -312,9 +331,9 @@ button {
   text-decoration-color: #535bf2;
   text-decoration-line:underline;
   font-weight: bolder;
-}
+} */
 
-.container-form-title,
+/* .container-form-title,
 .container-list-title,
 .container-list-title {
   display: flex;
@@ -323,9 +342,9 @@ button {
 } 
 .resume {
   text-align: justify;
-}
+} */
 
-.bookCard {
+/* .bookCard {
   color:#6ef2fc;
   font-style: var(--fill-color);
   font-weight:900;
@@ -339,8 +358,8 @@ button {
   height: 700px;
   background-image: url(https://res.cloudinary.com/dqfaa272n/image/upload/v1701986800/iptq5jlkrncx1rjbiccx.jpg);
   background-size:auto;
-}
-.authorCard {
+} */
+/* .authorCard {
   color:#6ef2fc;
   font-style: var(--fill-color);
   font-weight:900;
@@ -355,8 +374,8 @@ button {
   background-image: url(https://res.cloudinary.com/dqfaa272n/image/upload/v1705861652/APISCIFI/AWARDS/_6a9984a2-6e92-49a6-8f2c-42ae7b47600c_iyfjde.jpg);
   background-size:auto;
   align-content: center;
-}
-.awardCard {
+} */
+/* .awardCard {
   font-style: var(--fill-color);
   font-weight:900;
   -webkit-text-stroke: 2px rgb(20, 6, 138);
@@ -370,8 +389,8 @@ button {
   background-image: url(https://res.cloudinary.com/dqfaa272n/image/upload/v1705861652/APISCIFI/AWARDS/_6a9984a2-6e92-49a6-8f2c-42ae7b47600c_iyfjde.jpg);
   background-size:auto;
   align-content: center;
-}
-.universeCard {
+} */
+/* .universeCard {
   color:#6ef2fc;
   font-style: var(--fill-color);
   font-weight:900;
@@ -387,16 +406,16 @@ button {
   background-size:cover;
   align-content: center;
 
-}
+} */
 
-.book-image, .author-image, .universe-image {
+/* .book-image, .author-image, .universe-image {
   width: 60%;
   text-align: center;
-}
-.I {
+} */
+/* .I {
   text-decoration: underline;
   color: #fff;
-}
+} */
 /*Footer*/
 
 footer{
@@ -406,6 +425,8 @@ footer{
   font-weight: bold;
   display: flex;
   justify-content: space-between;
+  position:fixed;
+  bottom: 3%;
 }
 .footer-copy{
   width: 100%;
@@ -421,10 +442,10 @@ footer{
 
 @media (min-width: 576px)  {
 /*Main Page*/
-.mainpage {
+/* .mainpage {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 }
 
@@ -434,22 +455,22 @@ footer{
 }
 @media (min-width: 1025px)  {
   /*Main Page*/
-.mainpage {
+/* .mainpage {
   display: flex;
   flex-wrap: nowrap;
-}
+} */
 }
 
 @media (min-width: 1199.98px)  {
-  button {
+  /* button {
       height: 90px;
       font-size: 60px;
-  }
+  } */
 
 }
 
 @media (min-width: 5000px)  {
-  button {
+  /* button {
       height: 200px;
       font-size: 150px;
   }
@@ -475,5 +496,5 @@ footer{
       background-size:cover;
       font-size: 4em;
       text-decoration:solid;
-  }
+  } */
 }

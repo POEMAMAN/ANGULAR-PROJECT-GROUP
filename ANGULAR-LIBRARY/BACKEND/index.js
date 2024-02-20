@@ -110,7 +110,7 @@ app.use("/api", (req, res, next) => "im alive");
 
 app.use("/books", booksRouter);
 app.use("/sagas", sagasRouter)
-app.use("/author", authorsRouter)
+app.use("/authors", authorsRouter)
 app.use("/universes", universeRouter)
 app.use("/awards", awardsRouter)
 app.use('/user', userRouter);

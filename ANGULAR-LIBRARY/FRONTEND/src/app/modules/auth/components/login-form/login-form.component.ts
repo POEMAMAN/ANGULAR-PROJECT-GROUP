@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./login-form.component.css']
 })
 export class LoginFormComponent {
+  message: string = "";
+  status: 'not registered' | 'disabled' = 'disabled'
 email: string = ""
 password: string = ""
 
@@ -24,10 +26,13 @@ handleLogin() {
       next: (response: any) => {
           if(response){
             sessionStorage.setItem('token-app', JSON.stringify(response.token))
-              this.router.navigate(['products'])
+              this.router.navigate(['library'])
           }
       },
       error: (error) => {
+        console.log(error)
+          this.status = 'not registered'
+          this.message = error.error.msg
         console.log(error)
       }
     })
