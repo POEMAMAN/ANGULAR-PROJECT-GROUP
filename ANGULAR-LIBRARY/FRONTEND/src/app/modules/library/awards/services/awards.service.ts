@@ -1,6 +1,8 @@
+
+import { Award } from './../interfaces/Awards.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Award } from '../interfaces/Awards.interface';
+
 
 @Injectable({
   providedIn: 'root'

@@ -21,7 +21,7 @@ const routes: Routes = [
       path: 'authors', component: AuthorspageComponent
     },
     {
-      path: 'awards', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/products/awards.module').then(m => m.AwardsModule)
+      path: 'awards', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/awards/awards.module').then(m => m.AwardsModule)
     },
     {
       path: 'universe', component: UniverseComponent
