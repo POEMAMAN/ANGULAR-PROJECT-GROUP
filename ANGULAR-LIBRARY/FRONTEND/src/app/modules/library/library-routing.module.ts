@@ -14,9 +14,9 @@ const routes: Routes = [
     {
       path: 'library', component: LibraryComponent
     },
-    // {
-    //   path: 'books', component: BooksComponent
-    // },
+    {
+      path: 'books', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/books/books.module').then(m => m.BooksModule)
+    },
     {
       path: 'authors', component: AuthorspageComponent
     },
