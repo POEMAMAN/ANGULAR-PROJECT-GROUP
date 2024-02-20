@@ -41,3 +41,7 @@ overflow: hidden;
 max-height: calc(1.5em * 4);
 -webkit-line-clamp: 1;
 }
+
+.h2 {
+  text-decoration: underline;
+}

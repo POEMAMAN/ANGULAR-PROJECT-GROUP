@@ -1,5 +1,3 @@
-import { UniversesModule } from './universe/universes.module';
-
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { verifyTokenGuard } from '../auth/guards/verify-token.guard';
@@ -24,7 +22,10 @@ const routes: Routes = [
       path: 'awards', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/awards/awards.module').then(m => m.AwardsModule)
     },
     {
-      path: 'universes', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/universe/universes.module').then(m => m.UniversesModule)
+      path: 'universes', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/universes/universes.module').then(m => m.UniversesModule)
+    },
+    {
+      path: 'sagas', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/sagas/sagas.module').then(m => m.SagasModule)
     },
     {
       path: 'completeUniverse', canActivate: [verifyTokenGuard],loadChildren: () => import('./complete-universe/complete-universe.module').then(m => m.CompleteUniverseModule)

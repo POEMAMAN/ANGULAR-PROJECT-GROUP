@@ -1,7 +1,6 @@
 export interface Saga{
   saga: string;
-  book: string;
-
-
+  book: [object];
 }
+
 

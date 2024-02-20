@@ -108,7 +108,7 @@ const arrayAuthors =
     ]
 
 
-mongoose.connect(DB_URL)
+mongoose.connect('mongodb+srv://dcpousa:Cunado1978@angular-library.cnzt7z4.mongodb.net/?retryWrites=true&w=majority')
     // Para que funcione hay que poner la URL en String, da fallo la importacion
     .then(async () => {
         const allAuthors = await Author.find();
