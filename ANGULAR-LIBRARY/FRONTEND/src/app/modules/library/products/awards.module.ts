@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AwardsRoutingModule } from './awards-routing.module';
 import { AwardsPageComponent } from './pages/awards-page/awards-page.component';
-import { AwardsComponent } from './components/product/awards.component';
+import { AwardsComponent } from './components/awards/awards.component';
 
 
 @NgModule({
