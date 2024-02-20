@@ -22,7 +22,7 @@ const routes: Routes = [
       path: 'authors', component: AuthorspageComponent
     },
     {
-      path: 'awards', component: AwardsComponent
+      path: 'awards', canActivate: [verifyTokenGuard],loadChildren: () => import('./').then(m => m.CompleteUniverseModule)
     },
     {
       path: 'universe', component: UniverseComponent
