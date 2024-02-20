@@ -8,14 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./duneBooks-page.component.css']
 })
 export class DuneBooksPageComponent implements OnInit {
-  awards: DuneBook[] = []
+  books: DuneBook[] = []
   constructor(private duneBooksService: DuneBooksService ) {}
 
 
   ngOnInit(){
     this.duneBooksService.getDuneBooks().subscribe({
-      next: (duneBooks: DuneBook[]) => {
-        // this.duneBooks = duneBooks
+      next: (books: DuneBook[]) => {
+        this.books = books
       },
       error: () => {}
     })
