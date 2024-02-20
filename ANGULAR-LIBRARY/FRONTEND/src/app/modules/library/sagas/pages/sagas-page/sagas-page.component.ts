@@ -16,6 +16,7 @@ export class SagasPageComponent implements OnInit {
     this.sagasService.getSagas().subscribe({
       next: (sagas: Saga[]) => {
         this.sagas = sagas
+        console.log(sagas)
       },
       error: () => {}
     })

@@ -7,10 +7,10 @@ const routes: Routes = [
   {
     path: '', children: [
       {
-      path: 'list', component: SagasPageComponent
+      path: '', component: SagasPageComponent
       },
       {
-        path: '**', redirectTo: 'list', pathMatch: 'full'
+        path: '**', redirectTo: '', pathMatch: 'full'
       }
   ]
   }

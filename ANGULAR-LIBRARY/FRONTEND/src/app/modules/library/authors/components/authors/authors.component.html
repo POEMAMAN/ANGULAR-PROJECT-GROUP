@@ -1,6 +1,6 @@
 
 <div class="author-container">
-  <div style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div *ngIf="isAdmin"   style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product', author._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', author._id]" >Eliminar</button>
   </div>
