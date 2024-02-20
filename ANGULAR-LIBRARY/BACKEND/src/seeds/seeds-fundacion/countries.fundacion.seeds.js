@@ -5,60 +5,59 @@ const CountryDune = require('../../api/models/models.dune/countries.dune.model')
 
 const arrayCountriesDune = [
   {
-    name: 'Casa Vernius',
+    name: 'Reino de Daribor',
     capital: 'Ix',
     foundation_date: 'Jihad Butleriana',
-    resume: 'La Casa Vernius es una de las Grandes Casas de Landsraad , descubierta en la serie anterior Dune escrita por Brian Herbert y Kevin J. Anderson .Los Condes de Vernius están instalados en el planeta Ix . Son los aliados de la Casa Atréides y los rivales de la Casa Richese . Su símbolo es la doble hélice de cobre y púrpura. Fue después de la desgracia de Maison Richèse, que perdió la fortaleza de Arrakis dus y el desierto de Arrakis . Entre los hombres que lo acompañan en su pelea se encuentra Gurney Halleck . Este último escapó del destino de sus compañeros y su líder Dominic al encontrar a los niños Vernius. Kailea y Rhombur están bajo la protección de la Casa Atreides y su Duque Leto .',
+    resume: 'Uno de los Cuatro Reinos independientes surgidos de la desmembración de la provincia de Anacreonte en la Periferia del Imperio. Libro varias batallas contra los otros tres Reinos .',
     picture:
-      'https://res.cloudinary.com/dq_VERNIUS_mruwuv.webp',
+      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708028485/FUNDACION/PAISES/reino_de_konor_y_daribor_bhphxv.jpg',
   },
   {
-    name: 'Casa Moritani',
+    name: 'Reino de Anacreon',
     capital: 'Grumman',
     foundation_date: 'Jihad Butleriana',
-    resume: 'La Casa Moritani es una de las Grandes Casas del ciclo de ficción de Dune de Frank Herbert . Aparece en la serie que precede al ciclo inicial, Before Dune , escrita por Brian Herbert y Kevin J. Anderson .El planeta de origen de esta familia es Grumman . La Casa Moritani dorn Games, 1998), el emperador decidió derrocarlo por su incapacidad para frenar una gran revuelta, y entregó su feudo a un general competente. Sin embargo, el nombre de Grumman permaneció en el planeta y era costumbre dárselo también a los Moritani.',
+    resume: 'Anacreonte es una prefectura del Imperio galáctico, ubicada en la Periferia Galáctica, y capital de la provincia. Hacia el final de la era Imperial, su gobernador se rebela contra Trántor y se corona como rey recibiendo la capitulación por parte del Imperio, y entra en una serie de guerras contra su vecino, el ahora también reino de Smyrno.En el Ciclo de Trántor, de Isaac Asimov, Anacreonte (en inglés, Anacreon) es un planeta ficticio de la Periferia Galáctica que está a 8 parsecs (26 años luz) de Términus y 10.000 de Trántor, capital del Imperio Galáctico.                                                                                                              Anacreonte es el planeta más poblado y rico de la Fundación y durante la Sexta Crisis Seldon (finales del siglo V E.F.) fue una alternativa de capital a Términus. Posee más concejales que ningún otro planeta en el Parlamento de la Confederación de la Fundación. La principal actividad económica es la industria nuclear y la fabricación de las naves civiles y militares de la Fundación.Anacreonte fue capital de la prefectura del mismo nombre durante el apogeo del Imperio Galáctico. En el año 50 E.F. (Era de la Fundación), 200 años antes de la caída del Imperio, obtuvo la independencia cuando su gobernador se declara Rey. En dos ocasiones intenta atacar a la Primera Fundación, pero fracasó y cayó bajo el dominio religioso de ésta. Durante la Guerra de Stettin, Anacreonte fue campo de batalla (o mejor dicho su campo estelar lo fue).',
     picture:
-      '',
+      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708028482/FUNDACION/PAISES/reino_de_anacreon_wmno3k.jpg',
   },
   {
-    name: 'Bene Theilax',
+    name: 'Imperio Galactico',
     capital: 'Theilax',
-    foundation_date: 'Varios cientos de anños antes de la Jihad Butleriana',
-    resume: 'La Bene Tleilax es una compañía ficticia del de fantasía mundo de Dune , creado por Frank Herbert en la novela con el mismo nombre .La Bene Tleilax, cancia: en el Emperador-Dios de Dune , el Bene Tleilax proporciona los gholas de Duncan Idaho a Leto II y, en los dos volúmenes siguientes, The Heretics of Dune y La Maison des Mères , tienen un papel decisivo.',
+    foundation_date: 'El Imperio Galáctico es un imperio de la Saga de la Fundación, desde la serie de los robots hasta la triología de Trántor, pasando por la trilogía del Imperio Galáctico. Está formado por planetas habitados por seres humanos en gran parte de la Vía Láctea. Tiene reminiscencias al w:Imperio Romano. En su auge, el Imperio Galáctico estuvo compuesto por más de 25 millones de mundos habitados, todos colonizados por colonos procedente de la Tierra, antes de que está fuera olvidada.Su forma de gobierno es una monarquía dirigida por el Emperador Galáctico. Su capital es Trántor, un planeta totalmente cubierto por la capital y cerca del centro de la Vía Láctea.El robot Giskard Reventlov, tras detener el plan de Amadiro y Mandanus para destruir la Tierra y ante la contradicción de dañar a unos seres humanos, sufre un bloqueo (por las tres leyes de la robótica), no sin antes traspasar a Daneel Olivaw sus capacidades telepáticas. Ambos deciden que el aumento de radioactividad de la Tierra servirá para que deje de ser un lastre para los colonizadores y así conseguir que en un periodo de 150/200 años la emigración y la colonización aumente de forma considerable. Daneel queda como único guardián de la Humanidad, fijándose dos metas: Desarrollar la ciencia conocida como Psicohistoria y crear un imperio galáctico donde la humanidad pueda vivir en paz. Daneel se propone conseguir todo lo anterior interviniendo lo menos posible en la historia humana                                                                                                                         Se desarrolla La gran diáspora en el que se colonizaran nuevos mundos. Muchos siglos después, en las leyendas de los mundos colonizados, se denominó a esta época como los "Tiempos del vuelo". Durante 400 años se produce una gran colonización de nuevos planetas en lo que posteriormente serían llamados sectores de Centauro, Sirio y Arturo (Fundación y Tierra). Más tarde se establecerían y se destruiría repúblicas planetarias con gobiernos limitados dentro de los planetas. Durante 5000 años varios planetas se asocian, son conquistados o se alían para formar pequeños imperios (En la arena estelar).La República de Trántor empieza su expansión hacía los reinos vecinos. Más tarde se crea la Confederación Trantoriana: Trántor domina directamente más de 1000 mundos y ejerce su influencia sobre varios miles más. Se forma el Imperio de Trántor: La mitad de los mundos habitados de la Galaxia de la época (aproximadamente unos 500.000) forman parte oficial del Imperio Trantoriano.                                                                                                                  Tras una guerra interestelar, el Imperio Trantoriano se convierte en el Imperio Galáctico. Comienzo del calendario galáctico y Coronación de Frankenn I, primer emperador de la dinastía Kamble.Se Expande el Imperio Galáctico hasta cubrir dos terceras partes de la totalidad de los mundos habitados de la Galaxia, que eran unos diez millones en esa época. Se establece una Pax Galáctica. La anarquía desaparece y el Imperio Galáctico impone la ley (Un guijarro en el cielo).',
     picture:
-      'https://res.cloudinary.com/dqfaa0CASAS/bene_theilax_azkhq5.png',
+      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708028477/FUNDACION/PAISES/IMPERIO_GALACTICO_v48iz2.webp',
   },
   {
-    name: 'Casa Harkonen',
+    name: 'Primera Fundacion',
     capital: 'Giedi prime',
     foundation_date: 'Jihad Butleriana',
-    resume: 'La Casa Harkonnen es una noble familia de ficción después del universo del ciclo Dune creado por el escritor Frank Herbert .Como parte de las Grandes Casas de Landsraad , la Casa Harkonnen está instalada en la fortaleza del planeta Giedi Prime y durante mucho tiempo administra la fortaleza de Arrakis . Los Harkonnen son los enemigos históricos de la Casa Atreides . Sus miembros, como el ba                                                          Después de recuperar a Arrakis de los Atreides y colocar a su sobrino Rabban "la Bestia" allí para obtener el máximo beneficio al "exprimir" el planeta, el barón Vladimir Harkonnen será asesinado por Alia Atreides durante la batalla de Arrakeen . Su heredero, el na- Baron Feyd-Rautha lo sucederá brevemente a la cabeza de la casa, antes de morir en un duelo contra Paul Muad Dib Atreides, que se convertirá en la cabeza del Imperio. Con la muerte de Feyd-Rautha, la Casa Harkonnen se extingue.',
+    resume: 'La primer Fundacion se centro en las ciencias fisicas y fue fundada en un extremo del universo, para que en 1000 años diera luz a un nuevo imperio galactico mas estable.Durante sus primeros años tendraia bastante problemas, que iria superando en varias CRisis Sheldon que predijo la psicohistora y que van haciendola mas fuerte.                                                                                                                     Hari Seldon elige como sede para la Primera Fundación el alejado planeta de Términus, un mundo pobre y alejado del centro galáctico e inmerso en lo que después sería conocido como los Cuatro Reinos, en forma deliberada para poder catalizar la rebelión de Anacreonte y apurar la caída del Imperio Galáctico para así reducir la duración del interregno a sólo mil años. El planeta Términus no posee grandes recursos propios, y una civilización mecánica no se puede establecer allí sin la anuencia y el apoyo de los sectores cercanos.',
     picture:
-      'https://res.cloudinary.com/dqfaaonnen_Griffin.svg_gylgmb.png',
+      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708028466/FUNDACION/PAISES/foundation_o5dycb.webp',
   },
   {
-    name: 'Bene Gesserit',
+    name: 'Segunda Fundacion',
     capital: 'Walach IX',
     foundation_date: 'Jihad Butleriana',
-    resume: 'La Orden de la Bene Gesserit es, en la serie de novelas Dune Cycle del escritor Frank Herbert , un grupo de mujeres que ejercen influencia política y religiosa a lo largo de los siglos en la sociedad del Imperio. la humanidad hacia sus propios objetivos.Este grupo, con orígenes y motivaciones misteriosas, se describe como una hermandad cuyos miembros entrenan sus cuerpos y mentes a travo control de la Orden y, posteriormente, al reinado del "Tirano" Leto II Atreides que pone de rodillas a la Bene Gesserit durante más de tres milenios sin erradicarla. , la comunidad de Hermanas prosigue con cautela su programa genético, asegurándose sobre todo de no perder el control de su proyecto para no repetir su error.',
+    resume: 'La segunda Fundcion es una organizcion creada por Hari shelon en contratapartida a la primera Fundacion, Su funcion es vigilar por el cumplimiento del plan de la Psicohistoria, a tal efecto la Primera Fundcion, estuvo repleta de cientificos de todas las ciencias fisicas, y la Segunda Fundacion centrada en las sociales, sobre todo en la psicohistori, por lo que casi todos sus miembros tienen capacidades mentales',
     picture:
-      'https://res.cloudinary.com/dqfaBENE_GESSERIT_txubcl.jpg',
+      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708371080/FUNDACION/PAISES/FireShot-Capture-069-Trailer-de-Fundacion-2021-Serie-Apple-TV-www.elespoiler.com__yqg1pr.png',
   },
   {
-    name: 'Casa Corrino',
+    name: 'Reino de Smyrno',
     capital: 'Kaitan',
     foundation_date: 'Jihad Butleriana',
-    resume: 'La Casa Corrino es la primera de las Grandes Casas - poseedor del poder imperial - del ciclo de ficción de Dune , de Frank Herbert .Esta es la casa que reina sobre el Imperio desde el final de Butler Jihad , una guerra que opone a los hombres a las máquinas pensantes y que terminó con la Batalla de Corrin en el 88 ante el Gremio. Kaitain era la capital del Imperio y la Casa Corrino erete a la autoridad de Leto II y cambia su nombre a Harq al Ada. Siendo Leto II estéril, son los descendientes de Ghanima Atreides y Harq al Ada quienes forman el futuro de la Casa Atreides, adscrita al servicio del Emperador-Dios, lugar que ocupan en todos los episodios posteriores del ciclo Dune .',
+    resume: 'Uno de los Cuatro Reinos independientes surgidos de la desmembración de la provincia de Anacreonte en la Periferia del Imperio. Libro varias batallas contra los otros tres Reinos..',
     picture:
-      'https://res.cloudinary.com/dqfaa272nrrino_Lion.svg_qd0ysx.webp',
+      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708028464/FUNDACION/PAISES/reino_de_smyrno_hxtzge.jpg',
   },
   {
-    name: 'Casa Atreides',
+    name: 'Reino de Konom',
     capital: 'Caladan',
     foundation_date: 'Jihad Butleriana',
-    resume: 'La Maison Atreides (“  Casa Atreides  ” en la versión original) es una noble familia ficticia del universo del ciclo Dune del escritor Frank Herbert. La familia Atreid afirma tener orígenes antiguos, que se remontan a la mitología griega . De hecho, el mismo nombreel exuberante planeta oceánico llamado Caladan durante generaciones, y gobiernan su feudo con justicia y honor. No es menos eficaz en la guerra. También ha desarrollado un lenguaje de lucha específico para su casa. Los colores de los Atreidas son el verde y el negro, y su emblema es el halcón rojo.',
+    resume: 'Uno de los Cuatro Reinos independientes surgidos de la desmembración de la provincia de Anacreonte en la Periferia del Imperio. Libro varias batallas contra los otros tres Reinos.',
     picture:
-      'https://res.cloudinary.com/SAS/ATREIDES_ahywnb.webp',
+      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708028453/FUNDACION/PAISES/reino_de_loris_ocfh0n.jpg',
   },
 ];
 

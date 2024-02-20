@@ -1,11 +1,12 @@
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BooksComponent } from './books/books.component';
-import { AuthorsComponent } from './authors/authors/authors.component';
 import { AwardsComponent } from './awards/awards.component';
 import { UniverseComponent } from './universe/universe.component';
 import { verifyTokenGuard } from '../auth/guards/verify-token.guard';
 import { LibraryComponent } from './library.component';
+import { AuthorspageComponent } from './authors/page/authors-page/authors-page.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,7 @@ const routes: Routes = [
       path: 'books', component: BooksComponent
     },
     {
-      path: 'authors', component: AuthorsComponent
+      path: 'authors', component: AuthorspageComponent
     },
     {
       path: 'awards', component: AwardsComponent
