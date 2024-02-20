@@ -9,11 +9,9 @@ import { Injectable } from '@angular/core';
 })
 export class AwardsService {
 
-  
-
   constructor(private http: HttpClient) { }
 
   getAwards(){
-      return this.http.get<Award[]>('http://localhost:8084/awards')
+      return this.http.get<Award[]>('http://localhost:8084/api/awards')
   }
 }
