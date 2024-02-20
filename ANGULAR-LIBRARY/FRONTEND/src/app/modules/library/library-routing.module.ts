@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { UniverseComponent } from './universe/universe.component';
 import { verifyTokenGuard } from '../auth/guards/verify-token.guard';
 import { LibraryComponent } from './library.component';
-import { AuthorspageComponent } from './authors/page/authors-page/authors-page.component';
+
 
 
 const routes: Routes = [
@@ -18,7 +18,7 @@ const routes: Routes = [
     //   path: 'books', component: BooksComponent
     // },
     {
-      path: 'authors', component: AuthorspageComponent
+      path: 'authors', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/authors/authors.module').then(m => m.AuthorsModule)
     },
     {
       path: 'awards', canActivate: [verifyTokenGuard],loadChildren: () => import('../library/awards/awards.module').then(m => m.AwardsModule)

@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AwardsPageComponent } from './pages/awards-page/awards-page.component';
+import { AuthorsPageComponent } from './pages/authors-page/authors-page.component';
 
 const routes: Routes = [
   {
     path: '', children: [
       {
-      path: 'list', component: AwardsPageComponent
+      path: 'list', component: AuthorsPageComponent
       },
       {
         path: '**', redirectTo: 'list', pathMatch: 'full'
@@ -19,4 +19,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AwardsRoutingModule { }
+export class AuthorsRoutingModule { }
