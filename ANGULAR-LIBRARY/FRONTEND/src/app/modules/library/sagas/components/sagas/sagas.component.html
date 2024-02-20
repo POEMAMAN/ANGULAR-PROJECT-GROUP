@@ -1,0 +1,13 @@
+
+<div class="saga-container">
+<div style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product', saga._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', saga._id]" >Eliminar</button>
+  </div>
+  <div class="description-saga">
+    <h2 class="short-tittle">{{ saga.saga }}</h2>
+    <p class="short-text">{{ saga.book }}</p>
+
+  </div>
+</div>
+
