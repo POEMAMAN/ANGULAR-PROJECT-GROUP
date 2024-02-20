@@ -2,15 +2,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { verifyTokenGuard } from 'src/app/modules/auth/guards/verify-token.guard';
 import { CompleteUniverseComponent } from '../complete-universe.component';
+import { DuneUniverseComponent } from './dune-universe.component';
 
 const routes: Routes = [
   {
     path: '', children: [
   {
-    path: '',canActivate: [verifyTokenGuard], component: CompleteUniverseComponent,
+    path: '',canActivate: [verifyTokenGuard], component: DuneUniverseComponent,
   },
   {
-    path: 'books', canActivate: [verifyTokenGuard],loadChildren: () => import('../dune-universe/dune-universe.module').then(m => m.DuneUniverseModule),
+    path: 'books', canActivate: [verifyTokenGuard],loadChildren: () => import('../dune-universe/duneBooks/duneBooks.module').then(m => m.DuneBooksModule),
   },
   // {
   //   path: 'characters', canActivate: [verifyTokenGuard],loadChildren: () => import('../complete-universe/expanse-universe/expanse-universe.module').then(m => m.ExpanseUniverseModule),
