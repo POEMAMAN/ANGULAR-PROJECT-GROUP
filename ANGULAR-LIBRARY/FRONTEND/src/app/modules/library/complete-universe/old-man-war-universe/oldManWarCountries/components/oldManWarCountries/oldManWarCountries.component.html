@@ -1,0 +1,16 @@
+
+<div class="oldManWarCountrie-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',oldManWarCountrie._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', oldManWarCountrie._id]" >Eliminar</button>
+  </div>
+  <img [src]="oldManWarCountrie.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ oldManWarCountrie.name }}</h2>
+    <p class="short-text">{{ oldManWarCountrie.clan }}</p>
+    <p class="short-text">{{ oldManWarCountrie.foundatorSpecie }}</p>
+    <p class="short-text">{{ oldManWarCountrie.clientSpecie}}</p>
+    <p class="short-text">{{ oldManWarCountrie.resume }}</p>
+  </div>
+</div>
+

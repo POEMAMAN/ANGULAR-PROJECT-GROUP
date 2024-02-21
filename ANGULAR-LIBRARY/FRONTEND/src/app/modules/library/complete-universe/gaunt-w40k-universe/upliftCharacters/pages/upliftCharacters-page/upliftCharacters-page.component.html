@@ -1,0 +1,12 @@
+<div class="upliftCharacter-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let upliftCharacter of upliftCharacters"  class="upliftCharacter-list--upliftCharacter">
+        <app-upliftCharacters
+        [upliftCharacter]="upliftCharacter"></app-upliftCharacters>
+      </div>
+    </div>
+  </div>
+
+
