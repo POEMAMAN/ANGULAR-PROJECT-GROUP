@@ -27,8 +27,8 @@ import { LibraryComponent } from './modules/library/library.component';
 
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,

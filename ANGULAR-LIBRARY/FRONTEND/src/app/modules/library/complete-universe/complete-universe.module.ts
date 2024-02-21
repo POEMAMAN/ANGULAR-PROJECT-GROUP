@@ -22,8 +22,8 @@ import { CompleteUniverseComponent } from './complete-universe.component';
     
   ],
   imports: [
-    CommonModule,
     CompleteUniverseRoutingModule,
+    CommonModule,
     DuneUniverseModule,
     ExpanseUniverseModule,
     ForeverWarUniverseModule,

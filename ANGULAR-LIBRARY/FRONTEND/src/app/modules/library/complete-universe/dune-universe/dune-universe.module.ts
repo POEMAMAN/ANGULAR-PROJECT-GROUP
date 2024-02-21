@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DuneUniverseRoutingModule } from './dune-universe-routing.module';
+import { DuneUniverseComponent } from './dune-universe.component';
 // import { DuneBooksComponent } from './books/components/books/books.component';
 // import { DuneCharactersComponent } from './dune-characters/dune-characters.component';
 // import { DuneCountriesComponent } from './dune-countries/dune-countries.component';
@@ -9,10 +10,8 @@ import { DuneUniverseRoutingModule } from './dune-universe-routing.module';
 
 @NgModule({
   declarations: [
-    // DuneBooksComponent,
-    // DuneCharactersComponent,
-    // DuneCountriesComponent,
-    // DunePlanetsComponent,
+    DuneUniverseComponent
+
 
   ],
   imports: [
