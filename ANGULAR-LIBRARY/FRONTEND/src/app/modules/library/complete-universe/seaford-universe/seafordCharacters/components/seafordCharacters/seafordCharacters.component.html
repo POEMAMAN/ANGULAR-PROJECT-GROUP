@@ -1,0 +1,18 @@
+
+<div class="seafordCharacter-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',seafordCharacter._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', seafordCharacter._id]" >Eliminar</button>
+  </div>
+  <img [src]="seafordCharacter.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ seafordCharacter.name }}</h2>
+    <p class="short-text">{{ seafordCharacter.profession }}</p>
+    <p class="short-text">{{ seafordCharacter.rank }}</p>
+    <p class="short-text">{{ seafordCharacter.birthday }}</p>
+    <p class="short-text">{{ seafordCharacter.planet }}</p>
+    <p class="short-text">{{ seafordCharacter.country }}</p>
+    <p class="short-text">{{ seafordCharacter.resume }}</p>
+  </div>
+</div>
+

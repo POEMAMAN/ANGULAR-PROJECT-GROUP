@@ -1,0 +1,12 @@
+<div class="seafordCharacter-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let seafordCharacter of seafordCharacters"  class="seafordCharacter-list--seafordCharacter">
+        <app-seafordCharacters
+        [seafordCharacter]="seafordCharacter"></app-seafordCharacters>
+      </div>
+    </div>
+  </div>
+
+
