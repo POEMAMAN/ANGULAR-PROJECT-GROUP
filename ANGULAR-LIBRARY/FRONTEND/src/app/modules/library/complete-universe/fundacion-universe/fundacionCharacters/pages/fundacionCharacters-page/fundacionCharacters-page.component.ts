@@ -1,21 +1,21 @@
-import { GauntW40KCharacter } from '../../interfaces/GauntW40KCharacters.interface';
-import { gauntW40KCharactersService } from '../../services/gauntW40KCharacters.service';
+import { FundacionCharacter } from '../../interfaces/FundacionCharacters.interface';
+import { fundacionCharactersService } from '../../services/fundacionCharacters.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-gauntW40KCharacters-page',
-  templateUrl: './gauntW40KCharacters-page.component.html',
-  styleUrls: ['./gauntW40KCharacters-page.component.css']
+  selector: 'app-fundacionCharacters-page',
+  templateUrl: './fundacionCharacters-page.component.html',
+  styleUrls: ['./fundacionCharacters-page.component.css']
 })
-export class gauntW40KCharactersPageComponent implements OnInit {
-  gauntW40KCharacters: GauntW40KCharacter[] = []
-  constructor(private gauntW40KCharactersService: gauntW40KCharactersService ) {}
+export class fundacionCharactersPageComponent implements OnInit {
+  fundacionCharacters: FundacionCharacter[] = []
+  constructor(private fundacionCharactersService: fundacionCharactersService ) {}
 
 
   ngOnInit(){
-    this.gauntW40KCharactersService.getGauntW40KCharacters().subscribe({
-      next: (gauntW40KCharacters: GauntW40KCharacter[]) => {
-        this.gauntW40KCharacters = gauntW40KCharacters
+    this.fundacionCharactersService.getFundacionCharacters().subscribe({
+      next: (fundacionCharacters: FundacionCharacter[]) => {
+        this.fundacionCharacters = fundacionCharacters
       },
       error: () => {}
     })

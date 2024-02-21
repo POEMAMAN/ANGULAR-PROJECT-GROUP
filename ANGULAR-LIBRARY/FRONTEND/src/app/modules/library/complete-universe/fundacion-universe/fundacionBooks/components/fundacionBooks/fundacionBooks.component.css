@@ -1,4 +1,4 @@
-.gauntW40KBooks-container {
+.fundacionBooks-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@ border-radius: 8px;
 object-fit: cover;
 }
 
-.description-gauntW40KBooks {
+.description-fundacionBooks {
 text-align: center;
 color: #ffffff;
 }

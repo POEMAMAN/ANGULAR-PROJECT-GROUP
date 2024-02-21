@@ -3,12 +3,12 @@ import { AuthService } from 'src/app/modules/auth/services/auth.service';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-gauntW40KBooks',
-  templateUrl: './gauntW40KBooks.component.html',
-  styleUrls: ['./gauntW40KBooks.component.css']
+  selector: 'app-fundacionBooks',
+  templateUrl: './fundacionBooks.component.html',
+  styleUrls: ['./fundacionBooks.component.css']
 })
-export class gauntW40KBooksComponent implements OnInit {
-@Input() gauntW40KBook: any
+export class fundacionBooksComponent implements OnInit {
+@Input() fundacionBook: any
 isAdmin: boolean = false;
 constructor(private authService: AuthService ){
 

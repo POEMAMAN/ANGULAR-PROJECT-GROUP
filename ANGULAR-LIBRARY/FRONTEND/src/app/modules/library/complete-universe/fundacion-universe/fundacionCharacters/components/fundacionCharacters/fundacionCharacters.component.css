@@ -1,4 +1,4 @@
-.gauntW40KCharacters-container {
+.fundacionCharacters-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@ border-radius: 8px;
 object-fit: cover;
 }
 
-.description-gauntW40KCharacters {
+.description-fundacionCharacters {
 text-align: center;
 color: #ffffff;
 }

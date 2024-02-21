@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { gauntW40KBooksComponent } from './gauntW40KBooks.component';
+import { fundacionBooksComponent } from './fundacionBooks.component';
 
-describe('gauntW40KBooksComponent', () => {
-  let component: gauntW40KBooksComponent;
-  let fixture: ComponentFixture<gauntW40KBooksComponent>;
+describe('fundacionBooksComponent', () => {
+  let component: fundacionBooksComponent;
+  let fixture: ComponentFixture<fundacionBooksComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [gauntW40KBooksComponent]
+      declarations: [fundacionBooksComponent]
     });
-    fixture = TestBed.createComponent(gauntW40KBooksComponent);
+    fixture = TestBed.createComponent(fundacionBooksComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

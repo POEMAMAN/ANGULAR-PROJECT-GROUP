@@ -1,5 +1,5 @@
 
-import { GauntW40KCountrie } from '../interfaces/GauntW40KCountries.interface';
+import { FundacionCountrie } from '../interfaces/FundacionCountries.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -7,13 +7,13 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class gauntW40KCountriesService {
+export class fundacionCountriesService {
 
   
 
   constructor(private http: HttpClient) { }
 
-  getGauntW40KCountries(){
-      return this.http.get<GauntW40KCountrie[]>('http://localhost:8084/universes/gauntW40K/countries')
+  getFundacionCountries(){
+      return this.http.get<FundacionCountrie[]>('http://localhost:8084/universes/fundacion/countries')
   }
 }
