@@ -27,14 +27,14 @@ import { CompleteUniverseComponent } from './complete-universe.component';
     DuneUniverseModule,
     ExpanseUniverseModule,
     ForeverWarUniverseModule,
-    HonorverseUniverseModule,
     OldManWarUniverseModule,
     SeafordUniverseModule,
     UltraW40KUniverseModule,
     UpliftUniverseModule,
     GauntW40KUniverseModule,
     GalacticCenterUniverseModule,
-    FundacionUniverseModule
+    FundacionUniverseModule,
+    HonorverseUniverseModule
 
   ],
 })

@@ -110,8 +110,6 @@ app.use(
 //Routes
 //Rutas Principales
 app.use('/api/users', UserRoutes)
-app.use('/api/products', ProductRoutes)
-// **TO DO PDTE CAMBIAR RUTA PRODUCT**
 app.use("/public", express.static("public"));
 app.use("/api", (req, res, next) => "im alive");
 
