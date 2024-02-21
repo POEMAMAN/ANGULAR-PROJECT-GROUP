@@ -18,11 +18,6 @@ const routes: Routes = [
   path: 'library', canActivate: [verifyTokenGuard],loadChildren: () => import('./modules/library/library.module').then(m => m.LibraryModule)
 },
 {
-  path: 'products', canActivate: [verifyTokenGuard], loadChildren: () => import('./modules/products/products.module').then(m => m.ProductsModule)
-},
-{
-  path: 'admin', canActivate: [adminGuard], loadChildren: () => import('./modules/administrator/administrator.module').then(m => m.AdministratorModule)
-},{
   path: '**', redirectTo: 'products', pathMatch: 'full'
 }
 ];

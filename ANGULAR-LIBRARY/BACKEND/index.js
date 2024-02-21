@@ -60,6 +60,11 @@ const booksFundacionRoutes = require("./src/api/routes/routes.fundacion/books.fu
 const charactersFundacionRoutes = require("./src/api/routes/routes.fundacion/characters.fundacion.routes.js");
 const countriesFundacionRoutes = require("./src/api/routes/routes.fundacion/countries.fundacion.routes.js");
 const planetsFundacionRoutes = require("./src/api/routes/routes.fundacion/planets.fundacion.routes.js");
+// OldManWar
+const booksOldManWarRoutes = require("./src/api/routes/routes.oldManWar/books.oldManWar.routes.js");
+const charactersOldManWarRoutes = require("./src/api/routes/routes.oldManWar/characters.oldManWar.routes.js");
+const countriesOldManWarRoutes = require("./src/api/routes/routes.oldManWar/countries.oldManWar.routes.js");
+const planetsOldManWarRoutes = require("./src/api/routes/routes.oldManWar/planets.oldManWar.routes.js");
 
 //Ruta a cambiar a MAIN PAGE
 const ProductRoutes = require("./src/api/products/products.routes.js");
@@ -161,6 +166,11 @@ app.use("/universes/fundacion/books", booksFundacionRoutes)
 app.use("/universes/fundacion/characters", charactersFundacionRoutes)
 app.use("/universes/fundacion/countries", countriesFundacionRoutes)
 app.use('/universes/fundacion/planets', planetsFundacionRoutes)
+// OldManWar oldManWar
+app.use("/universes/oldManWar/books", booksOldManWarRoutes)
+app.use("/universes/oldManWar/characters", charactersOldManWarRoutes)
+app.use("/universes/oldManWar/countries", countriesOldManWarRoutes)
+app.use('/universes/oldManWar/planets', planetsOldManWarRoutes)
 
 
 const PORT = process.env.PORT || 8084;
