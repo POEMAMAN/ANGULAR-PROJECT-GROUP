@@ -1,0 +1,20 @@
+
+<div class="gauntW40KPlanet-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',gauntW40KPlanet._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', gauntW40KPlanet._id]" >Eliminar</button>
+  </div>
+  <img [src]="gauntW40KPlanet.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ gauntW40KPlanet.name }}</h2>
+    <p class="short-text">{{ gauntW40KPlanet.settled}}</p>
+    <p class="short-text">{{ gauntW40KPlanet.population}}</p>
+    <p class="short-text">{{ gauntW40KPlanet.capital }}</p>
+    <p class="short-text">{{ gauntW40KPlanet.location }}</p>
+    <p class="short-text">{{ gauntW40KPlanet.gravity }}</p>
+    <p class="short-text">{{ gauntW40KPlanet.country }}</p>
+    <p class="short-text">{{ gauntW40KPlanet.moons }}</p>
+    <p class="short-text">{{ gauntW40KPlanet.resume }}</p>
+  </div>
+</div>
+
