@@ -1,5 +1,5 @@
 const BooksOldManWar = require('../../models/models.oldManWar/books.oldManWar.model');
-OldManWar
+
 const getBooksOldManWar = async (req, res) => {
   try {
     const allBooksOldManWar = await BooksOldManWar.find();
