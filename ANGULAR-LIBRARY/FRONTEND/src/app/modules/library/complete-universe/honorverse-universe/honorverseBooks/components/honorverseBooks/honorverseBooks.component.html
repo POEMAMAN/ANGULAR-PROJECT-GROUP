@@ -1,0 +1,18 @@
+
+<div class="honorverseBook-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',honorverseBook._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', honorverseBook._id]" >Eliminar</button>
+  </div>
+  <img [src]="honorverseBook.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ honorverseBook.title }}</h2>
+    <p class="short-text">{{ honorverseBook.publication_year }}</p>
+    <p class="short-text">{{ honorverseBook.saga }}</p>
+    <p class="short-text">{{ honorverseBook.saga_index }}</p>
+    <p class="short-text">{{ honorverseBook.universe }}</p>
+    <p class="short-text">{{ honorverseBook.author }}</p>
+    <p class="short-text">{{ honorverseBook.resume }}</p>
+  </div>
+</div>
+
