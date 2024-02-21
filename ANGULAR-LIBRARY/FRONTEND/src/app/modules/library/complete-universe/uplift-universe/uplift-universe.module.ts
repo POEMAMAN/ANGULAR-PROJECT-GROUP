@@ -1,3 +1,4 @@
+import { UpliftUniverseComponent } from './uplift-universe.component';
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -13,10 +14,11 @@ import { UpliftPlanetsModule } from './upliftPlanets/upliftPlanets.module';
 
 @NgModule({
   declarations: [
+    UpliftUniverseComponent
   ],
   imports: [
-    CommonModule,
     UpliftUniverseRoutingModule,
+    CommonModule,
     UpliftBooksModule,
     UpliftCharactersModule,
     UpliftCountriesModule,

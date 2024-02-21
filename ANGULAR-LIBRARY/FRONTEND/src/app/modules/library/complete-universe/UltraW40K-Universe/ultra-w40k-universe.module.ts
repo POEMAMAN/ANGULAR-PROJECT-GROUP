@@ -6,11 +6,13 @@ import { UltraW40KBooksModule } from './UltraW40KBooks/UltraW40KBooks.module';
 import { UltraW40KCharactersModule } from './UltraW40KCharacters/UltraW40KCharacters.module';
 import { UltraW40KCountriesModule } from './UltraW40KCountries/UltraW40KCountries.module';
 import { UltraW40KPlanetsModule } from './UltraW40KPlanets/UltraW40KPlanets.module';
+import { UltraW40KUniverseComponent } from './ultra-w40k-universe.component';
 
 
 
 @NgModule({
   declarations: [
+    UltraW40KUniverseComponent
 
   ],
   imports: [

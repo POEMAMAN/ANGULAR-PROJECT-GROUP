@@ -6,11 +6,13 @@ import { seafordBooksModule } from './seafordBooks/seafordBooks.module';
 import { seafordCharactersModule } from './seafordCharacters/seafordCharacters.module';
 import { seafordCountriesModule } from './seafordCountries/seafordCountries.module';
 import { seafordPlanetsModule } from './seafordPlanets/seafordPlanets.module';
+import { SeafordUniverseComponent } from './seaford-universe.component';
 
 
 
 @NgModule({
   declarations: [
+    SeafordUniverseComponent
 
   ],
   imports: [

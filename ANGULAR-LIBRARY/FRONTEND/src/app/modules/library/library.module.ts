@@ -13,8 +13,8 @@ import { UniversesModule } from './universes/universes.module';
   declarations: [
   ],
   imports: [
-    CommonModule,
     LibraryRoutingModule,
+    CommonModule,
     CompleteUniverseModule,
     AwardsModule,
     BooksModule,
