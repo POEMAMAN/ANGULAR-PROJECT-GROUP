@@ -1,0 +1,18 @@
+
+<div class="galacticCentCharacter-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',galacticCentCharacter._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', galacticCentCharacter._id]" >Eliminar</button>
+  </div>
+  <img [src]="galacticCentCharacter.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ galacticCentCharacter.name }}</h2>
+    <p class="short-text">{{ galacticCentCharacter.profession }}</p>
+    <p class="short-text">{{ galacticCentCharacter.rank }}</p>
+    <p class="short-text">{{ galacticCentCharacter.birthday }}</p>
+    <p class="short-text">{{ galacticCentCharacter.planet }}</p>
+    <p class="short-text">{{ galacticCentCharacter.country }}</p>
+    <p class="short-text">{{ galacticCentCharacter.resume }}</p>
+  </div>
+</div>
+

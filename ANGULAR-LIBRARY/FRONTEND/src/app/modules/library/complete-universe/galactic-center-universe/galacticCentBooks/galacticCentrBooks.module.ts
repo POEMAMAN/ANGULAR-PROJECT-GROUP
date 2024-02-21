@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { gauntW40KBooksRoutingModule } from './gauntW40KBooks-routing.module';
-import { gauntW40KBooksPageComponent } from './pages/gauntW40KBooks-page/gauntW40KBooks-page.component';
-import { gauntW40KBooksComponent } from './components/gauntW40KBooks/gauntW40KBooks.component';
+import { galacticCentBooksRoutingModule } from './galacticCentBooks-routing.module';
+import { galacticCentBooksPageComponent } from './pages/galacticCentBooks-page/galacticCentBooks-page.component';
+import { galacticCentBooksComponent } from './components/galacticCentBooks/galacticCentBooks.component';
 
 
 @NgModule({
   declarations: [
-    gauntW40KBooksPageComponent,
-    gauntW40KBooksComponent
+    galacticCentBooksPageComponent,
+    galacticCentBooksComponent
   ],
   imports: [
     CommonModule,
-    gauntW40KBooksRoutingModule
+    galacticCentBooksRoutingModule
   ]
 })
-export class gauntW40KBooksModule { }
+export class galacticCentBooksModule { }

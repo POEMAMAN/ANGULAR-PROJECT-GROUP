@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { gauntW40KCountriesComponent } from './gauntW40KCountries.component';
+import { galacticCentCountriesComponent } from './galacticCentCountries.component';
 
-describe('gauntW40KCountriesComponent', () => {
-  let component: gauntW40KCountriesComponent;
-  let fixture: ComponentFixture<gauntW40KCountriesComponent>;
+describe('galacticCentCountriesComponent', () => {
+  let component: galacticCentCountriesComponent;
+  let fixture: ComponentFixture<galacticCentCountriesComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [gauntW40KCountriesComponent]
+      declarations: [galacticCentCountriesComponent]
     });
-    fixture = TestBed.createComponent(gauntW40KCountriesComponent);
+    fixture = TestBed.createComponent(galacticCentCountriesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

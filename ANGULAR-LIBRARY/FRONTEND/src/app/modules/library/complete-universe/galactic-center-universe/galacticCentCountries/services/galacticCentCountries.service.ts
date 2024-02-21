@@ -1,5 +1,5 @@
 
-import { GauntW40KCountrie } from '../interfaces/GauntW40KCountries.interface';
+import { GalacticCentCountrie } from '../interfaces/GalacticCentCountries.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -7,13 +7,13 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class gauntW40KCountriesService {
+export class galacticCentCountriesService {
 
   
 
   constructor(private http: HttpClient) { }
 
-  getGauntW40KCountries(){
-      return this.http.get<GauntW40KCountrie[]>('http://localhost:8084/universes/gauntW40K/countries')
+  getGalacticCentCountries(){
+      return this.http.get<GalacticCentCountrie[]>('http://localhost:8084/universes/galacticCenter/countries')
   }
 }

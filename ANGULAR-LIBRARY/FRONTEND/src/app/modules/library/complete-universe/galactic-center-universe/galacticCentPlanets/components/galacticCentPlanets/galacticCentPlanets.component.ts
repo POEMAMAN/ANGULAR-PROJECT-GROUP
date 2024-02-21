@@ -3,12 +3,12 @@ import { AuthService } from 'src/app/modules/auth/services/auth.service';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-gauntW40KPlanets',
-  templateUrl: './gauntW40KPlanets.component.html',
-  styleUrls: ['./gauntW40KPlanets.component.css']
+  selector: 'app-galacticCentPlanets',
+  templateUrl: './galacticCentPlanets.component.html',
+  styleUrls: ['./galacticCentPlanets.component.css']
 })
-export class gauntW40KPlanetsComponent implements OnInit {
-@Input() gauntW40KPlanet: any
+export class galacticCentPlanetsComponent implements OnInit {
+@Input() galacticCentPlanet: any
 isAdmin: boolean = false;
 constructor(private authService: AuthService ){
 

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { gauntW40KPlanetsPageComponent } from './gauntW40KPlanets-page.component';
+import { galacticCentPlanetsPageComponent } from './galacticCentPlanets-page.component';
 
-describe('gauntW40KPlanetsPageComponent', () => {
-  let component: gauntW40KPlanetsPageComponent;
-  let fixture: ComponentFixture<gauntW40KPlanetsPageComponent>;
+describe('galacticCentPlanetsPageComponent', () => {
+  let component: galacticCentPlanetsPageComponent;
+  let fixture: ComponentFixture<galacticCentPlanetsPageComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [gauntW40KPlanetsPageComponent]
+      declarations: [galacticCentPlanetsPageComponent]
     });
-    fixture = TestBed.createComponent(gauntW40KPlanetsPageComponent);
+    fixture = TestBed.createComponent(galacticCentPlanetsPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

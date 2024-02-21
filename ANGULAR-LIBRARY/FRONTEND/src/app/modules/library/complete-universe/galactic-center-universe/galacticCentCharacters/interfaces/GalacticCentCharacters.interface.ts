@@ -1,4 +1,4 @@
-export interface GauntW40KCharacter {
+export interface GalacticCentCharacter {
   name: String,
   profession: String,
   rank: String,

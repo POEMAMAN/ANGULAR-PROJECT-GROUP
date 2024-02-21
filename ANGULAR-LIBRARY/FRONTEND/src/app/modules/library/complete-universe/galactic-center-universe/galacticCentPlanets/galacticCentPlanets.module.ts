@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { gauntW40KPlanetsRoutingModule } from './gauntW40KPlanets-routing.module';
-import { gauntW40KPlanetsComponent } from './components/gauntW40KPlanets/gauntW40KPlanets.component';
-import { gauntW40KPlanetsPageComponent } from './pages/gauntW40KPlanets-page/gauntW40KPlanets-page.component';
+import { galacticCentPlanetsRoutingModule } from './galacticCentPlanets-routing.module';
+import { galacticCentPlanetsComponent } from './components/galacticCentPlanets/galacticCentPlanets.component';
+import { galacticCentPlanetsPageComponent } from './pages/galacticCentPlanets-page/galacticCentPlanets-page.component';
 
 
 @NgModule({
   declarations: [
-    gauntW40KPlanetsPageComponent,
-    gauntW40KPlanetsComponent
+    galacticCentPlanetsPageComponent,
+    galacticCentPlanetsComponent
   ],
   imports: [
     CommonModule,
-    gauntW40KPlanetsRoutingModule
+    galacticCentPlanetsRoutingModule
   ]
 })
-export class gauntW40KPlanetsModule { }
+export class galacticCentPlanetsModule { }

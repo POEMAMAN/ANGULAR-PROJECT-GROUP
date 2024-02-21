@@ -1,4 +1,4 @@
-export interface GauntW40KCountrie {
+export interface GalacticCentCountrie {
   name: String, 
   clan: String, 
   foundatorSpecie: String, 

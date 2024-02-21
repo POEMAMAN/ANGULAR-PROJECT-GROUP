@@ -1,5 +1,5 @@
 
-import { GauntW40KBook } from '../interfaces/GauntW40KBooks.interface';
+import { GalacticCentBook } from '../interfaces/GalacticCentBooks.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -7,13 +7,13 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class gauntW40KBooksService {
+export class galacticCentBooksService {
 
   
 
   constructor(private http: HttpClient) { }
 
-  getGauntW40KBooks(){
-      return this.http.get<GauntW40KBook[]>('http://localhost:8084/universes/gauntW40K/books')
+  getGalacticCentBooks(){
+      return this.http.get<GalacticCentBook[]>('http://localhost:8084/universes/galacticCenter/books')
   }
 }
