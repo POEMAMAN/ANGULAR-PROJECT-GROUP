@@ -1,21 +1,21 @@
-import { GauntW40KBook } from '../../interfaces/GauntW40KBooks.interface';
-import { gauntW40KBooksService } from '../../services/gauntW40KBooks.service';
+import { GalacticCentBook } from '../../interfaces/GalacticCentBooks.interface';
+import { galacticCentBooksService } from '../../services/galacticCentBooks.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-gauntW40KBooks-page',
-  templateUrl: './gauntW40KBooks-page.component.html',
-  styleUrls: ['./gauntW40KBooks-page.component.css']
+  selector: 'app-galacticCentBooks-page',
+  templateUrl: './galacticCentBooks-page.component.html',
+  styleUrls: ['./galacticCentBooks-page.component.css']
 })
-export class gauntW40KBooksPageComponent implements OnInit {
-  gauntW40KBooks: GauntW40KBook[] = []
-  constructor(private gauntW40KBooksService: gauntW40KBooksService ) {}
+export class galacticCentBooksPageComponent implements OnInit {
+  galacticCentBooks: GalacticCentBook[] = []
+  constructor(private galacticCentBooksService: galacticCentBooksService ) {}
 
 
   ngOnInit(){
-    this.gauntW40KBooksService.getGauntW40KBooks().subscribe({
-      next: (gauntW40KBooks: GauntW40KBook[]) => {
-        this.gauntW40KBooks = gauntW40KBooks
+    this.galacticCentBooksService.getGalacticCentBooks().subscribe({
+      next: (galacticCentBooks: GalacticCentBook[]) => {
+        this.galacticCentBooks = galacticCentBooks
       },
       error: () => {}
     })

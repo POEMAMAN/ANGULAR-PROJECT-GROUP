@@ -1,4 +1,4 @@
-export interface GauntW40KPlanet {
+export interface GalacticCentPlanet {
   name: String, 
   settled: String, 
   population: String, 

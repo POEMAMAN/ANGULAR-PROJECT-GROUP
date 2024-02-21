@@ -1,4 +1,4 @@
-export interface GauntW40KBook {
+export interface GalacticCentBook {
   title: string;
   publication_year: string;
   saga: string;

@@ -65,9 +65,11 @@ const booksOldManWarRoutes = require("./src/api/routes/routes.oldManWar/books.ol
 const charactersOldManWarRoutes = require("./src/api/routes/routes.oldManWar/characters.oldManWar.routes.js");
 const countriesOldManWarRoutes = require("./src/api/routes/routes.oldManWar/countries.oldManWar.routes.js");
 const planetsOldManWarRoutes = require("./src/api/routes/routes.oldManWar/planets.oldManWar.routes.js");
-
-//Ruta a cambiar a MAIN PAGE
-const ProductRoutes = require("./src/api/products/products.routes.js");
+// GalacticCenter
+const booksGalacticCenterRoutes = require("./src/api/routes/routes.galacticCenter/books.galacticCenter.routes.js");
+const charactersGalacticCenterRoutes = require("./src/api/routes/routes.galacticCenter/characters.galacticCenter.routes.js");
+const countriesGalacticCenterRoutes = require("./src/api/routes/routes.galacticCenter/countries.galacticCenter.routes.js");
+const planetsGalacticCenterRoutes = require("./src/api/routes/routes.galacticCenter/planets.galacticCenter.routes.js");
 
 //
 const UserRoutes = require('./src/api/users/users.routes.js')
@@ -166,11 +168,16 @@ app.use("/universes/fundacion/books", booksFundacionRoutes)
 app.use("/universes/fundacion/characters", charactersFundacionRoutes)
 app.use("/universes/fundacion/countries", countriesFundacionRoutes)
 app.use('/universes/fundacion/planets', planetsFundacionRoutes)
-// OldManWar oldManWar
+// OldManWar 
 app.use("/universes/oldManWar/books", booksOldManWarRoutes)
 app.use("/universes/oldManWar/characters", charactersOldManWarRoutes)
 app.use("/universes/oldManWar/countries", countriesOldManWarRoutes)
 app.use('/universes/oldManWar/planets', planetsOldManWarRoutes)
+// GalacticCenter
+app.use("/universes/galacticCenter/books", booksGalacticCenterRoutes)
+app.use("/universes/galacticCenter/characters", charactersGalacticCenterRoutes)
+app.use("/universes/galacticCenter/countries", countriesGalacticCenterRoutes)
+app.use('/universes/galacticCenter/planets', planetsGalacticCenterRoutes)
 
 
 const PORT = process.env.PORT || 8084;

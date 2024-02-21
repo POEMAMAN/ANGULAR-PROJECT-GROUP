@@ -1,18 +1,18 @@
 
-<div class="gauntW40KBook-container">
+<div class="galacticCentBook-container">
   <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
-      <button [routerLink]="['/admin/edit-product',gauntW40KBook._id]" >Editar</button>
-      <button [routerLink]="['/admin/delete-product', gauntW40KBook._id]" >Eliminar</button>
+      <button [routerLink]="['/admin/edit-product',galacticCentBook._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', galacticCentBook._id]" >Eliminar</button>
   </div>
-  <img [src]="gauntW40KBook.picture" />
+  <img [src]="galacticCentBook.picture" />
   <div class="description-award">
-    <h2 class="short-tittle">{{ gauntW40KBook.title }}</h2>
-    <p class="short-text">{{ gauntW40KBook.publication_year }}</p>
-    <p class="short-text">{{ gauntW40KBook.saga }}</p>
-    <p class="short-text">{{ gauntW40KBook.saga_index }}</p>
-    <p class="short-text">{{ gauntW40KBook.universe }}</p>
-    <p class="short-text">{{ gauntW40KBook.author }}</p>
-    <p class="short-text">{{ gauntW40KBook.resume }}</p>
+    <h2 class="short-tittle">{{ galacticCentBook.title }}</h2>
+    <p class="short-text">{{ galacticCentBook.publication_year }}</p>
+    <p class="short-text">{{ galacticCentBook.saga }}</p>
+    <p class="short-text">{{ galacticCentBook.saga_index }}</p>
+    <p class="short-text">{{ galacticCentBook.universe }}</p>
+    <p class="short-text">{{ galacticCentBook.author }}</p>
+    <p class="short-text">{{ galacticCentBook.resume }}</p>
   </div>
 </div>
 

@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { gauntW40KCountriesRoutingModule } from './gauntW40KCountries-routing.module';
-import { gauntW40KCountriesPageComponent } from './pages/gauntW40KCountries-page/gauntW40KCountries-page.component';
-import { gauntW40KCountriesComponent } from './components/gauntW40KCountries/gauntW40KCountries.component';
+import { galacticCentCountriesRoutingModule } from './galacticCentCountries-routing.module';
+import { galacticCentCountriesPageComponent } from './pages/galacticCentCountries-page/galacticCentCountries-page.component';
+import { galacticCentCountriesComponent } from './components/galacticCentCountries/galacticCentCountries.component';
 
 
 @NgModule({
   declarations: [
-    gauntW40KCountriesPageComponent,
-    gauntW40KCountriesComponent
+    galacticCentCountriesPageComponent,
+    galacticCentCountriesComponent
   ],
   imports: [
     CommonModule,
-    gauntW40KCountriesRoutingModule
+    galacticCentCountriesRoutingModule
   ]
 })
-export class gauntW40KCountriesModule { }
+export class galacticCentCountriesModule { }

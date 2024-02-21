@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { gauntW40KPlanetsPageComponent } from './pages/gauntW40KPlanets-page/gauntW40KPlanets-page.component';
+import { galacticCentPlanetsPageComponent } from './pages/galacticCentPlanets-page/galacticCentPlanets-page.component';
 import { verifyTokenGuard } from 'src/app/modules/auth/guards/verify-token.guard';
 
 const routes: Routes = [
   {
     path: '', children: [
       {
-      path: '', canActivate: [verifyTokenGuard],component: gauntW40KPlanetsPageComponent
+      path: '', canActivate: [verifyTokenGuard],component: galacticCentPlanetsPageComponent
       },
       {
         path: '**', redirectTo: '', pathMatch: 'full'
@@ -20,4 +20,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class gauntW40KPlanetsRoutingModule { }
+export class galacticCentPlanetsRoutingModule { }

@@ -1,21 +1,21 @@
-import { GauntW40KPlanet } from '../../interfaces/GauntW40KPlanets.interface';
-import { gauntW40KPlanetsService } from '../../services/gauntW40KPlanets.service';
+import { GalacticCentPlanet } from '../../interfaces/GalacticCentPlanets.interface';
+import { galacticCentPlanetsService } from '../../services/galacticCentPlanets.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-gauntW40KPlanets-page',
-  templateUrl: './gauntW40KPlanets-page.component.html',
-  styleUrls: ['./gauntW40KPlanets-page.component.css']
+  selector: 'app-galacticCentPlanets-page',
+  templateUrl: './galacticCentPlanets-page.component.html',
+  styleUrls: ['./galacticCentPlanets-page.component.css']
 })
-export class gauntW40KPlanetsPageComponent implements OnInit {
-  gauntW40KPlanets: GauntW40KPlanet[] = []
-  constructor(private gauntW40KPlanetService: gauntW40KPlanetsService ) {}
+export class galacticCentPlanetsPageComponent implements OnInit {
+  galacticCentPlanets: GalacticCentPlanet[] = []
+  constructor(private galacticCentPlanetService: galacticCentPlanetsService ) {}
 
 
   ngOnInit(){
-    this.gauntW40KPlanetService.getGauntW40KPlanets().subscribe({
-      next: (gauntW40KPlanets: GauntW40KPlanet[]) => {
-        this.gauntW40KPlanets = gauntW40KPlanets
+    this.galacticCentPlanetService.getGalacticCentPlanets().subscribe({
+      next: (galacticCentPlanets: GalacticCentPlanet[]) => {
+        this.galacticCentPlanets = galacticCentPlanets
       },
       error: () => {}
     })
