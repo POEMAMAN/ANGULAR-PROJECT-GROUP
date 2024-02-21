@@ -1,5 +1,5 @@
 
-import { DuneBook } from './../interfaces/DuneBooks.interface';
+import { DuneBook } from '../interfaces/DuneBooks.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class DuneBooksService {
+export class duneBooksService {
 
   
 

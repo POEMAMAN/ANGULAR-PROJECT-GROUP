@@ -1,4 +1,4 @@
-.duneBooks-container {
+.duneCharacters-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@ border-radius: 8px;
 object-fit: cover;
 }
 
-.description-duneBooks {
+.description-duneCharacters {
 text-align: center;
 color: #ffffff;
 }

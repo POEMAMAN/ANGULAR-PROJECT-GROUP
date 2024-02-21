@@ -10,17 +10,17 @@ const routes: Routes = [
     path: '',canActivate: [verifyTokenGuard], component: DuneUniverseComponent,
   },
   {
-    path: 'books', canActivate: [verifyTokenGuard],loadChildren: () => import('../dune-universe/duneBooks/duneBooks.module').then(m => m.DuneBooksModule),
+    path: 'books', canActivate: [verifyTokenGuard],loadChildren: () => import('../dune-universe/duneBooks/duneBooks.module').then(m => m.duneBooksModule),
   },
-  // {
-  //   path: 'characters', canActivate: [verifyTokenGuard],loadChildren: () => import('../complete-universe/expanse-universe/expanse-universe.module').then(m => m.ExpanseUniverseModule),
-  // },
-  // {
-  //   path: 'countries', canActivate: [verifyTokenGuard],loadChildren: () => import('../complete-universe/forever-war-universe/forever-war-universe.module').then(m => m.ForeverWarUniverseModule),
-  // },
-  // {
-  //   path: 'planets', canActivate: [verifyTokenGuard],loadChildren: () => import('../complete-universe/fundacion-universe/fundacion-universe.module').then(m => m.FundacionUniverseModule),
-  // },
+  {
+    path: 'characters', canActivate: [verifyTokenGuard],loadChildren: () => import('./duneCharacters/duneCharacters.module').then(m => m.duneCharactersModule),
+  },
+  {
+    path: 'countries', canActivate: [verifyTokenGuard],loadChildren: () => import('./duneCountries/duneCountries.module').then(m => m.duneCountriesModule),
+  },
+  {
+    path: 'planets', canActivate: [verifyTokenGuard],loadChildren: () => import('./dunePlanets/dunePlanets.module').then(m => m.dunePlanetsModule),
+  },
   {
     path: '**', redirectTo: '', pathMatch: 'full',
   }
