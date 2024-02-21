@@ -2,22 +2,26 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { OldManWarUniverseRoutingModule } from './old-man-war-universe-routing.module';
-// import { OldManWarBooksComponent } from './old-man-war-books/old-man-war-books.component';
-// import { OldManWarCharactersComponent } from './old-man-war-characters/old-man-war-characters.component';
-// import { OldManWarCountriesComponent } from './old-man-war-countries/old-man-war-countries.component';
-// import { OldManWarPlanetsComponent } from './old-man-war-planets/old-man-war-planets.component';
+import { oldManWarBooksModule } from './oldManWarBooks/oldManWarBooks.module';
+import { oldManWarCharactersModule } from './oldManWarCharacters/oldManWarCharacters.module';
+import { oldManWarCountriesModule } from './oldManWarCountries/oldManWarCountries.module';
+import { oldManWarPlanetsModule } from './oldManWarPlanets/oldManWarPlanets.module';
+import { OldManWarUniverseComponent } from './old-man-war-universe.component';
+
 
 
 @NgModule({
   declarations: [
-    // OldManWarBooksComponent,
-    // OldManWarCharactersComponent,
-    // OldManWarCountriesComponent,
-    // OldManWarPlanetsComponent
+    OldManWarUniverseComponent
+ 
   ],
   imports: [
     CommonModule,
-    OldManWarUniverseRoutingModule
+    OldManWarUniverseRoutingModule,
+    oldManWarBooksModule,
+    oldManWarCharactersModule,
+    oldManWarCountriesModule,
+    oldManWarPlanetsModule
   ]
 })
 export class OldManWarUniverseModule { }
