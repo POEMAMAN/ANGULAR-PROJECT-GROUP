@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { gauntW40KPlanetsRoutingModule } from './gauntW40KPlanets-routing.module';
-import { gauntW40KPlanetsComponent } from './components/gauntW40KPlanets/gauntW40KPlanets.component';
-import { gauntW40KPlanetsPageComponent } from './pages/gauntW40KPlanets-page/gauntW40KPlanets-page.component';
+import { fundacionPlanetsRoutingModule } from './fundacionPlanets-routing.module';
+import { fundacionPlanetsComponent } from './components/fundacionPlanets/fundacionPlanets.component';
+import { fundacionPlanetsPageComponent } from './pages/fundacionPlanets-page/fundacionPlanets-page.component';
 
 
 @NgModule({
   declarations: [
-    gauntW40KPlanetsPageComponent,
-    gauntW40KPlanetsComponent
+    fundacionPlanetsPageComponent,
+    fundacionPlanetsComponent
   ],
   imports: [
     CommonModule,
-    gauntW40KPlanetsRoutingModule
+    fundacionPlanetsRoutingModule
   ]
 })
-export class gauntW40KPlanetsModule { }
+export class fundacionPlanetsModule { }

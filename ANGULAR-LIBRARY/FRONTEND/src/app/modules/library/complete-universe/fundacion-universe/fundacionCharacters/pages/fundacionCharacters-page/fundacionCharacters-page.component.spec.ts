@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { gauntW40KCharactersPageComponent } from './gauntW40KCharacters-page.component';
+import { fundacionCharactersPageComponent } from './fundacionCharacters-page.component';
 
-describe('gauntW40KCharactersPageComponent', () => {
-  let component: gauntW40KCharactersPageComponent;
-  let fixture: ComponentFixture<gauntW40KCharactersPageComponent>;
+describe('fundacionCharactersPageComponent', () => {
+  let component: fundacionCharactersPageComponent;
+  let fixture: ComponentFixture<fundacionCharactersPageComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [gauntW40KCharactersPageComponent]
+      declarations: [fundacionCharactersPageComponent]
     });
-    fixture = TestBed.createComponent(gauntW40KCharactersPageComponent);
+    fixture = TestBed.createComponent(fundacionCharactersPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
