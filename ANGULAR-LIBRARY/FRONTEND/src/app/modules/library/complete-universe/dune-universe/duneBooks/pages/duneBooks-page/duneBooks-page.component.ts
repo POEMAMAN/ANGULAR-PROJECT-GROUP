@@ -1,5 +1,5 @@
-import { DuneBooksService } from './../../services/duneBooks.service';
 import { DuneBook } from '../../interfaces/DuneBooks.interface';
+import { duneBooksService } from '../../services/duneBooks.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './duneBooks-page.component.html',
   styleUrls: ['./duneBooks-page.component.css']
 })
-export class DuneBooksPageComponent implements OnInit {
-  books: DuneBook[] = []
-  constructor(private duneBooksService: DuneBooksService ) {}
+export class duneBooksPageComponent implements OnInit {
+  duneBooks: DuneBook[] = []
+  constructor(private duneBooksService: duneBooksService ) {}
 
 
   ngOnInit(){
     this.duneBooksService.getDuneBooks().subscribe({
-      next: (books: DuneBook[]) => {
-        this.books = books
+      next: (duneBooks: DuneBook[]) => {
+        this.duneBooks = duneBooks
       },
       error: () => {}
     })

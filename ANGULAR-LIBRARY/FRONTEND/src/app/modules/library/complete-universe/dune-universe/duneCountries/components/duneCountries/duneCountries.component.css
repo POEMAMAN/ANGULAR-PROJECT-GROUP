@@ -1,4 +1,4 @@
-.duneBooks-container {
+.duneCountries-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@ border-radius: 8px;
 object-fit: cover;
 }
 
-.description-duneBooks {
+.description-duneCountries {
 text-align: center;
 color: #ffffff;
 }

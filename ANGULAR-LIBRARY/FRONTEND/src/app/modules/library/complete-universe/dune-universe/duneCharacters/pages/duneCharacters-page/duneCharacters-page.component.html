@@ -1,0 +1,12 @@
+<div class="duneCharacter-list">
+  <div style="margin-top: 5px;" class="container">
+  </div>
+    <div class="card-container">
+      <div *ngFor="let duneCharacter of duneCharacters"  class="duneCharacter-list--duneCharacter">
+        <app-duneCharacters
+        [duneCharacter]="duneCharacter"></app-duneCharacters>
+      </div>
+    </div>
+  </div>
+
+
