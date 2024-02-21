@@ -1,1 +1,1 @@
-Biblioteca de Ciencia Ficcion con acceso a fichas de libros y una seccion especial con sesiones monograficas de diferentes universos de Ciencia Ficcion
+Biblioteca de Ciencia Ficcion con acceso a fichas de libros, informacion sobre autores, indice de premios del genero y recopilacion de sagas de ciencia ficcion. Ademas incluimos una una seccion especial con sesiones monograficas de diferentes universos de Ciencia Ficcion.
