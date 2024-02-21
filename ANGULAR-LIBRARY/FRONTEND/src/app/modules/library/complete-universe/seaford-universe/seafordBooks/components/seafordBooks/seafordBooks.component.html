@@ -1,0 +1,18 @@
+
+<div class="seafordBook-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',seafordBook._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', seafordBook._id]" >Eliminar</button>
+  </div>
+  <img [src]="seafordBook.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ seafordBook.title }}</h2>
+    <p class="short-text">{{ seafordBook.publication_year }}</p>
+    <p class="short-text">{{ seafordBook.saga }}</p>
+    <p class="short-text">{{ seafordBook.saga_index }}</p>
+    <p class="short-text">{{ seafordBook.universe }}</p>
+    <p class="short-text">{{ seafordBook.author }}</p>
+    <p class="short-text">{{ seafordBook.resume }}</p>
+  </div>
+</div>
+

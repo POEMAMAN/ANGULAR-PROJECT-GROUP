@@ -1,0 +1,20 @@
+
+<div class="seafordPlanet-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',seafordPlanet._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', seafordPlanet._id]" >Eliminar</button>
+  </div>
+  <img [src]="seafordPlanet.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ seafordPlanet.name }}</h2>
+    <p class="short-text">{{ seafordPlanet.settled}}</p>
+    <p class="short-text">{{ seafordPlanet.population}}</p>
+    <p class="short-text">{{ seafordPlanet.capital }}</p>
+    <p class="short-text">{{ seafordPlanet.location }}</p>
+    <p class="short-text">{{ seafordPlanet.gravity }}</p>
+    <p class="short-text">{{ seafordPlanet.country }}</p>
+    <p class="short-text">{{ seafordPlanet.moons }}</p>
+    <p class="short-text">{{ seafordPlanet.resume }}</p>
+  </div>
+</div>
+

@@ -8,6 +8,7 @@ import { RegisterFormComponent } from './components/register-form/register-form.
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { ConfirmUserPageComponent } from './pages/confirm-user-page/confirm-user-page.component';
+import { RouterLink, RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -16,13 +17,16 @@ import { ConfirmUserPageComponent } from './pages/confirm-user-page/confirm-user
     RegisterFormComponent,
     LoginPageComponent,
     RegisterPageComponent,
-    ConfirmUserPageComponent
+    ConfirmUserPageComponent,
+    
   ],
   imports: [
     CommonModule,
     AuthRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    RouterModule,
+    RouterLink
   ]
 })
 export class AuthModule { }

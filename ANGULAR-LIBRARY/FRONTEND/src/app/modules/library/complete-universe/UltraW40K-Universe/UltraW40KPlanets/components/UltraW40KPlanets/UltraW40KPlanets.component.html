@@ -1,0 +1,20 @@
+
+<div class="UltraW40KPlanet-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',UltraW40KPlanet._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', UltraW40KPlanet._id]" >Eliminar</button>
+  </div>
+  <img [src]="UltraW40KPlanet.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ UltraW40KPlanet.name }}</h2>
+    <p class="short-text">{{ UltraW40KPlanet.settled}}</p>
+    <p class="short-text">{{ UltraW40KPlanet.population}}</p>
+    <p class="short-text">{{ UltraW40KPlanet.capital }}</p>
+    <p class="short-text">{{ UltraW40KPlanet.location }}</p>
+    <p class="short-text">{{ UltraW40KPlanet.gravity }}</p>
+    <p class="short-text">{{ UltraW40KPlanet.country }}</p>
+    <p class="short-text">{{ UltraW40KPlanet.moons }}</p>
+    <p class="short-text">{{ UltraW40KPlanet.resume }}</p>
+  </div>
+</div>
+
