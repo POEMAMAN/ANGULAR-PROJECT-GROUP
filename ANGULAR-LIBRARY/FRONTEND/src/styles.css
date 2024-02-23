@@ -7,6 +7,17 @@
   font-family: 'Cyborg';
   src: url('./assets/fonts/cyborg_punk/CyborgPunk.ttf');
 }
+@font-face {
+  font-family: 'Race-guard';
+  src: url('./assets/fonts//race-guard-font//RaceGuard-7BPoE.otf');
+}
+
+h1{
+  font-family: 'Cyborg';
+}
+h2{
+  font-family: 'Race-guard';
+}
 .form-group {
   margin-bottom: 15px;
 }
@@ -166,15 +177,8 @@ h1 {
   line-height: 1.1;
 }
 
-/*Header*/
-.header-logout{
-  top: 3%;
-  position: relative;
-  display: flex;
-  align-items: baseline;
 
-  
-}
+
 
 /* .container-session {
   display: flex;
