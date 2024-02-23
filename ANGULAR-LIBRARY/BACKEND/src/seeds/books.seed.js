@@ -9,9 +9,9 @@ const arrayBooks = [
   {
     title: 'The Last Question',
     publication_year: 1956,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'Isaac Asimov',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701978163/APISCIFI/BOOKS/The%20Last%20Question.jpg',
@@ -19,9 +19,9 @@ const arrayBooks = [
   {
     title: 'NigthFall',
     publication_year: 1941,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'Isaac Asimov',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977496/APISCIFI/BOOKS/NigthFall.jpg',
@@ -29,9 +29,9 @@ const arrayBooks = [
   {
     title: 'Nemesis',
     publication_year: 1989,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'Isaac Asimov',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977851/APISCIFI/BOOKS/Nemesis.jpg',
@@ -39,9 +39,9 @@ const arrayBooks = [
   {
     title: 'The gods themselves',
     publication_year: 1972,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'Isaac Asimov',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977944/APISCIFI/BOOKS/Los%20Propios%20Dioses.jpg',
@@ -60,7 +60,7 @@ const arrayBooks = [
     title: 'Bicentenary Man',
     publication_year: 1976,
     saga: 'Robot',
-    saga_index: null,
+    saga_index: 0,
     universe: 'Foundation',
     author: 'Isaac Asimov',
     picture:
@@ -70,7 +70,7 @@ const arrayBooks = [
     title: 'Positronic Man',
     publication_year: 1992,
     saga: 'Robot',
-    saga_index: null,
+    saga_index: 0,
     universe: 'Foundation',
     author: 'Isaac Asimov',
     picture:
@@ -299,9 +299,9 @@ const arrayBooks = [
   {
     title: 'The Practice Effect',
     publication_year: 1984,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'David Brin',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701978216/APISCIFI/BOOKS/Efecto%20Practica.jpg',
@@ -309,9 +309,9 @@ const arrayBooks = [
   {
     title: 'Earth',
     publication_year: 1990,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'David Brin',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977603/APISCIFI/BOOKS/Earth.jpg',
@@ -379,9 +379,9 @@ const arrayBooks = [
   {
     title: 'The Postman',
     publication_year: 1985,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: "0",
+    universe: "None",
     author: 'David Brin',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701978205/APISCIFI/BOOKS/El%20Cartero.jpg',
@@ -480,7 +480,7 @@ const arrayBooks = [
     title: 'Auberon',
     publication_year: 2022,
     saga: 'The Expanse',
-    saga_index: null,
+    saga_index: 0,
     universe: 'The Expanse',
     author: 'James S. A. Corey',
     picture:
@@ -549,9 +549,9 @@ const arrayBooks = [
   {
     title: 'Redshirts',
     publication_year: 2012,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'John Scalzi',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977956/APISCIFI/BOOKS/Redshirts.jpg',
@@ -559,9 +559,9 @@ const arrayBooks = [
   {
     title: 'Fuzzy Nation',
     publication_year: 2011,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'John Scalzi',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701977738/APISCIFI/BOOKS/Fuzy%20Nation.jpg',
@@ -569,9 +569,9 @@ const arrayBooks = [
   {
     title: 'The Dispatcher',
     publication_year: 2016,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'John Scalzi',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701978093/APISCIFI/BOOKS/The%20Dispatcher.jpg',
@@ -579,9 +579,9 @@ const arrayBooks = [
   {
     title: 'Starter Villain',
     publication_year: 2023,
-    saga: null,
-    saga_index: null,
-    universe: null,
+    saga: "Not saga",
+    saga_index: 0,
+    universe: "None",
     author: 'John Scalzi',
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1701978028/APISCIFI/BOOKS/Starter%20Villain.jpg',
@@ -878,12 +878,12 @@ const arrayBooks = [
   },
   {
     title: "Hope Rearmed/Galahad's Hope",
-    publication_year: 'Not Published',
+    publication_year: 2005,
     saga: 'Seafort Saga',
     saga_index: 8,
     universe: 'Seafort Saga',
     author: 'David Feintuch',
-    picture: null,
+    picture: "https://res.cloudinary.com/dqfaa272n/image/upload/v1708061308/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/notImgBook_qmihgr.jpg",
   },
   {
     title: 'First and Only',
@@ -1162,7 +1162,7 @@ const arrayBooks = [
     saga_index: 6,
     universe: "Ender's Game",
     author: 'Orson Scott Card',
-    picture: null,
+    picture: "https://res.cloudinary.com/dqfaa272n/image/upload/v1708061308/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/notImgBook_qmihgr.jpg",
   },
   {
     title: 'Earth Unaware',
@@ -1251,7 +1251,7 @@ const arrayBooks = [
     saga_index: 3,
     universe: "Ender's Game",
     author: 'Orson Scott Card',
-    picture: null,
+    picture: "https://res.cloudinary.com/dqfaa272n/image/upload/v1708061308/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/notImgBook_qmihgr.jpg",
   },
   {
     title: 'Hyperion',
@@ -1689,7 +1689,7 @@ const arrayBooks = [
 ];
 
 mongoose
-  .connect(DB_URL)
+  .connect("mongodb+srv://dcpousa:Cunado1978@angular-library.cnzt7z4.mongodb.net/?retryWrites=true&w=majority")
     // Para que funcione hay que poner la URL en String, da fallo la importacion
   .then(async () => {
     const allBooks = await Book.find();
