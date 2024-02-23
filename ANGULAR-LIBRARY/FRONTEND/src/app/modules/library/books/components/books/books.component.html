@@ -4,14 +4,16 @@
       <button [routerLink]="['/admin/edit-product', book._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', book._id]" >Eliminar</button>
   </div>
-  <img [src]="book.picture" />
-  <div class="description-book">
-    <h2 class="short-tittle">{{ book.title }}</h2>
-    <p class="short-text">{{ book.publication_year }}</p>
-    <p class="short-text">{{ book.saga }}</p>
-    <p class="short-text">{{ book.saga_index }}</p>
-    <p class="short-text">{{ book.universe }}</p>
-    <p class="short-text">{{ book.author }}</p>
+  <div class="book-container-img">
+    <img [src]="book.picture" />
+  </div>
+  <div class="book-container-description">
+    <h2 class="book-container-description-h2">{{ book.title }}</h2>
+    <p class="book-container-description-p">{{ book.publication_year }}</p>
+    <p class="book-container-description-p">{{ book.saga }}</p>
+    <p class="book-container-description-p">{{ book.saga_index }}</p>
+    <p class="book-container-description-p">{{ book.universe }}</p>
+    <p class="book-container-description-p">{{ book.author }}</p>
   </div>
 </div>
 
