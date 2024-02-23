@@ -10,4 +10,7 @@
   <div *ngIf="isTokenPresent()">
     <button [routerLink]="'/library/completeUniverse'">Ir a Universos Completos</button>
   </div>
+  <div *ngIf="isTokenPresent() && userData">
+    <p class="Logout-logged">User Logged IN: {{ userData.email }}</p>
+  </div>
 </div>
