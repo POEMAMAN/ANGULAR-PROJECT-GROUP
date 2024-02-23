@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708061309/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/BackgroundCardsBooksLibrary_o9sb9w.jpg");
+  border-radius: 45px;
 
 }
 .book-container-img{
@@ -12,8 +13,8 @@
 }
 img {
 width: 200px;
-height: 200px;
-border-radius: 45px;
+height: 300px;
+border-radius: 20px;
 object-fit: cover;
 }
 
