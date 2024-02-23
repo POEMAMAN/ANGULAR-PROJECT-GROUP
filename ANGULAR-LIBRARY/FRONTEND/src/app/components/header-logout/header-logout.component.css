@@ -1,3 +1,9 @@
+.header-title{
+    display: flex;
+    font-family: 'Cyborg';
+    color: #45eeee;
+    box-shadow: 10px 5px 5px #45eeee;
+}
 .Logout-logged {
     font-size: small;
 }

@@ -3,6 +3,10 @@
 
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+  font-family: 'Cyborg';
+  src: url('./assets/fonts/cyborg_punk/CyborgPunk.ttf');
+}
 .form-group {
   margin-bottom: 15px;
 }
