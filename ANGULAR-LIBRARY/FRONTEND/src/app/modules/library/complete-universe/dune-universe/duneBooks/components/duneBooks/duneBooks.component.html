@@ -1,18 +1,21 @@
 
-<div class="duneBook-container">
+<div class="duneBooks-container">
   <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',duneBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', duneBook._id]" >Eliminar</button>
   </div>
+  <div class="duneBooks-container-img">
   <img [src]="duneBook.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ duneBook.title }}</h2>
-    <p class="short-text">{{ duneBook.publication_year }}</p>
-    <p class="short-text">{{ duneBook.saga }}</p>
-    <p class="short-text">{{ duneBook.saga_index }}</p>
-    <p class="short-text">{{ duneBook.universe }}</p>
-    <p class="short-text">{{ duneBook.author }}</p>
-    <p class="short-text">{{ duneBook.resume }}</p>
+</div>
+  <div class="duneBooks-container-description">
+    <h2 class="duneBooks-container-description-h2">{{ duneBook.title }}</h2>
+    <p class="duneBooks-container-description-p">{{ duneBook.publication_year }}</p>
+    <!-- <p class="duneBooks-container-description-p">{{ duneBook. }}</p> -->
+    <p class="duneBooks-container-description-p">{{ duneBook.saga }}</p>
+    <p class="duneBooks-container-description-p">{{ duneBook.saga_index }}</p>
+    <p class="duneBooks-container-description-p">{{ duneBook.universe }}</p>
+    <p class="duneBooks-container-description-p">{{ duneBook.author }}</p>
+    <p class="duneBooks-container-description-p">{{ duneBook.resume }}</p>
   </div>
 </div>
 

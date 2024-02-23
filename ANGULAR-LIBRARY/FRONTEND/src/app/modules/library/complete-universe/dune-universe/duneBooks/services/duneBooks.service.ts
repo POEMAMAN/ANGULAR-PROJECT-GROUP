@@ -16,4 +16,5 @@ export class duneBooksService {
   getDuneBooks(){
       return this.http.get<DuneBook[]>('http://localhost:8084/universes/dune/books')
   }
+
 }
