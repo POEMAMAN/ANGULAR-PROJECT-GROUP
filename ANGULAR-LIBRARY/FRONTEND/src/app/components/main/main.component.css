@@ -9,17 +9,23 @@
     font-family: 'Race-guard';
 }
 .main-parragraph{
-    font-size: 150%;
+    font-size: 135%;
 }
 .main-menu{
     display: flex;
-    margin: 0 20vw 0 5vw;
+    justify-content: center;
+}
+.main-menu-button{
+    display: flex;
+    margin: 0 5% 0 0;
 }
 
 
 
 
 @media (min-width: 400px)  {
-
-
+   
+}
+@media (min-width: 700px)  {
+ 
 }

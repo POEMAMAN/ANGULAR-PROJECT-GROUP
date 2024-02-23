@@ -5,7 +5,7 @@ import { jwtDecode } from 'jwt-decode';
 @Component({
   selector: 'app-header-logout',
   templateUrl: './header-logout.component.html',
-  styleUrls: ['./header-logout.component.css']
+  styleUrls: ['./header-logout.component.scss']
 })
 export class HeaderLogoutComponent implements OnInit{
   userData: any;
