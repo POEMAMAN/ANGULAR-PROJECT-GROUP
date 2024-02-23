@@ -2,7 +2,8 @@
   <div style="margin-top: 5px;" class="container">
   </div>
     <div class="card-container">
-      <div *ngFor="let duneBook of duneBooks" {{i+1}} {{duneBook}} class="duneBook-list--duneBook">
+      <!-- {{i+1}} {{duneBook}}  -->
+      <div *ngFor="let duneBook of duneBooks"class="duneBook-list--duneBook">
         <app-duneBooks
         [duneBook]="duneBook">
         <!-- Object.keys(duneBooks)[i] -->
