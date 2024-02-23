@@ -1,0 +1,7 @@
+.Logout-logged {
+    font-size: small;
+}
+.header-logout {
+    display: flex;
+    justify-content: space-between;
+}
