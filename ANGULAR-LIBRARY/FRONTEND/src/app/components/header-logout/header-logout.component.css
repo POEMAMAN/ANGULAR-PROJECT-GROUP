@@ -2,12 +2,23 @@
     display: flex;
     font-family: 'Cyborg';
     color: #45eeee;
-    box-shadow: 10px 5px 5px #45eeee;
+    text-shadow: 8px 5px 10px #45eeee;
+    font-size: 62%;
+    justify-content: center;
 }
 .Logout-logged {
     font-size: small;
 }
 .header-logout {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 50vw;
+    margin: 0 25vw 0 25vw;
+}
+@media (min-width: 400px)  {
+    .header-title{
+        font-size: 25%;
+    }
+
+
 }
