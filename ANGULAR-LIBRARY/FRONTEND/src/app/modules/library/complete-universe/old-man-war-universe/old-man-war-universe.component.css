@@ -1,0 +1,18 @@
+.container-library-completeUniverse-routes {
+    background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708718200/OLD%20MAN%20WARS/FONDOS/rI0OUEjud3Eqbc7jisPGkg50kPd7nKDxhwYkf5hWOiw_ih4yjj.webp");
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    /* height: 100vh; */
+    padding: 0 0 0 25%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .container-library-completeUniverse-button {
+    width: 60%;
+    height: 60%;
+  }
+  /* "class="container-library-completeUniverse-button" */
