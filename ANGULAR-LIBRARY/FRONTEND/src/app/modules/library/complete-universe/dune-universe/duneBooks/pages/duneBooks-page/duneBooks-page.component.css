@@ -10,6 +10,7 @@
   justify-content: center;
   max-width: 1200px;
   margin: 20px auto;
+  
 }
 
 .duneBook-list--duneBook {
@@ -19,5 +20,6 @@
   border-radius: 8px;
   padding: 15px;
   box-sizing: border-box;
+
 }
 
