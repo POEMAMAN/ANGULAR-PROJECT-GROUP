@@ -26,6 +26,9 @@ label {
   display: block;
   margin-bottom: 5px;
 }
+ul {
+  list-style-type: none;
+}
 
 /* input {
   width: 100%;
