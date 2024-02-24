@@ -1,18 +1,18 @@
 
 <div class="forEverWarBook-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="forEverWarBooks-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',forEverWarBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', forEverWarBook._id]" >Eliminar</button>
   </div>
-  <img [src]="forEverWarBook.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ forEverWarBook.title }}</h2>
-    <p class="short-text">{{ forEverWarBook.publication_year }}</p>
-    <p class="short-text">{{ forEverWarBook.saga }}</p>
-    <p class="short-text">{{ forEverWarBook.saga_index }}</p>
-    <p class="short-text">{{ forEverWarBook.universe }}</p>
-    <p class="short-text">{{ forEverWarBook.author }}</p>
-    <p class="short-text">{{ forEverWarBook.resume }}</p>
+  <img class="forEverWarBooks-container-img" [src]="forEverWarBook.picture" />
+  <div class="forEverWarBooks-container-description">
+    <h2 class="forEverWarBooks-container-h2">{{ forEverWarBook.title }}</h2>
+    <p class="forEverWarBooks-container-p">{{ forEverWarBook.publication_year }}</p>
+    <p class="forEverWarBooks-container-p">{{ forEverWarBook.saga }}</p>
+    <p class="forEverWarBooks-container-p">{{ forEverWarBook.saga_index }}</p>
+    <p class="forEverWarBooks-container-p">{{ forEverWarBook.universe }}</p>
+    <p class="forEverWarBooks-container-p">{{ forEverWarBook.author }}</p>
+    <p class="forEverWarBooks-container-p">{{ forEverWarBook.resume }}</p>
   </div>
 </div>
 

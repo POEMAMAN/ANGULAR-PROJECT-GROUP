@@ -1,18 +1,18 @@
 
 <div class="forEverWarCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="forEverWarCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',forEverWarCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', forEverWarCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="forEverWarCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ forEverWarCharacter.name }}</h2>
-    <p class="short-text">{{ forEverWarCharacter.profession }}</p>
-    <p class="short-text">{{ forEverWarCharacter.rank }}</p>
-    <p class="short-text">{{ forEverWarCharacter.birthday }}</p>
-    <p class="short-text">{{ forEverWarCharacter.planet }}</p>
-    <p class="short-text">{{ forEverWarCharacter.country }}</p>
-    <p class="short-text">{{ forEverWarCharacter.resume }}</p>
+  <img class="forEverWarCharacters-container-img" [src]="forEverWarCharacter.picture" />
+  <div class="forEverWarCharacters-container-description">
+    <h2 class="forEverWarCharacters-container-h2">{{ forEverWarCharacter.name }}</h2>
+    <p class="forEverWarCharacters-container-p">{{ forEverWarCharacter.profession }}</p>
+    <p class="forEverWarCharacters-container-p">{{ forEverWarCharacter.rank }}</p>
+    <p class="forEverWarCharacters-container-p">{{ forEverWarCharacter.birthday }}</p>
+    <p class="forEverWarCharacters-container-p">{{ forEverWarCharacter.planet }}</p>
+    <p class="forEverWarCharacters-container-p">{{ forEverWarCharacter.country }}</p>
+    <p class="forEverWarCharacters-container-p">{{ forEverWarCharacter.resume }}</p>
   </div>
 </div>
 

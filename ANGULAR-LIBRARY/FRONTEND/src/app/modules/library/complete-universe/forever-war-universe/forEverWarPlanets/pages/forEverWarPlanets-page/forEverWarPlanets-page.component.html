@@ -1,8 +1,8 @@
-<div class="forEverWarPlanet-list">
+<div class="forEverWarPlanet-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let forEverWarPlanet of forEverWarPlanets"  class="forEverWarPlanet-list--forEverWarPlanet">
+  <div class="forEverWarPlanet-container-list-card">
+      <div *ngFor="let forEverWarPlanet of forEverWarPlanets"  class="forEverWarPlanet-container-list-card-item">
         <app-forEverWarPlanets
         [forEverWarPlanet]="forEverWarPlanet"></app-forEverWarPlanets>
       </div>

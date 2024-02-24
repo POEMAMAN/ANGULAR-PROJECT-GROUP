@@ -1,8 +1,8 @@
-<div class="forEverWarCharacter-list">
+<div class="forEverWarCharacter-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let forEverWarCharacter of forEverWarCharacters"  class="forEverWarCharacter-list--forEverWarCharacter">
+  <div class="forEverWarCharacter-container-list-card">
+      <div *ngFor="let forEverWarCharacter of forEverWarCharacters"  class="forEverWarCharacter-container-list-card-item">
         <app-forEverWarCharacters
         [forEverWarCharacter]="forEverWarCharacter"></app-forEverWarCharacters>
       </div>

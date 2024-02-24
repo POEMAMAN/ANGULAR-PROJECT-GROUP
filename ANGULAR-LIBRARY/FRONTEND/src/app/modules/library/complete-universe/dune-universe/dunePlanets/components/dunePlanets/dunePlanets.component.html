@@ -1,20 +1,20 @@
 
 <div class="dunePlanet-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="dunePlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',dunePlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', dunePlanet._id]" >Eliminar</button>
   </div>
-  <img [src]="dunePlanet.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ dunePlanet.name }}</h2>
-    <p class="short-text">{{ dunePlanet.settled}}</p>
-    <p class="short-text">{{ dunePlanet.population}}</p>
-    <p class="short-text">{{ dunePlanet.capital }}</p>
-    <p class="short-text">{{ dunePlanet.location }}</p>
-    <p class="short-text">{{ dunePlanet.gravity }}</p>
-    <p class="short-text">{{ dunePlanet.country }}</p>
-    <p class="short-text">{{ dunePlanet.moons }}</p>
-    <p class="short-text">{{ dunePlanet.resume }}</p>
+  <img class="dunePlanets-container-img" [src]="dunePlanet.picture" />
+  <div class="dunePlanets-container-description">
+    <h2 class="dunePlanets-container-h2">{{ dunePlanet.name }}</h2>
+    <p class="dunePlanets-container-p">{{ dunePlanet.settled}}</p>
+    <p class="dunePlanets-container-p">{{ dunePlanet.population}}</p>
+    <p class="dunePlanets-container-p">{{ dunePlanet.capital }}</p>
+    <p class="dunePlanets-container-p">{{ dunePlanet.location }}</p>
+    <p class="dunePlanets-container-p">{{ dunePlanet.gravity }}</p>
+    <p class="dunePlanets-container-p">{{ dunePlanet.country }}</p>
+    <p class="dunePlanets-container-p">{{ dunePlanet.moons }}</p>
+    <p class="dunePlanets-container-p">{{ dunePlanet.resume }}</p>
   </div>
 </div>
 

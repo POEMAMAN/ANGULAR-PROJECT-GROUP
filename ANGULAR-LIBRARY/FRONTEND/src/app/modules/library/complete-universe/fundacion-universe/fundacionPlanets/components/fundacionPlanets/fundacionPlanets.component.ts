@@ -5,7 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-fundacionPlanets',
   templateUrl: './fundacionPlanets.component.html',
-  styleUrls: ['./fundacionPlanets.component.css']
+  styleUrls: ['./fundacionPlanets.component.scss']
 })
 export class fundacionPlanetsComponent implements OnInit {
 @Input() fundacionPlanet: any

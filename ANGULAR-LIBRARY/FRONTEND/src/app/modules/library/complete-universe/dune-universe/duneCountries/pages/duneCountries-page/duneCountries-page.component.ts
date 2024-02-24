@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-duneCountries-page',
   templateUrl: './duneCountries-page.component.html',
-  styleUrls: ['./duneCountries-page.component.css']
+  styleUrls: ['./duneCountries-page.component.scss']
 })
 export class duneCountriesPageComponent implements OnInit {
   duneCountries: DuneCountrie[] = []

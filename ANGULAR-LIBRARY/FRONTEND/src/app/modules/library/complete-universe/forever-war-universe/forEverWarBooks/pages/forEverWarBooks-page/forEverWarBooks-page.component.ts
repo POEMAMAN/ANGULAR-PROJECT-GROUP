@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-forEverWarBooks-page',
   templateUrl: './forEverWarBooks-page.component.html',
-  styleUrls: ['./forEverWarBooks-page.component.css']
+  styleUrls: ['./forEverWarBooks-page.component.scss']
 })
 export class forEverWarBooksPageComponent implements OnInit {
   forEverWarBooks: ForEverWarBook[] = []

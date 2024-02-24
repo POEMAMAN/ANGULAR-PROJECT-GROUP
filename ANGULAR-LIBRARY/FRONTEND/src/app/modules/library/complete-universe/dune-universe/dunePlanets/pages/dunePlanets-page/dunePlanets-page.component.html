@@ -1,8 +1,8 @@
-<div class="dunePlanet-list">
+<div class="dunePlanet-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let dunePlanet of dunePlanets"  class="dunePlanet-list--dunePlanet">
+  <div class="dunePlanet-container-list-card">
+      <div *ngFor="let dunePlanet of dunePlanets"  class="dunePlanet-container-list-card-item">
         <app-dunePlanets
         [dunePlanet]="dunePlanet"></app-dunePlanets>
       </div>
