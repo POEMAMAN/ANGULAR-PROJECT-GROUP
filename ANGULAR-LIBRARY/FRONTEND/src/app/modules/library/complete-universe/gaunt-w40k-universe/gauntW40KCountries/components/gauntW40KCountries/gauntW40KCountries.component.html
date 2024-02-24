@@ -1,16 +1,16 @@
 
 <div class="gauntW40KCountrie-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="gauntW40KCountries-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',gauntW40KCountrie._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', gauntW40KCountrie._id]" >Eliminar</button>
   </div>
-  <img [src]="gauntW40KCountrie.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ gauntW40KCountrie.name }}</h2>
-    <p class="short-text">{{ gauntW40KCountrie.clan }}</p>
-    <p class="short-text">{{ gauntW40KCountrie.foundatorSpecie }}</p>
-    <p class="short-text">{{ gauntW40KCountrie.clientSpecie}}</p>
-    <p class="short-text">{{ gauntW40KCountrie.resume }}</p>
+  <img class="gauntW40KCountries-container-img" [src]="gauntW40KCountrie.picture" />
+  <div class="gauntW40KCountries-container-description">
+    <h2 class="gauntW40KCountries-container-h2">{{ gauntW40KCountrie.name }}</h2>
+    <p class="gauntW40KCountries-container-p">{{ gauntW40KCountrie.clan }}</p>
+    <p class="gauntW40KCountries-container-p">{{ gauntW40KCountrie.foundatorSpecie }}</p>
+    <p class="gauntW40KCountries-container-p">{{ gauntW40KCountrie.clientSpecie}}</p>
+    <p class="gauntW40KCountries-container-p">{{ gauntW40KCountrie.resume }}</p>
   </div>
 </div>
 

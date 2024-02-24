@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-gauntW40KCountries-page',
   templateUrl: './gauntW40KCountries-page.component.html',
-  styleUrls: ['./gauntW40KCountries-page.component.css']
+  styleUrls: ['./gauntW40KCountries-page.component.scss']
 })
 export class gauntW40KCountriesPageComponent implements OnInit {
   gauntW40KCountries: GauntW40KCountrie[] = []
