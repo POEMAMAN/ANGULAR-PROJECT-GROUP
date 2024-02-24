@@ -196,14 +196,10 @@ html {
   -o-background-size: cover;
 }
 
-/* ul {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  list-style-type: none;
-} */
-/* 
+ul{
+  list-style-type: none
+}
+
   li {
     padding: 6px 0;
 

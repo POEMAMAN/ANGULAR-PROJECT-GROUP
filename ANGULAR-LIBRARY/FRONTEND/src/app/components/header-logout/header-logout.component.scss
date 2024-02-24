@@ -2,7 +2,8 @@
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 9999; 
+    z-index: 1;
+    margin-bottom: 10%;
     &-title{
         display: flex;
         font-family: 'Cyborg';
@@ -51,3 +52,30 @@
         font-size: 48%;
     }
 }
+@media (min-width: 1200px)  {
+    .header-title{
+        font-size: 58%;
+    }
+}
+@media (min-width: 1400px)  {
+    .header-title{
+        font-size: 68%;
+    }
+}
+@media (min-width: 1600px)  {
+    .header-title{
+        font-size: 78%;
+    }
+}
+@media (min-width: 1800px)  {
+    .header-title{
+        font-size: 88%;
+    }
+}
+
+@media (min-width: 2000px)  {
+    .header-title{
+        font-size: 98%;
+    }
+}
+
