@@ -1,0 +1,90 @@
+.library-container {
+    display: flex;
+    ///BARRA DESLIZADORA
+    margin: 1rem auto;
+    border: 1px solid #aaa;
+    overflow:auto;
+    box-sizing: border-box;
+    padding:0 1rem;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width:thin;
+    ///
+    &-ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+        width: 90vw;
+        padding: 0;
+        &-li{
+            width: 35%;
+            &-button-image{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+@media (min-width: 400px)  {
+
+    }
+@media (min-width: 600px)  {
+    .library-container-ul-li-button-image{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (min-width: 800px)  {
+    .header-title{
+        font-size: 38%;
+    }
+    .library-container-ul-li-button-image{
+        width: 300px;
+        height: 300px;
+    } 
+}
+@media (min-width: 1000px)  {
+    .library-container-ul-li-button-image{
+        width: 400px;
+        height: 400px;
+    } 
+ }
+ @media (min-width: 1200px)  {
+    .library-container-ul-li-button-image{
+        width: 500px;
+        height: 500px;
+    } 
+ } 
+ @media (min-width: 1400px)  {
+    .library-container-ul-li-button-image{
+        width: 600px;
+        height: 600px;
+    } 
+ } 
+ @media (min-width: 1600px)  {
+    .library-container-ul-li-button-image{
+        width: 700px;
+        height: 700px;
+    } 
+ } 
+ @media (min-width: 1800px)  {
+    .library-container-ul-li-button-image{
+        width: 800px;
+        height: 800px;
+    } 
+ } 
+ @media (min-width: 2000px)  {
+    .library-container-ul-li-button-image{
+        width: 900px;
+        height: 900px;
+    } 
+ } 
+ @media (min-width: 2200px)  {
+    .library-container-ul-li-button-image{
+        width: 1000px;
+        height: 1000px;
+    } 
+ } 
