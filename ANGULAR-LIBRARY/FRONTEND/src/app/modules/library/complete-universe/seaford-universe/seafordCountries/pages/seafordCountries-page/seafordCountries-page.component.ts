@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-seafordCountries-page',
   templateUrl: './seafordCountries-page.component.html',
-  styleUrls: ['./seafordCountries-page.component.css']
+  styleUrls: ['./seafordCountries-page.component.scss']
 })
 export class seafordCountriesPageComponent implements OnInit {
   seafordCountries: SeafordCountrie[] = []
