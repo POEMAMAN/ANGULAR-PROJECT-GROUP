@@ -1,7 +1,8 @@
+
 .award-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  
   margin: 1rem auto;
   border: 1px solid #aaa;
   overflow:auto;
@@ -9,6 +10,7 @@
   padding:0 1rem;
   scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
   scrollbar-width:thin;
+
 }
 
 .card-container {
@@ -20,11 +22,59 @@
 }
 
 .award-list--award {
-  background-color: #037bc0;
-  width: 300px;
+  width: 400px;
   margin: 10px;
-  border-radius: 8px;
+  border-radius: 30px;
   padding: 15px;
   box-sizing: border-box;
+  height: 1300px;
+  background: url('https://res.cloudinary.com/dqfaa272n/image/upload/v1705867218/APISCIFI/AWARDS/_38e4847d-3502-4eda-ba90-62dda515e320_rlodmu.jpg');
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 400px)  {
+   
+}
+@media (min-width: 600px)  {
+
+}
+@media (min-width: 800px)  {
+  
+}
+@media (min-width: 1000px)  {
+ 
+}
+@media (min-width: 1200px)  {
+  .award-list--award {
+    width: 500px;
+    height: 1225px;
+  }
+}
+@media (min-width: 1400px)  {
+  .award-list--award {
+    width: 550px;
+    height: 1150px;
+  }
+}
+@media (min-width: 1600px)  {
+
+}
+@media (min-width: 1800px)  {
+  .award-list--award {
+    width: 600px;
+    height: 1300px;
+  }
+}
+@media (min-width: 2000px)  {
+  .award-list--award {
+    width: 650px;
+    height: 1200px;
+  }
+}
+@media (min-width: 2200px)  {
+  .award-list--award {
+    width: 650px;
+    height: 1100px;
+  }
 }
 
