@@ -1,0 +1,48 @@
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  }
+  .white {
+    color:white
+    }
+.book-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708061309/APISCIFI/FONDOS%20PRINCIPALES%20Y%20OBJETOS/BackgroundCardsBooksLibrary_o9sb9w.jpg");
+  border-radius: 45px;
+    &-img{
+      object-fit: cover;
+      margin-top: 10%;
+    }
+    &-description {
+      text-align: center;
+      color: #ffffff;
+      &-h2 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        max-height: calc(1.5em * 4);
+        -webkit-line-clamp: 1;
+        text-decoration: underline;
+        color: white;
+      }
+      &-p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        max-height: calc(1.5em * 4);
+        -webkit-line-clamp: 4;
+        color: white;
+      }
+    }
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
