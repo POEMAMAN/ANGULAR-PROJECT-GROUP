@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-seafordBooks-page',
   templateUrl: './seafordBooks-page.component.html',
-  styleUrls: ['./seafordBooks-page.component.css']
+  styleUrls: ['./seafordBooks-page.component.scss']
 })
 export class seafordBooksPageComponent implements OnInit {
   seafordBooks: SeafordBook[] = []
