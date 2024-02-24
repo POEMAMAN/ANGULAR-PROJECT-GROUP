@@ -7,7 +7,7 @@ import { oldManWarCountriesService } from '../../services/oldManWarCountries.ser
 @Component({
   selector: 'app-oldManWarCountries-page',
   templateUrl: './oldManWarCountries-page.component.html',
-  styleUrls: ['./oldManWarCountries-page.component.css']
+  styleUrls: ['./oldManWarCountries-page.component.scss']
 })
 export class oldManWarCountriesPageComponent implements OnInit {
   oldManWarCountries: OldManWarCountrie[] = []
