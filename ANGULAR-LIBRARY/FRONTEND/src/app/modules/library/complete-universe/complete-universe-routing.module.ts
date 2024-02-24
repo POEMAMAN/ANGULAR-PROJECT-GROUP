@@ -31,7 +31,7 @@ const routes: Routes = [
     path: 'gauntW40K', canActivate: [verifyTokenGuard],loadChildren: () => import('../complete-universe/gaunt-w40k-universe/gaunt-w40k-universe.module').then(m => m.GauntW40KUniverseModule),
   },
   {
-    path: 'honoverse', canActivate: [verifyTokenGuard],loadChildren: () => import('../complete-universe/honorverse-universe/honorverse-universe.module').then(m => m.HonorverseUniverseModule),
+    path: 'honorverse', canActivate: [verifyTokenGuard],loadChildren: () => import('../complete-universe/honorverse-universe/honorverse-universe.module').then(m => m.HonorverseUniverseModule),
   },
   {
     path: 'oldManWar', canActivate: [verifyTokenGuard],loadChildren: () => import('../complete-universe/old-man-war-universe/old-man-war-universe.module').then(m => m.OldManWarUniverseModule),

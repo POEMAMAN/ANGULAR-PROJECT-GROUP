@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DuneUniverseRoutingModule } from './dune-universe-routing.module';
 import { DuneUniverseComponent } from './dune-universe.component';
-// import { DuneBooksComponent } from './books/components/books/books.component';
-// import { DuneCharactersComponent } from './dune-characters/dune-characters.component';
-// import { DuneCountriesComponent } from './dune-countries/dune-countries.component';
-// import { DunePlanetsComponent } from './dune-planets/dune-planets.component';
+import { duneBooksModule } from './duneBooks/duneBooks.module';
+import { duneCharactersModule } from './duneCharacters/duneCharacters.module';
+import { duneCountriesModule } from './duneCountries/duneCountries.module';
+import { dunePlanetsModule } from './dunePlanets/dunePlanets.module';
+
 
 
 @NgModule({
@@ -16,7 +17,11 @@ import { DuneUniverseComponent } from './dune-universe.component';
   ],
   imports: [
     CommonModule,
-    DuneUniverseRoutingModule
+    DuneUniverseRoutingModule,
+    duneBooksModule,
+    duneCharactersModule,
+    duneCountriesModule,
+    dunePlanetsModule
   ]
 })
 export class DuneUniverseModule { }

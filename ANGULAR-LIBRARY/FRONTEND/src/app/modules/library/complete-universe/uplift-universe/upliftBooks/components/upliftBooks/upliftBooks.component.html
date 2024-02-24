@@ -1,18 +1,18 @@
 
-<div class="upliftBook-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+<div class="upliftBooks-container">
+  <div class="upliftBooks-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',upliftBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', upliftBook._id]" >Eliminar</button>
   </div>
-  <img [src]="upliftBook.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ upliftBook.title }}</h2>
-    <p class="short-text">{{ upliftBook.publication_year }}</p>
-    <p class="short-text">{{ upliftBook.saga }}</p>
-    <p class="short-text">{{ upliftBook.saga_index }}</p>
-    <p class="short-text">{{ upliftBook.universe }}</p>
-    <p class="short-text">{{ upliftBook.author }}</p>
-    <p class="short-text">{{ upliftBook.resume }}</p>
+  <img class="upliftBooks-container-img" [src]="upliftBook.picture" />
+  <div class="upliftBooks-container-description">
+    <h2 class="upliftBooks-container-h2">{{ upliftBook.title }}</h2>
+    <p class="upliftBooks-container-p">{{ upliftBook.publication_year }}</p>
+    <p class="upliftBooks-container-p">{{ upliftBook.saga }}</p>
+    <p class="upliftBooks-container-p">{{ upliftBook.saga_index }}</p>
+    <p class="upliftBooks-container-p">{{ upliftBook.universe }}</p>
+    <p class="upliftBooks-container-p">{{ upliftBook.author }}</p>
+    <p class="upliftBooks-container-p">{{ upliftBook.resume }}</p>
   </div>
 </div>
 

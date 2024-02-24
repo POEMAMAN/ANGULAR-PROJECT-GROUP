@@ -1,20 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { DuneBooksRoutingModule } from './duneBooks-routing.module';
-import { DuneBooksPageComponent } from './pages/duneBooks-page/duneBooks-page.component';
-import { DuneBooksComponent } from './components/duneBooks/duneBooks.component';
-
+import { duneBooksRoutingModule } from './duneBooks-routing.module';
+import { duneBooksPageComponent } from './pages/duneBooks-page/duneBooks-page.component';
+import { duneBooksComponent } from './components/duneBooks/duneBooks.component';
 
 
 @NgModule({
   declarations: [
-    DuneBooksPageComponent,
-    DuneBooksComponent
+    duneBooksPageComponent,
+    duneBooksComponent
   ],
   imports: [
     CommonModule,
-    DuneBooksRoutingModule
+    duneBooksRoutingModule
   ]
 })
-export class DuneBooksModule { }
+export class duneBooksModule { }

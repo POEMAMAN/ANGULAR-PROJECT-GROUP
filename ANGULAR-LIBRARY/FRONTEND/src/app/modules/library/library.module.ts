@@ -8,9 +8,12 @@ import { BooksModule } from './books/books.module';
 
 import { AuthorsModule } from './authors/authors.module';
 import { UniversesModule } from './universes/universes.module';
+import { FreeBooksComponent } from './free-books/free-books.component';
 
 @NgModule({
   declarations: [
+  
+    FreeBooksComponent
   ],
   imports: [
     LibraryRoutingModule,

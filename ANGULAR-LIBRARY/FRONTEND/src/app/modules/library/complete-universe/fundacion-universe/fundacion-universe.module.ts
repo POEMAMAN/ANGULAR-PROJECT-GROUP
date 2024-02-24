@@ -2,22 +2,26 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { FundacionUniverseRoutingModule } from './fundacion-universe-routing.module';
-import { FundacionBooksComponent } from './fundacion-books/fundacion-books.component';
-import { FundacionCharactersComponent } from './fundacion-characters/fundacion-characters.component';
-import { FundacionCountriesComponent } from './fundacion-countries/fundacion-countries.component';
-import { FundacionPlanetsComponent } from './fundacion-planets/fundacion-planets.component';
+import { FundacionUniverseComponent } from './fundacion-universe.component';
+import { fundacionBooksModule } from './fundacionBooks/fundacionBooks.module';
+import { fundacionCharactersModule } from './fundacionCharacters/fundacionCharacters.module';
+import { fundacionCountriesModule } from './fundacionCountries/fundacionCountries.module';
+import { fundacionPlanetsModule } from './fundacionPlanets/fundacionPlanets.module';
+
 
 
 @NgModule({
   declarations: [
-    FundacionBooksComponent,
-    FundacionCharactersComponent,
-    FundacionCountriesComponent,
-    FundacionPlanetsComponent
+    FundacionUniverseComponent
+
   ],
   imports: [
     CommonModule,
-    FundacionUniverseRoutingModule
+    FundacionUniverseRoutingModule,
+    fundacionBooksModule,
+    fundacionCharactersModule,
+    fundacionCountriesModule,
+    fundacionPlanetsModule
   ]
 })
 export class FundacionUniverseModule { }

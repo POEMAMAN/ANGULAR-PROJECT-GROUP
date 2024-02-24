@@ -1,0 +1,18 @@
+
+<div class="expanseCharacter-container">
+  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+      <button [routerLink]="['/admin/edit-product',expanseCharacter._id]" >Editar</button>
+      <button [routerLink]="['/admin/delete-product', expanseCharacter._id]" >Eliminar</button>
+  </div>
+  <img [src]="expanseCharacter.picture" />
+  <div class="description-award">
+    <h2 class="short-tittle">{{ expanseCharacter.name }}</h2>
+    <p class="short-text">{{ expanseCharacter.profession }}</p>
+    <p class="short-text">{{ expanseCharacter.rank }}</p>
+    <p class="short-text">{{ expanseCharacter.birthday }}</p>
+    <p class="short-text">{{ expanseCharacter.planet }}</p>
+    <p class="short-text">{{ expanseCharacter.country }}</p>
+    <p class="short-text">{{ expanseCharacter.resume }}</p>
+  </div>
+</div>
+

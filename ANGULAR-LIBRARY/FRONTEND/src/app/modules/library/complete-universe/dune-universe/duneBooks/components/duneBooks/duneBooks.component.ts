@@ -7,8 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './duneBooks.component.html',
   styleUrls: ['./duneBooks.component.css']
 })
-export class DuneBooksComponent implements OnInit {
-@Input() book: any
+export class duneBooksComponent implements OnInit {
+@Input() duneBook: any
 isAdmin: boolean = false;
 constructor(private authService: AuthService ){
 
@@ -25,3 +25,5 @@ ngOnInit(): void {
   })
 }
 }
+  
+

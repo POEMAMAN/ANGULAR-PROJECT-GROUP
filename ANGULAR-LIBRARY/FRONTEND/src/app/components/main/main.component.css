@@ -1,0 +1,31 @@
+.main-container{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 5vw 0 5vw;
+}
+.main-title{
+    font-family: 'Race-guard';
+}
+.main-parragraph{
+    font-size: 135%;
+}
+.main-menu{
+    display: flex;
+    justify-content: center;
+}
+.main-menu-button{
+    display: flex;
+    margin: 0 5% 0 0;
+}
+
+
+
+
+@media (min-width: 400px)  {
+   
+}
+@media (min-width: 700px)  {
+ 
+}

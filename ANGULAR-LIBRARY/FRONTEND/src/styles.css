@@ -3,6 +3,21 @@
 
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+  font-family: 'Cyborg';
+  src: url('./assets/fonts/cyborg_punk/CyborgPunk.ttf');
+}
+@font-face {
+  font-family: 'Race-guard';
+  src: url('./assets/fonts//race-guard-font//RaceGuard-7BPoE.otf');
+}
+
+h1{
+  font-family: 'Cyborg';
+}
+h2{
+  font-family: 'Race-guard';
+}
 .form-group {
   margin-bottom: 15px;
 }
@@ -10,6 +25,9 @@
 label {
   display: block;
   margin-bottom: 5px;
+}
+ul {
+  list-style-type: none;
 }
 
 /* input {
@@ -127,6 +145,7 @@ a:hover {
   color: #535bf2;
 }
 
+
 /* body {
   display: flex;
   flex-direction: column;
@@ -162,15 +181,8 @@ h1 {
   line-height: 1.1;
 }
 
-/*Header*/
-.header-logout{
-  top: 3%;
-  position: relative;
-  display: flex;
-  align-items: baseline;
 
-  
-}
+
 
 /* .container-session {
   display: flex;
@@ -187,14 +199,10 @@ html {
   -o-background-size: cover;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  list-style-type: none;
+ul{
+  list-style-type: none
 }
-/* 
+
   li {
     padding: 6px 0;
 
@@ -417,25 +425,6 @@ button {
   color: #fff;
 } */
 /*Footer*/
-
-footer{
-  width: 100vw;
-  height: 10vh;
-  color:black ;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-  position:fixed;
-  bottom: 3%;
-}
-.footer-copy{
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-#copy{
-  width: 10%;
-}
 
 
 /*Media Queries*/

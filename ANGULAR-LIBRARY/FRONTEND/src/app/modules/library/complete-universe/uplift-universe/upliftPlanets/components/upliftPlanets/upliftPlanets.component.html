@@ -1,20 +1,20 @@
 
 <div class="upliftPlanet-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="upliftPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',upliftPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', upliftPlanet._id]" >Eliminar</button>
   </div>
-  <img [src]="upliftPlanet.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ upliftPlanet.name }}</h2>
-    <p class="short-text">{{ upliftPlanet.settled}}</p>
-    <p class="short-text">{{ upliftPlanet.population}}</p>
-    <p class="short-text">{{ upliftPlanet.capital }}</p>
-    <p class="short-text">{{ upliftPlanet.location }}</p>
-    <p class="short-text">{{ upliftPlanet.gravity }}</p>
-    <p class="short-text">{{ upliftPlanet.country }}</p>
-    <p class="short-text">{{ upliftPlanet.moons }}</p>
-    <p class="short-text">{{ upliftPlanet.resume }}</p>
+  <img class="upliftPlanets-container-img" [src]="upliftPlanet.picture" />
+  <div class="upliftPlanets-container-description">
+    <h2 class="upliftPlanets-container-h2">{{ upliftPlanet.name }}</h2>
+    <p class="upliftPlanets-container-p">{{ upliftPlanet.settled}}</p>
+    <p class="upliftPlanets-container-p">{{ upliftPlanet.population}}</p>
+    <p class="upliftPlanets-container-p">{{ upliftPlanet.capital }}</p>
+    <p class="upliftPlanets-container-p">{{ upliftPlanet.location }}</p>
+    <p class="upliftPlanets-container-p">{{ upliftPlanet.gravity }}</p>
+    <p class="upliftPlanets-container-p">{{ upliftPlanet.country }}</p>
+    <p class="upliftPlanets-container-p">{{ upliftPlanet.moons }}</p>
+    <p class="upliftPlanets-container-p">{{ upliftPlanet.resume }}</p>
   </div>
 </div>
 

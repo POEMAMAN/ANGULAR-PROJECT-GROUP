@@ -1,8 +1,8 @@
-<div class="UltraW40KPlanet-list">
+<div class="UltraW40KPlanet-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let UltraW40KPlanet of UltraW40KPlanets"  class="UltraW40KPlanet-list--UltraW40KPlanet">
+  <div class="UltraW40KPlanet-container-list-card">
+      <div *ngFor="let UltraW40KPlanet of UltraW40KPlanets"  class="UltraW40KPlanet-container-list-card-item">
         <app-UltraW40KPlanets
         [UltraW40KPlanet]="UltraW40KPlanet"></app-UltraW40KPlanets>
       </div>

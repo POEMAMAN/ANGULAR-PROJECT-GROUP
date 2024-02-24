@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-UltraW40KCharacters-page',
   templateUrl: './UltraW40KCharacters-page.component.html',
-  styleUrls: ['./UltraW40KCharacters-page.component.css']
+  styleUrls: ['./UltraW40KCharacters-page.component.scss']
 })
 export class UltraW40KCharactersPageComponent implements OnInit {
   UltraW40KCharacters: UltraW40KCharacter[] = []

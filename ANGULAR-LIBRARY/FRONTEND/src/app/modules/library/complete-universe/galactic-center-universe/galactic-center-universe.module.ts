@@ -1,23 +1,27 @@
+import { GalacticCenterUniverseComponent } from './galactic-center-universe.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { GalacticCenterUniverseRoutingModule } from './galactic-center-universe-routing.module';
-import { GalacticCenterBooksComponent } from '../galactic-center-universe/galactic-center-books/galactic-center-books.component';
-import { GalacticCenterCharactersComponent } from '../galactic-center-universe/galactic-center-characters/galactic-center-characters.component';
-import { GalacticCenterCountriesComponent } from '../galactic-center-universe/galactic-center-countries/galactic-center-countries.component';
-import { GalacticCenterPlanetsComponent } from '../galactic-center-universe/galactic-center-planets/galactic-center-planets.component';
+import { galacticCentBooksModule } from './galacticCentBooks/galacticCentrBooks.module';
+import { galacticCentCharactersModule } from './galacticCentCharacters/galacticCentCharacters.module';
+import { galacticCentCountriesModule } from './galacticCentCountries/galacticCentCountries.module';
+import { galacticCentPlanetsModule } from './galacticCentPlanets/galacticCentPlanets.module';
+
 
 
 @NgModule({
   declarations: [
-    GalacticCenterBooksComponent,
-    GalacticCenterCharactersComponent,
-    GalacticCenterCountriesComponent,
-    GalacticCenterPlanetsComponent
+    GalacticCenterUniverseComponent
+
   ],
   imports: [
     CommonModule,
-    GalacticCenterUniverseRoutingModule
+    GalacticCenterUniverseRoutingModule,
+    galacticCentBooksModule,
+    galacticCentCharactersModule,
+    galacticCentCountriesModule,
+    galacticCentPlanetsModule
   ]
 })
 export class GalacticCenterUniverseModule { }

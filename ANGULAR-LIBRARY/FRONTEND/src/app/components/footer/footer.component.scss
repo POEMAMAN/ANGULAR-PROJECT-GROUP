@@ -1,0 +1,77 @@
+.footer{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    bottom: 0;
+    margin-top: 10%;
+    &-container{
+        display: flex;
+        justify-content: space-evenly;
+        &-item{
+            width: 20%;
+            height: max-content;
+            &-library{
+                width: 80%;
+            }
+        }
+        &-item-p{
+            width: 50%;
+            height: max-content;
+            &-parag{
+                font-size: 90%;
+                text-align: justify;
+            }
+        }
+        &-item-upgrade{
+            display: flex;
+            width: 20%;
+            margin: 7% 0 7% 0;
+            &-img{
+                width: 120%;
+            }      
+        }
+    }
+}
+@media (min-width: 400px)  {
+   
+}
+@media (min-width: 600px)  {
+    .footer-container-item-p-parag{
+        font-size: 120%;
+    }
+}
+@media (min-width: 800px)  {
+    .footer-container-item-p-parag{
+        font-size: 150%;
+    }
+}
+@media (min-width: 1000px)  {
+    .footer-container-item-p-parag{
+        font-size: 180%;
+    }
+}
+@media (min-width: 1200px)  {
+    .footer-container-item-p-parag{
+        font-size: 210%;
+    }
+}
+@media (min-width: 1400px)  {
+    .footer-container-item-p-parag{
+        font-size: 210%;
+    }
+}
+@media (min-width: 1600px)  {
+    .footer-container-item-p-parag{
+        font-size: 230%;
+    }
+}
+@media (min-width: 1800px)  {
+    .footer-container-item-p-parag{
+        font-size: 260%;
+    }
+}
+@media (min-width: 2000px)  {
+    .footer-container-item-p-parag{
+        font-size: 280%;
+    }
+}
