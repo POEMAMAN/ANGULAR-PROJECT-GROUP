@@ -1,8 +1,8 @@
-<div class="expanseCountrie-list">
+<div class="expanseCountrie-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let expanseCountrie of expanseCountries"  class="expanseCountrie-list--expanseCountrie">
+  <div class="expanseCountrie-container-list-card">
+      <div *ngFor="let expanseCountrie of expanseCountries"  class="expanseCountrie-container-list-card-item">
         <app-expanseCountries
         [expanseCountrie]="expanseCountrie"></app-expanseCountries>
       </div>

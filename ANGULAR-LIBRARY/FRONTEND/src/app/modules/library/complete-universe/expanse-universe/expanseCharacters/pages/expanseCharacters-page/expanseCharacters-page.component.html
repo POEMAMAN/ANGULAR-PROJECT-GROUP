@@ -1,8 +1,8 @@
-<div class="expanseCharacter-list">
+<div class="expanseCharacter-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let expanseCharacter of expanseCharacters"  class="expanseCharacter-list--expanseCharacter">
+  <div class="expanseCharacter-container-list-card">
+      <div *ngFor="let expanseCharacter of expanseCharacters"  class="expanseCharacter-container-list-card-item">
         <app-expanseCharacters
         [expanseCharacter]="expanseCharacter"></app-expanseCharacters>
       </div>

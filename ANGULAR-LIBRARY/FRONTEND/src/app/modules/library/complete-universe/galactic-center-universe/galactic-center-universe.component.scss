@@ -10,6 +10,15 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    ///BARRA DESLIZADORA
+    margin: 1rem auto;
+    border: 1px solid #aaa;
+    overflow:auto;
+    box-sizing: border-box;
+    padding:0 1rem;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width:thin;
+    ///
       &-ul-li-button {
         width: 60%;
         height: 60%;
@@ -18,5 +27,5 @@
           height: 95%;
         }
       }
-  };
+  }
   

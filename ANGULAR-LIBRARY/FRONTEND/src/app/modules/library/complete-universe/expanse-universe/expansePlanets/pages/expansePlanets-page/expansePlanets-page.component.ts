@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-expansePlanets-page',
   templateUrl: './expansePlanets-page.component.html',
-  styleUrls: ['./expansePlanets-page.component.css']
+  styleUrls: ['./expansePlanets-page.component.scss']
 })
 export class expansePlanetsPageComponent implements OnInit {
   expansePlanets: ExpansePlanet[] = []

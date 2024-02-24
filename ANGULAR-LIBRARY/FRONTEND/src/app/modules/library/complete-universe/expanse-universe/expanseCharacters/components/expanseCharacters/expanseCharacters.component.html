@@ -1,18 +1,18 @@
 
 <div class="expanseCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="expanseCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',expanseCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', expanseCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="expanseCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ expanseCharacter.name }}</h2>
-    <p class="short-text">{{ expanseCharacter.profession }}</p>
-    <p class="short-text">{{ expanseCharacter.rank }}</p>
-    <p class="short-text">{{ expanseCharacter.birthday }}</p>
-    <p class="short-text">{{ expanseCharacter.planet }}</p>
-    <p class="short-text">{{ expanseCharacter.country }}</p>
-    <p class="short-text">{{ expanseCharacter.resume }}</p>
+  <img class="expanseCharacters-container-img" [src]="expanseCharacter.picture" />
+  <div class="expanseCharacters-container-description">
+    <h2 class="expanseCharacters-container-h2">{{ expanseCharacter.name }}</h2>
+    <p class="expanseCharacters-container-p">{{ expanseCharacter.profession }}</p>
+    <p class="expanseCharacters-container-p">{{ expanseCharacter.rank }}</p>
+    <p class="expanseCharacters-container-p">{{ expanseCharacter.birthday }}</p>
+    <p class="expanseCharacters-container-p">{{ expanseCharacter.planet }}</p>
+    <p class="expanseCharacters-container-p">{{ expanseCharacter.country }}</p>
+    <p class="expanseCharacters-container-p">{{ expanseCharacter.resume }}</p>
   </div>
 </div>
 
