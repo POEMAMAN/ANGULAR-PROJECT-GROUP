@@ -1,4 +1,4 @@
-.container-library-completeUniverse-routes {
+.galacticCenter-container {
     background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708383661/APISCIFI/Fondos%20Universos/space-cosmic-landscape-background-free-photo_a9uw46.jpg");
     background-repeat: repeat;
     background-size: cover;
@@ -10,9 +10,13 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-  .container-library-completeUniverse-button {
-    width: 60%;
-    height: 60%;
-  }
+      &-ul-li-button {
+        width: 60%;
+        height: 60%;
+          &-img {
+          width: 95%;
+          height: 95%;
+        }
+      }
+  };
   
