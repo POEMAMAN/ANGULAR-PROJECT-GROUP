@@ -1,4 +1,4 @@
-.container-library-completeUniverse-routes {
+.dune-container {
     background-image: url('https://res.cloudinary.com/dqfaa272n/image/upload/v1708714142/APISCIFI/Fondos%20Universos/fondodune4_mh3y4o.webp');
     background-repeat: repeat;
     background-size: cover;
@@ -8,13 +8,14 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-
-}
-.container-library-completeUniverse-button {
-    width: 60%;
-    height: 60%;
-
-}
+      &-ul-li-button {
+        width: 60%;
+        height: 60%;
+          &-img {
+          width: 95%;
+          height: 95%;
+        }
+      }
+  };
