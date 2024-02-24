@@ -24,4 +24,4 @@ import { dunePlanetsModule } from './dunePlanets/dunePlanets.module';
     dunePlanetsModule
   ]
 })
-export class DuneUniverseModule { }
+export class DuneUniverseModule { };
