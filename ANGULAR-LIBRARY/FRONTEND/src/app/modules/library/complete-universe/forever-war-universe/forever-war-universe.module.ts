@@ -24,4 +24,4 @@ import { forEverWarPlanetsModule } from './forEverWarPlanets/forEverWarPlanets.m
     forEverWarPlanetsModule
   ]
 })
-export class ForeverWarUniverseModule { }
+export class ForeverWarUniverseModule { };

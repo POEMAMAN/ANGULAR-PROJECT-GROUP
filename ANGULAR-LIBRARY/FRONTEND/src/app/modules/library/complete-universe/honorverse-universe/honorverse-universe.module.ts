@@ -24,4 +24,4 @@ import { honorversePlanetsModule } from './honorversePlanets/honorversePlanets.m
     honorversePlanetsModule
   ]
 })
-export class HonorverseUniverseModule { }
+export class HonorverseUniverseModule { };
