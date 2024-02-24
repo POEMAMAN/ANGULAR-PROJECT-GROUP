@@ -1,16 +1,16 @@
 
 <div class="expanseCountrie-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="expanseCountries-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',expanseCountrie._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', expanseCountrie._id]" >Eliminar</button>
   </div>
-  <img [src]="expanseCountrie.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ expanseCountrie.name }}</h2>
-    <p class="short-text">{{ expanseCountrie.clan }}</p>
-    <p class="short-text">{{ expanseCountrie.foundatorSpecie }}</p>
-    <p class="short-text">{{ expanseCountrie.clientSpecie}}</p>
-    <p class="short-text">{{ expanseCountrie.resume }}</p>
+  <img class="expanseCountries-container-img" [src]="expanseCountrie.picture" />
+  <div class="expanseCountries-container-description">
+    <h2 class="expanseCountries-container-h2">{{ expanseCountrie.name }}</h2>
+    <p class="expanseCountries-container-p">{{ expanseCountrie.clan }}</p>
+    <p class="expanseCountries-container-p">{{ expanseCountrie.foundatorSpecie }}</p>
+    <p class="expanseCountries-container-p">{{ expanseCountrie.clientSpecie}}</p>
+    <p class="expanseCountries-container-p">{{ expanseCountrie.resume }}</p>
   </div>
 </div>
 
