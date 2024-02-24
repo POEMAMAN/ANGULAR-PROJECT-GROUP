@@ -1,20 +1,20 @@
 
 <div class="seafordPlanet-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="seafordPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',seafordPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', seafordPlanet._id]" >Eliminar</button>
   </div>
-  <img [src]="seafordPlanet.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ seafordPlanet.name }}</h2>
-    <p class="short-text">{{ seafordPlanet.settled}}</p>
-    <p class="short-text">{{ seafordPlanet.population}}</p>
-    <p class="short-text">{{ seafordPlanet.capital }}</p>
-    <p class="short-text">{{ seafordPlanet.location }}</p>
-    <p class="short-text">{{ seafordPlanet.gravity }}</p>
-    <p class="short-text">{{ seafordPlanet.country }}</p>
-    <p class="short-text">{{ seafordPlanet.moons }}</p>
-    <p class="short-text">{{ seafordPlanet.resume }}</p>
+  <img class="seafordPlanets-container-img" [src]="seafordPlanet.picture" />
+  <div class="seafordPlanets-container-description">
+    <h2 class="seafordPlanets-container-h2">{{ seafordPlanet.name }}</h2>
+    <p class="seafordPlanets-container-p">{{ seafordPlanet.settled}}</p>
+    <p class="seafordPlanets-container-p">{{ seafordPlanet.population}}</p>
+    <p class="seafordPlanets-container-p">{{ seafordPlanet.capital }}</p>
+    <p class="seafordPlanets-container-p">{{ seafordPlanet.location }}</p>
+    <p class="seafordPlanets-container-p">{{ seafordPlanet.gravity }}</p>
+    <p class="seafordPlanets-container-p">{{ seafordPlanet.country }}</p>
+    <p class="seafordPlanets-container-p">{{ seafordPlanet.moons }}</p>
+    <p class="seafordPlanets-container-p">{{ seafordPlanet.resume }}</p>
   </div>
 </div>
 

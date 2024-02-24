@@ -1,8 +1,8 @@
-<div class="seafordPlanet-list">
+<div class="seafordPlanet-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let seafordPlanet of seafordPlanets"  class="seafordPlanet-list--seafordPlanet">
+  <div class="seafordPlanet-container-list-card">
+      <div *ngFor="let seafordPlanet of seafordPlanets"  class="seafordPlanet-container-list-card-item">
         <app-seafordPlanets
         [seafordPlanet]="seafordPlanet"></app-seafordPlanets>
       </div>

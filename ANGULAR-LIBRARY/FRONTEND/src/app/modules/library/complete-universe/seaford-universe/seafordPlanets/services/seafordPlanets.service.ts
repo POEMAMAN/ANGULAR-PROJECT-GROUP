@@ -1,5 +1,5 @@
 
-import { SeafordPlanet } from '../interfaces/seafordPlanets.interface';
+import { SeafordPlanet } from '../interfaces/SeafordPlanets.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 

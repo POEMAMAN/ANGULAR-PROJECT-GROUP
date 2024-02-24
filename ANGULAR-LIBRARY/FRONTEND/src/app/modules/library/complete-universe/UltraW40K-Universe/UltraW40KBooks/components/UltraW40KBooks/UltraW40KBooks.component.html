@@ -1,18 +1,18 @@
 
 <div class="UltraW40KBook-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="UltraW40KBooks-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',UltraW40KBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', UltraW40KBook._id]" >Eliminar</button>
   </div>
-  <img [src]="UltraW40KBook.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ UltraW40KBook.title }}</h2>
-    <p class="short-text">{{ UltraW40KBook.publication_year }}</p>
-    <p class="short-text">{{ UltraW40KBook.saga }}</p>
-    <p class="short-text">{{ UltraW40KBook.saga_index }}</p>
-    <p class="short-text">{{ UltraW40KBook.universe }}</p>
-    <p class="short-text">{{ UltraW40KBook.author }}</p>
-    <p class="short-text">{{ UltraW40KBook.resume }}</p>
+  <img class="UltraW40KBooks-container-img" [src]="UltraW40KBook.picture" />
+  <div class="UltraW40KBooks-container-description">
+    <h2 class="UltraW40KBooks-container-h2">{{ UltraW40KBook.title }}</h2>
+    <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.publication_year }}</p>
+    <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.saga }}</p>
+    <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.saga_index }}</p>
+    <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.universe }}</p>
+    <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.author }}</p>
+    <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.resume }}</p>
   </div>
 </div>
 

@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-upliftBooks-page',
   templateUrl: './upliftBooks-page.component.html',
-  styleUrls: ['./upliftBooks-page.component.css']
+  styleUrls: ['./upliftBooks-page.component.scss']
 })
 export class UpliftBooksPageComponent implements OnInit {
   upliftBooks: UpliftBook[] = []
