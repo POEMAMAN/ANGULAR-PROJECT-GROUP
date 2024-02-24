@@ -1,18 +1,18 @@
 
 <div class="fundacionCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="fundacionCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',fundacionCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', fundacionCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="fundacionCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ fundacionCharacter.name }}</h2>
-    <p class="short-text">{{ fundacionCharacter.profession }}</p>
-    <p class="short-text">{{ fundacionCharacter.rank }}</p>
-    <p class="short-text">{{ fundacionCharacter.birthday }}</p>
-    <p class="short-text">{{ fundacionCharacter.planet }}</p>
-    <p class="short-text">{{ fundacionCharacter.country }}</p>
-    <p class="short-text">{{ fundacionCharacter.resume }}</p>
+  <img class="fundacionCharacters-container-img" [src]="fundacionCharacter.picture" />
+  <div class="fundacionCharacters-container-description">
+    <h2 class="fundacionCharacters-container-h2">{{ fundacionCharacter.name }}</h2>
+    <p class="fundacionCharacters-container-p">{{ fundacionCharacter.profession }}</p>
+    <p class="fundacionCharacters-container-p">{{ fundacionCharacter.rank }}</p>
+    <p class="fundacionCharacters-container-p">{{ fundacionCharacter.birthday }}</p>
+    <p class="fundacionCharacters-container-p">{{ fundacionCharacter.planet }}</p>
+    <p class="fundacionCharacters-container-p">{{ fundacionCharacter.country }}</p>
+    <p class="fundacionCharacters-container-p">{{ fundacionCharacter.resume }}</p>
   </div>
 </div>
 

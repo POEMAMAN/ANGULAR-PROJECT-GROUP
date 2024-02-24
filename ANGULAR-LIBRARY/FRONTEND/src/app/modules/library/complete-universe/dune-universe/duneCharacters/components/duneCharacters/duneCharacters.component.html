@@ -1,18 +1,18 @@
 
 <div class="duneCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="duneCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',duneCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', duneCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="duneCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ duneCharacter.name }}</h2>
-    <p class="short-text">{{ duneCharacter.profession }}</p>
-    <p class="short-text">{{ duneCharacter.rank }}</p>
-    <p class="short-text">{{ duneCharacter.birthday }}</p>
-    <p class="short-text">{{ duneCharacter.planet }}</p>
-    <p class="short-text">{{ duneCharacter.country }}</p>
-    <p class="short-text">{{ duneCharacter.resume }}</p>
+  <img class="duneCharacters-container-img" [src]="duneCharacter.picture" />
+  <div class="duneCharacters-container-description">
+    <h2 class="duneCharacters-container-h2">{{ duneCharacter.name }}</h2>
+    <p class="duneCharacters-container-p">{{ duneCharacter.profession }}</p>
+    <p class="duneCharacters-container-p">{{ duneCharacter.rank }}</p>
+    <p class="duneCharacters-container-p">{{ duneCharacter.birthday }}</p>
+    <p class="duneCharacters-container-p">{{ duneCharacter.planet }}</p>
+    <p class="duneCharacters-container-p">{{ duneCharacter.country }}</p>
+    <p class="duneCharacters-container-p">{{ duneCharacter.resume }}</p>
   </div>
 </div>
 

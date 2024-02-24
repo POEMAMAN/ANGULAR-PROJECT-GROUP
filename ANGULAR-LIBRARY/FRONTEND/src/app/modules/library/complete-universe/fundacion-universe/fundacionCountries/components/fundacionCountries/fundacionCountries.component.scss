@@ -1,0 +1,42 @@
+.fundacionCountries-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  &-description {
+    text-align: center;
+    color: #ffffff;
+  }
+  &-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: calc(1.5em * 4);
+    -webkit-line-clamp: 4;
+  }
+
+  &-h2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: calc(1.5em * 4);
+    -webkit-line-clamp: 1;
+    font-family: 'Race-guard';
+  }
+}

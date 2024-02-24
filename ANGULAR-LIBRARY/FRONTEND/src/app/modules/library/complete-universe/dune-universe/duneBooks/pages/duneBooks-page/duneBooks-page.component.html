@@ -1,9 +1,10 @@
-<div class="duneBook-list">
+<div class="duneBook-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
+  <div class="duneBook-container-list-card">
       <!-- {{i+1}} {{duneBook}}  -->
-      <div *ngFor="let duneBook of duneBooks"class="duneBook-list--duneBook">
+      <div *ngFor="let duneBook of duneBooks"
+      class="duneBook-container-list-card-item">
         <app-duneBooks
         [duneBook]="duneBook">
         <!-- Object.keys(duneBooks)[i] -->
