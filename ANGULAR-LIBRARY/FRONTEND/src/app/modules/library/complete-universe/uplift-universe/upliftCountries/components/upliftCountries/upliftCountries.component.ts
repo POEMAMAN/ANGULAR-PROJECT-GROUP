@@ -5,7 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-upliftCountries',
   templateUrl: './upliftCountries.component.html',
-  styleUrls: ['./upliftCountries.component.css']
+  styleUrls: ['./upliftCountries.component.scss']
 })
 export class UpliftCountriesComponent implements OnInit {
 @Input() upliftCountrie: any

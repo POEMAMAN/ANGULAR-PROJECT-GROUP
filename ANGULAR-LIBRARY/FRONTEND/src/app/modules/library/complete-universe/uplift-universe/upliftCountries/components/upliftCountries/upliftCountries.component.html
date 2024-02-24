@@ -1,16 +1,17 @@
 
+
 <div class="upliftCountrie-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="upliftCountries-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',upliftCountrie._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', upliftCountrie._id]" >Eliminar</button>
   </div>
-  <img [src]="upliftCountrie.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ upliftCountrie.name }}</h2>
-    <p class="short-text">{{ upliftCountrie.clan }}</p>
-    <p class="short-text">{{ upliftCountrie.foundatorSpecie }}</p>
-    <p class="short-text">{{ upliftCountrie.clientSpecie}}</p>
-    <p class="short-text">{{ upliftCountrie.resume }}</p>
+  <img class="upliftCountries-container-img" [src]="upliftCountrie.picture" />
+  <div class="upliftCountries-container-description">
+    <h2 class="upliftCountries-container-h2">{{ upliftCountrie.name }}</h2>
+    <p class="upliftCountries-container-p">{{ upliftCountrie.clan }}</p>
+    <p class="upliftCountries-container-p">{{ upliftCountrie.foundatorSpecie }}</p>
+    <p class="upliftCountries-container-p">{{ upliftCountrie.clientSpecie}}</p>
+    <p class="upliftCountries-container-p">{{ upliftCountrie.resume }}</p>
   </div>
 </div>
 

@@ -1,8 +1,8 @@
-<div class="upliftPlanet-list">
+<div class="upliftPlanet-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let upliftPlanet of upliftPlanets"  class="upliftPlanet-list--upliftPlanet">
+    <div class="upliftPlanet-container-list-card">
+      <div *ngFor="let upliftPlanet of upliftPlanets"  class="upliftPlanet-container-list-card-item">
         <app-upliftPlanets
         [upliftPlanet]="upliftPlanet"></app-upliftPlanets>
       </div>

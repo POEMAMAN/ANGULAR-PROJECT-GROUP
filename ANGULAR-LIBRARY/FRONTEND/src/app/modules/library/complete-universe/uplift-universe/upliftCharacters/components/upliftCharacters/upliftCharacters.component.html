@@ -1,18 +1,18 @@
 
 <div class="upliftCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="upliftCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',upliftCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', upliftCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="upliftCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ upliftCharacter.name }}</h2>
-    <p class="short-text">{{ upliftCharacter.profession }}</p>
-    <p class="short-text">{{ upliftCharacter.rank }}</p>
-    <p class="short-text">{{ upliftCharacter.birthday }}</p>
-    <p class="short-text">{{ upliftCharacter.planet }}</p>
-    <p class="short-text">{{ upliftCharacter.country }}</p>
-    <p class="short-text">{{ upliftCharacter.resume }}</p>
+  <img class="upliftCharacters-container-img" [src]="upliftCharacter.picture" />
+  <div class="upliftCharacters-container-description">
+    <h2 class="upliftCharacters-container-h2">{{ upliftCharacter.name }}</h2>
+    <p class="upliftCharacters-container-p">{{ upliftCharacter.profession }}</p>
+    <p class="upliftCharacters-container-p">{{ upliftCharacter.rank }}</p>
+    <p class="upliftCharacters-container-p">{{ upliftCharacter.birthday }}</p>
+    <p class="upliftCharacters-container-p">{{ upliftCharacter.planet }}</p>
+    <p class="upliftCharacters-container-p">{{ upliftCharacter.country }}</p>
+    <p class="upliftCharacters-container-p">{{ upliftCharacter.resume }}</p>
   </div>
 </div>
 

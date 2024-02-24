@@ -1,18 +1,18 @@
 
 <div class="UltraW40KCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="UltraW40KCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',UltraW40KCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', UltraW40KCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="UltraW40KCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ UltraW40KCharacter.name }}</h2>
-    <p class="short-text">{{ UltraW40KCharacter.profession }}</p>
-    <p class="short-text">{{ UltraW40KCharacter.rank }}</p>
-    <p class="short-text">{{ UltraW40KCharacter.birthday }}</p>
-    <p class="short-text">{{ UltraW40KCharacter.planet }}</p>
-    <p class="short-text">{{ UltraW40KCharacter.country }}</p>
-    <p class="short-text">{{ UltraW40KCharacter.resume }}</p>
+  <img class="UltraW40KCharacters-container-img" [src]="UltraW40KCharacter.picture" />
+  <div class="UltraW40KCharacters-container-description">
+    <h2 class="UltraW40KCharacters-container-h2">{{ UltraW40KCharacter.name }}</h2>
+    <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.profession }}</p>
+    <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.rank }}</p>
+    <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.birthday }}</p>
+    <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.planet }}</p>
+    <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.country }}</p>
+    <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.resume }}</p>
   </div>
 </div>
 

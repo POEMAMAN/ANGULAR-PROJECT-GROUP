@@ -1,8 +1,8 @@
-<div class="upliftBook-list">
+<div class="upliftBook-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let upliftBook of upliftBooks"  class="upliftBook-list--upliftBook">
+  <div class="upliftBook-container-list-card">
+      <div *ngFor="let upliftBook of upliftBooks"  class="upliftBook-container-list-card-item">
         <app-upliftBooks
         [upliftBook]="upliftBook"></app-upliftBooks>
       </div>
