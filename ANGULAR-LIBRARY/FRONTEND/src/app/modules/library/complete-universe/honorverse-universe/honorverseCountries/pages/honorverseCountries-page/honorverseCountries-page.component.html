@@ -1,8 +1,8 @@
-<div class="honorverseCountrie-list">
+<div class="honorverseCountrie-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let honorverseCountrie of honorverseCountries"  class="honorverseCountrie-list--honorverseCountrie">
+  <div class="honorverseCountrie-container-list-card">
+      <div *ngFor="let honorverseCountrie of honorverseCountries"  class="honorverseCountrie-container-list-card-item">
         <app-honorverseCountries
         [honorverseCountrie]="honorverseCountrie"></app-honorverseCountries>
       </div>

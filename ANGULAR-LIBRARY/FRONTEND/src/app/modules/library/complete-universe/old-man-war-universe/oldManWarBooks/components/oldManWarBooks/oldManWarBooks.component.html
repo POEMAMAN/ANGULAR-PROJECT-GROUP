@@ -1,18 +1,18 @@
 
 <div class="oldManWarBook-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="oldManWarBooks-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',oldManWarBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', oldManWarBook._id]" >Eliminar</button>
   </div>
-  <img [src]="oldManWarBook.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ oldManWarBook.title }}</h2>
-    <p class="short-text">{{ oldManWarBook.publication_year }}</p>
-    <p class="short-text">{{ oldManWarBook.saga }}</p>
-    <p class="short-text">{{ oldManWarBook.saga_index }}</p>
-    <p class="short-text">{{ oldManWarBook.universe }}</p>
-    <p class="short-text">{{ oldManWarBook.author }}</p>
-    <p class="short-text">{{ oldManWarBook.resume }}</p>
+  <img class="oldManWarBooks-container-img" [src]="oldManWarBook.picture" />
+  <div class="oldManWarBooks-container-description">
+    <h2 class="oldManWarBooks-container-h2">{{ oldManWarBook.title }}</h2>
+    <p class="oldManWarBooks-container-p">{{ oldManWarBook.publication_year }}</p>
+    <p class="oldManWarBooks-container-p">{{ oldManWarBook.saga }}</p>
+    <p class="oldManWarBooks-container-p">{{ oldManWarBook.saga_index }}</p>
+    <p class="oldManWarBooks-container-p">{{ oldManWarBook.universe }}</p>
+    <p class="oldManWarBooks-container-p">{{ oldManWarBook.author }}</p>
+    <p class="oldManWarBooks-container-p">{{ oldManWarBook.resume }}</p>
   </div>
 </div>
 

@@ -30,12 +30,12 @@
     max-height: calc(1.5em * 4);
     -webkit-line-clamp: 4;
   }
-
   &-h2 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     max-height: calc(1.5em * 4);
     -webkit-line-clamp: 1;
+    font-family: 'Race-guard';
   }
 }

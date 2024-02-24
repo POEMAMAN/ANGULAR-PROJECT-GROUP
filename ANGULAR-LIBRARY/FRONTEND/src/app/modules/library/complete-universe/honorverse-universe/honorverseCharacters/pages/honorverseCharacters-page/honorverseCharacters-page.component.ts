@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-honorverseCharacters-page',
   templateUrl: './honorverseCharacters-page.component.html',
-  styleUrls: ['./honorverseCharacters-page.component.css']
+  styleUrls: ['./honorverseCharacters-page.component.scss']
 })
 export class honorverseCharactersPageComponent implements OnInit {
   honorverseCharacters: HonorverseCharacter[] = []
