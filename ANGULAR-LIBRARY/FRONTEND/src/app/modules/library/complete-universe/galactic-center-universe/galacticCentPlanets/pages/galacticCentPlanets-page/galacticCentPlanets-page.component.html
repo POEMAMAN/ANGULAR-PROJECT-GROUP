@@ -1,8 +1,8 @@
-<div class="galacticCentPlanet-list">
+<div class="galacticCentPlanet-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let galacticCentPlanet of galacticCentPlanets"  class="galacticCentPlanet-list--galacticCentPlanet">
+  <div class="galacticCentPlanet-container-list-card">
+      <div *ngFor="let galacticCentPlanet of galacticCentPlanets"  class="galacticCentPlanet-container-list-card-item">
         <app-galacticCentPlanets
         [galacticCentPlanet]="galacticCentPlanet"></app-galacticCentPlanets>
       </div>

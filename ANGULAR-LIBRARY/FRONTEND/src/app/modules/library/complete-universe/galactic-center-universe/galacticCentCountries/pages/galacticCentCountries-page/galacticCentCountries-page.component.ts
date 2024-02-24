@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-galacticCentCountries-page',
   templateUrl: './galacticCentCountries-page.component.html',
-  styleUrls: ['./galacticCentCountries-page.component.css']
+  styleUrls: ['./galacticCentCountries-page.component.scss']
 })
 export class galacticCentCountriesPageComponent implements OnInit {
   galacticCentCountries: GalacticCentCountrie[] = []
