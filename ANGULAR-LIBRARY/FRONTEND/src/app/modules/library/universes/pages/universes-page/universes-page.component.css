@@ -18,7 +18,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 90vw;
+  height: 80vh;
   margin: 20px auto;
 }
 
@@ -33,5 +34,36 @@
 
 .h2 {
   text-decoration: underline;
+}
+@media (min-width: 400px)  {
+   
+}
+@media (min-width: 600px)  {
+
+}
+@media (min-width: 800px)  {
+  
+}
+@media (min-width: 1000px)  {
+ 
+}
+@media (min-width: 1200px)  {
+
+}
+@media (min-width: 1400px)  {
+
+}
+@media (min-width: 1600px)  {
+
+}
+@media (min-width: 1800px)  {
+
+}
+@media (min-width: 2000px)  {
+
+}
+@media (min-width: 2200px)  {
+
+
 }
 
