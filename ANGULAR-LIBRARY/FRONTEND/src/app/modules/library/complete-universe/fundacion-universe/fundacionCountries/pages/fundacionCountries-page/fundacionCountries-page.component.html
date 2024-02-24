@@ -1,12 +1,13 @@
 <div class="fundacionCountrie-container-list">
-  <div style="margin-top: 5px;" class="container">
-  </div>
+  <div style="margin-top: 5px" class="container"></div>
   <div class="fundacionCountrie-container-list-card">
-      <div *ngFor="let fundacionCountrie of fundacionCountries"  class="fundacionCountrie-container-list-card-item">
-        <app-fundacionCountries
-        [fundacionCountrie]="fundacionCountrie"></app-fundacionCountries>
-      </div>
+    <div
+      *ngFor="let fundacionCountrie of fundacionCountries"
+      class="fundacionCountrie-container-list-card-item"
+    >
+      <app-fundacionCountries
+        [fundacionCountrie]="fundacionCountrie"
+      ></app-fundacionCountries>
     </div>
   </div>
-
-
+</div>
