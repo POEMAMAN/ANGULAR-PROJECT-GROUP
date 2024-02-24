@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { verifyTokenGuard } from '../auth/guards/verify-token.guard';
 import { LibraryComponent } from './library.component';
+import { FreeBooksComponent } from './free-books/free-books.component';
 
 
 
@@ -31,6 +32,9 @@ const routes: Routes = [
     },
     {
       path: 'completeUniverse', canActivate: [verifyTokenGuard],loadChildren: () => import('./complete-universe/complete-universe.module').then(m => m.CompleteUniverseModule)
+    },
+    {
+      path: 'freeEbooks', canActivate: [verifyTokenGuard], component: FreeBooksComponent
     },
     {
       path: '**', redirectTo: 'library', pathMatch: 'full'
