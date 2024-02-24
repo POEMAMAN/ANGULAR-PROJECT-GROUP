@@ -5,10 +5,10 @@
   align-items: center;
 }
 img {
-width: 100%;
-height: auto;
-border-radius: 8px;
-object-fit: cover;
+  width: 350px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: fill;
 }
 
 .description-award {
@@ -32,6 +32,11 @@ display: -webkit-box;
 overflow: hidden;
 max-height: calc(1.5em * 4);
 -webkit-line-clamp: 4;
+font-size: 175%;
+}
+.short-text-resume{
+  font-size: 95%;
+  height: 350px;
 }
 
 .short-tittle {
@@ -40,4 +45,6 @@ display: -webkit-box;
 overflow: hidden;
 max-height: calc(1.5em * 4);
 -webkit-line-clamp: 1;
+font-family: 'Race-guard';
+font-size: 175%;
 }

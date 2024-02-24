@@ -1,7 +1,6 @@
-.free-books-container {
+.free-books {
     display: flex;
     flex-direction: column;
-    ///BARRA DESLIZADORA
     margin: 1rem auto;
     border: 1px solid #aaa;
     overflow:auto;
@@ -9,25 +8,26 @@
     padding:0 1rem;
     scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
     scrollbar-width:thin;
-    ///
-    &-ul{
+    &-container-ul{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
         align-content: center;
-        width: 90vw;
         padding: 0;
+        width: auto;
         &-li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             &-h2 {
                 font-family: 'Race-guard';}
-                width: 35%;
-            &-button-image{
-                    width: 150px;
-                    height: 150px;
+            &-button-a-img{
+                    width: 375px;
+                    height: 375px;
                 }
-            }
+            }   
         }
     }
     
@@ -35,59 +35,35 @@
     
         }
     @media (min-width: 600px)  {
-        .library-container-ul-li-button-image{
-            width: 200px;
-            height: 200px;
+        .free-books-container-ul-li-button-a-img{
+            width: 550px;
+            height: 550px;
         }
     }
     @media (min-width: 800px)  {
-        .header-title{
-            font-size: 38%;
+        .free-books-container-ul-li-button-a-img{
+            width: 750px;
+            height: 750px;
         }
-        .library-container-ul-li-button-image{
-            width: 300px;
-            height: 300px;
-        } 
     }
     @media (min-width: 1000px)  {
-        .library-container-ul-li-button-image{
-            width: 400px;
-            height: 400px;
-        } 
+     
      }
      @media (min-width: 1200px)  {
-        .library-container-ul-li-button-image{
-            width: 500px;
-            height: 500px;
-        } 
+   
      } 
      @media (min-width: 1400px)  {
-        .library-container-ul-li-button-image{
-            width: 600px;
-            height: 600px;
-        } 
+ 
      } 
      @media (min-width: 1600px)  {
-        .library-container-ul-li-button-image{
-            width: 700px;
-            height: 700px;
-        } 
+     
      } 
      @media (min-width: 1800px)  {
-        .library-container-ul-li-button-image{
-            width: 800px;
-            height: 800px;
-        } 
+   
      } 
      @media (min-width: 2000px)  {
-        .library-container-ul-li-button-image{
-            width: 900px;
-            height: 900px;
-        } 
+    
      } 
      @media (min-width: 2200px)  {
-        .library-container-ul-li-button-image{
-            width: 1000px;
-            height: 1000px;
-        } 
+     
      } 
