@@ -1,5 +1,5 @@
 
-<div class="forEverWarPlanet-container">
+<div class="forEverWarPlanets-container">
   <div class="forEverWarPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',forEverWarPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', forEverWarPlanet._id]" >Eliminar</button>
@@ -14,7 +14,7 @@
     <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.gravity }}</p>
     <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.country }}</p>
     <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.moons }}</p>
-    <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.resume }}</p>
+    <p class="forEverWarPlanets-container-resume">{{ forEverWarPlanet.resume }}</p>
   </div>
 </div>
 
