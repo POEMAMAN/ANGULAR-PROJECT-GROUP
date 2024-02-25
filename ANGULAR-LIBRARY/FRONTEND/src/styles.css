@@ -8,6 +8,14 @@
   font-family: 'Race-guard';
   src: url('./assets/fonts//race-guard-font//RaceGuard-7BPoE.otf');
 }
+@font-face {
+  font-family: 'Merienda';
+  src: url('./assets/fonts/Merienda/Merienda-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Congard';
+  src: url('./assets/fonts/congard-font/Congardx18Regular-1G6P2.otf');
+}
 
 h1{
   font-family: 'Cyborg';
