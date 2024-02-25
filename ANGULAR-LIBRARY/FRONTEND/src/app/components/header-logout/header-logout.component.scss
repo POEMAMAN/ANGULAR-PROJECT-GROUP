@@ -21,7 +21,9 @@
         width: 15%;
         align-items: center;
         &-button{
-            border: solid 2px;
+            height: 9vw;
+            width: 15vw;
+            font-size: small;
         }
         &-p{
             font-size: 70%;
@@ -40,42 +42,90 @@
     .header-title{
         font-size: 29%;
     }
+    .header-logout-c-button{
+        height: 9vw;
+        width: 15vw;
+    }
+    .header-logout-c-p{
+      font-size: 90%;
+    }
 }
 @media (min-width: 800px)  {
     .header-title{
         font-size: 38%;
     }
-
+    .header-logout-c-button{
+        height: 6vw;
+        width: 14vw;
+    }
+    .header-logout-c-p{
+        font-size: 105%;
+      }
 }
 @media (min-width: 1000px)  {
     .header-title{
         font-size: 48%;
     }
+    .header-logout-c-button{
+        height: 5vw;
+        width: 11vw;
+    }
+    .header-logout-c-p{
+        font-size: 115%;
+      }
 }
 @media (min-width: 1200px)  {
     .header-title{
         font-size: 58%;
     }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 10vw;
+    }
+    .header-logout-c-p{
+        font-size: 135%;
+      }
 }
 @media (min-width: 1400px)  {
     .header-title{
         font-size: 68%;
     }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 8vw;
+    }  .header-logout-c-p{
+        font-size: 155%;
+      }
 }
 @media (min-width: 1600px)  {
     .header-title{
         font-size: 78%;
     }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 8vw;
+    }
+    .header-logout-c-p{
+        font-size: 175%;
+      }
 }
 @media (min-width: 1800px)  {
     .header-title{
         font-size: 88%;
+    }
+    .header-logout-c-button{
+        height: 3vw;
+        width: 7vw;
     }
 }
 
 @media (min-width: 2000px)  {
     .header-title{
         font-size: 98%;
+    }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 8vw;
     }
 }
 

@@ -1,9 +1,8 @@
-.container-library-completeUniverse-routes {
+.completeUniverse {
     background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708065919/PUPILOS/FONDOS/BackgroundUpliftMain.jpg");
     background-repeat: repeat;
     background-size: cover;
     display: flex;
-    ///BARRA DESLIZADORA
     margin: 1rem auto;
     border: 1px solid #aaa;
     overflow:auto;
@@ -11,16 +10,64 @@
     padding:0 1rem;
     scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
     scrollbar-width:thin;
-    ///
-    /* height: 100vh; */
-    /* padding: 0 0 0 25%;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row; */
+    width: 100vw;
+    &-ul{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      &-li-button{
+        text-decoration: underline;
+        font-size: 155%;
+        &-img {
+          width: 95%;
+          height: 95%;
+        }
+      }
+    }
+}
+@media (min-width: 400px)  {
+   
+}
+@media (min-width: 600px)  {
+  .completeUniverse-ul-li-button{
+    font-size: 200%;
   }
-  /* .container-library-completeUniverse-button {
-    width: 60%;
-    height: 60%;
-  } */
+}
+@media (min-width: 800px)  {
+
+}
+@media (min-width: 1000px)  {
+  .completeUniverse-ul-li-button{
+    font-size: 225%;
+  }
+}
+@media (min-width: 1200px)  {
+  .completeUniverse-ul-li-button{
+    font-size: 250%;
+  }
+}
+@media (min-width: 1400px)  {
+  .completeUniverse-ul-li-button{
+    font-size: 275%;
+  }
+}
+@media (min-width: 1600px)  {
+  .completeUniverse-ul-li-button{
+    font-size: 300%;
+  }
+}
+@media (min-width: 1800px)  {
+  .completeUniverse-ul-li-button{
+    font-size: 325%;
+  }
+}
+@media (min-width: 2000px)  {
+  .completeUniverse-ul-li-button{
+    font-size: 350%;
+  }
+} 
+@media (min-width: 2200px)  {
+  .completeUniverse-ul-li-button{
+    font-size: 375%;
+  }
+} 
