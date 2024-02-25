@@ -1,5 +1,5 @@
 
-<div class="oldManWarPlanet-container">
+<div class="oldManWarPlanets-container">
   <div class="oldManWarPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',oldManWarPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', oldManWarPlanet._id]" >Eliminar</button>
@@ -14,7 +14,7 @@
     <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.gravity }}</p>
     <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.country }}</p>
     <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.moons }}</p>
-    <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.resume }}</p>
+    <p class="oldManWarPlanets-container-resume">{{ oldManWarPlanet.resume }}</p>
   </div>
 </div>
 
