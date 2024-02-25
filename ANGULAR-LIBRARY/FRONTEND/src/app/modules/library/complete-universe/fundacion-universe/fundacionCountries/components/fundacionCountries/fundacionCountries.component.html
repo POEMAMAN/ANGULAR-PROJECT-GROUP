@@ -1,16 +1,18 @@
 
 <div class="fundacionCountrie-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="fundacionCountries-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',fundacionCountrie._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', fundacionCountrie._id]" >Eliminar</button>
   </div>
-  <img [src]="fundacionCountrie.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ fundacionCountrie.name }}</h2>
-    <p class="short-text">{{ fundacionCountrie.clan }}</p>
-    <p class="short-text">{{ fundacionCountrie.foundatorSpecie }}</p>
-    <p class="short-text">{{ fundacionCountrie.clientSpecie}}</p>
-    <p class="short-text">{{ fundacionCountrie.resume }}</p>
+  <div class="fundacionCountries-container-img">
+    <img class="fundacionCountries-container-img-img" [src]="fundacionCountrie.picture" />
+  </div>
+  <div class="fundacionCountries-container-description">
+    <h2 class="fundacionCountries-container-h2">{{ fundacionCountrie.name }}</h2>
+    <p class="fundacionCountries-container-p">{{ fundacionCountrie.clan }}</p>
+    <p class="fundacionCountries-container-p">{{ fundacionCountrie.foundatorSpecie }}</p>
+    <p class="fundacionCountries-container-p">{{ fundacionCountrie.clientSpecie}}</p>
+    <p class="fundacionCountries-container-resume">{{ fundacionCountrie.resume }}</p>
   </div>
 </div>
 

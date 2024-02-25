@@ -25,4 +25,4 @@ import { gauntW40KPlanetsModule } from './gauntW40KPlanets/gauntW40KPlanets.modu
 
   ]
 })
-export class GauntW40KUniverseModule { }
+export class GauntW40KUniverseModule { };

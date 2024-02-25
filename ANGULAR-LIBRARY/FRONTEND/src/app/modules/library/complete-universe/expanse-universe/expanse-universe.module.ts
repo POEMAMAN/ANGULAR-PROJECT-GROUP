@@ -23,4 +23,4 @@ import { expansePlanetsModule } from './expansePlanets/expansePlanets.module';
     expansePlanetsModule
   ]
 })
-export class ExpanseUniverseModule { }
+export class ExpanseUniverseModule { };

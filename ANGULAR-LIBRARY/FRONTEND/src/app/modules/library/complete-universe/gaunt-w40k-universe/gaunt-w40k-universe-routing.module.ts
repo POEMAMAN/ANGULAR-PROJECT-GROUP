@@ -1,4 +1,3 @@
-import { gauntW40KCountriesComponent } from './gauntW40KCountries/components/gauntW40KCountries/gauntW40KCountries.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GauntW40KUniverseComponent } from './gaunt-w40k-universe.component';
@@ -30,4 +29,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class GauntW40KUniverseRoutingModule { }
+export class GauntW40KUniverseRoutingModule { };

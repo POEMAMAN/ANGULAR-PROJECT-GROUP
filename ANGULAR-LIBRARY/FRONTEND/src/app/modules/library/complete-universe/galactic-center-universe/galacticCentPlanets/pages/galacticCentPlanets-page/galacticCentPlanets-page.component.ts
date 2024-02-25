@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-galacticCentPlanets-page',
   templateUrl: './galacticCentPlanets-page.component.html',
-  styleUrls: ['./galacticCentPlanets-page.component.css']
+  styleUrls: ['./galacticCentPlanets-page.component.scss']
 })
 export class galacticCentPlanetsPageComponent implements OnInit {
   galacticCentPlanets: GalacticCentPlanet[] = []

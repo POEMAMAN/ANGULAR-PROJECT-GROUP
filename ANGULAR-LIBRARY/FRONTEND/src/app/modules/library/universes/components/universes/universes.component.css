@@ -3,10 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 15px;
 }
 img {
-width: 100%;
-height: auto;
+width: 390px;
+height: 250px;
 border-radius: 8px;
 object-fit: cover;
 }
@@ -32,6 +33,11 @@ display: -webkit-box;
 overflow: hidden;
 max-height: calc(1.5em * 4);
 -webkit-line-clamp: 4;
+font-size: 90%;
+}
+.short-text-resume{
+  font-size: 90%;
+  height: 500px;
 }
 
 .short-tittle {
@@ -40,8 +46,111 @@ display: -webkit-box;
 overflow: hidden;
 max-height: calc(1.5em * 4);
 -webkit-line-clamp: 1;
+font-family: 'Race-guard';
 }
 
 .h2 {
   text-decoration: underline;
+}
+@media (min-width: 400px)  {
+   
+}
+@media (min-width: 600px)  {
+  img {
+    width: 550px;
+    height: 350px;
+  }
+  .short-text{
+    font-size: 120%;
+  }
+  .short-text-resume{
+    font-size: 95%;
+  }
+  .short-tittle{
+    font-size: 195%;
+  }
+}
+@media (min-width: 800px)  {
+  img {
+    width: 700px;
+    height: 350px;
+  }
+  .short-text{
+    font-size: 140%;
+  }
+  .short-text-resume{
+    font-size: 100%;
+  }
+  .short-tittle{
+    font-size: 255%;
+  }
+}
+@media (min-width: 1000px)  {
+  img {
+    width: 900px;
+  }
+  .short-text{
+    font-size: 180%;
+  }
+  .short-text-resume{
+    font-size: 105%;
+  }
+  .short-tittle{
+    font-size: 325%;
+  }
+}
+@media (min-width: 1200px)  {
+  img {
+    width: 1100px;
+  }
+  .short-text{
+    font-size: 210%;
+  }
+  .short-text-resume{
+    font-size: 117%;
+  }
+  .short-tittle{
+    font-size: 355%;
+  }
+}
+@media (min-width: 1400px)  {
+  .short-text-resume{
+    font-size: 124%;
+  }
+}
+@media (min-width: 1600px)  {
+  img {
+    width: 1400px;
+  }
+  .short-text{
+    font-size: 240%;
+  }
+  .short-text-resume{
+    font-size: 135%;
+  }
+  .short-tittle{
+    font-size: 385%;
+  }
+}
+@media (min-width: 1800px)  {
+  img {
+    width: 1700px;
+    height: 400px;
+  }
+  .short-text{
+    font-size: 250%;
+  }
+  .short-text-resume{
+    font-size: 146%;
+  }
+  .short-tittle{
+    font-size: 420%;
+  }
+}
+@media (min-width: 2000px)  {
+
+}
+@media (min-width: 2200px)  {
+
+
 }

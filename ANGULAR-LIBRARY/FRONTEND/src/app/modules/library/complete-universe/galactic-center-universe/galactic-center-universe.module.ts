@@ -24,4 +24,4 @@ import { galacticCentPlanetsModule } from './galacticCentPlanets/galacticCentPla
     galacticCentPlanetsModule
   ]
 })
-export class GalacticCenterUniverseModule { }
+export class GalacticCenterUniverseModule { };

@@ -30,6 +30,7 @@
         "planetsOldManWarSeed": "node ./src/seeds/seeds-oldManWar/planets.oldManWar.seeds.js",
         "booksSeafordSeed": "node ./src/seeds/seeds-seaford/books.seaford.seeds.js",
         "characterSeafordSeed": "node ./src/seeds/seeds-seaford/characters.seaford.seeds.js",
+        "countriesSeafordSeed": "node ./src/seeds/seeds-uplift/countries.seaford.seeds.js",
         "planetsSeaforSeed": "node ./src/seeds/seeds-seaford/planets.seaford.seeds.js",
         "booksGauntW40KSeed": "node ./src/seeds/seeds-gauntW40K/books.gauntW40K.seeds.js",
         "characterGaunt40WKSeed": "node ./src/seeds/seeds-gauntW40K/characters.gauntW40K.seeds.js",
@@ -46,7 +47,11 @@
         "booksGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/books.galacticCenter.seeds.js",
         "characterGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/characters.galacticCenter.seeds.js",
         "countriesGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/countries.galacticCenter.seeds.js",
-        "planetsGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/planets.galacticCenter.seeds.js"
+        "planetsGalacticCenterSeed": "node ./src/seeds/seeds-galacticCenter/planets.galacticCenter.seeds.js",
+        "booksFundacionSeed": "node ./src/seeds/seeds-fundacion/books.fundacion.seeds.js",
+        "characterFundacionSeed": "node ./src/seeds/seeds-fundacion/fundacion.seeds.js",
+        "countriesFundacionSeed": "node ./src/seeds/seeds-fundacion/countries.fundacion.seeds.js",
+        "planetsFundacionSeed": "node ./src/seeds/seeds-fundacion/planets.fundacion.seeds.js"
     },
     "keywords": [
         "Node",

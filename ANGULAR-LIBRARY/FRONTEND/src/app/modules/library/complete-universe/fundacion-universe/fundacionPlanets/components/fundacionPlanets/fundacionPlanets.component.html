@@ -1,20 +1,20 @@
 
-<div class="fundacionPlanet-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+<div class="fundacionPlanets-container">
+  <div class="fundacionPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',fundacionPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', fundacionPlanet._id]" >Eliminar</button>
   </div>
-  <img [src]="fundacionPlanet.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ fundacionPlanet.name }}</h2>
-    <p class="short-text">{{ fundacionPlanet.settled}}</p>
-    <p class="short-text">{{ fundacionPlanet.population}}</p>
-    <p class="short-text">{{ fundacionPlanet.capital }}</p>
-    <p class="short-text">{{ fundacionPlanet.location }}</p>
-    <p class="short-text">{{ fundacionPlanet.gravity }}</p>
-    <p class="short-text">{{ fundacionPlanet.country }}</p>
-    <p class="short-text">{{ fundacionPlanet.moons }}</p>
-    <p class="short-text">{{ fundacionPlanet.resume }}</p>
+  <img class="fundacionPlanets-container-img" [src]="fundacionPlanet.picture" />
+  <div class="fundacionPlanets-container-description">
+    <h2 class="fundacionPlanets-container-h2">{{ fundacionPlanet.name }}</h2>
+    <p class="fundacionPlanets-container-p">{{ fundacionPlanet.settled}}</p>
+    <p class="fundacionPlanets-container-p">{{ fundacionPlanet.population}}</p>
+    <p class="fundacionPlanets-container-p">{{ fundacionPlanet.capital }}</p>
+    <p class="fundacionPlanets-container-p">{{ fundacionPlanet.location }}</p>
+    <p class="fundacionPlanets-container-p">{{ fundacionPlanet.gravity }}</p>
+    <p class="fundacionPlanets-container-p">{{ fundacionPlanet.country }}</p>
+    <p class="fundacionPlanets-container-p">{{ fundacionPlanet.moons }}</p>
+    <p class="fundacionPlanets-container-resume">{{ fundacionPlanet.resume }}</p>
   </div>
 </div>
 

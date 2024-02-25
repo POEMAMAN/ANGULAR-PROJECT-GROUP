@@ -5,7 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-forEverWarPlanets',
   templateUrl: './forEverWarPlanets.component.html',
-  styleUrls: ['./forEverWarPlanets.component.css']
+  styleUrls: ['./forEverWarPlanets.component.scss']
 })
 export class forEverWarPlanetsComponent implements OnInit {
 @Input() forEverWarPlanet: any

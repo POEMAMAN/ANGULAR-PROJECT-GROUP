@@ -5,7 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-gauntW40KPlanets',
   templateUrl: './gauntW40KPlanets.component.html',
-  styleUrls: ['./gauntW40KPlanets.component.css']
+  styleUrls: ['./gauntW40KPlanets.component.scss']
 })
 export class gauntW40KPlanetsComponent implements OnInit {
 @Input() gauntW40KPlanet: any

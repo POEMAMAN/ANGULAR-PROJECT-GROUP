@@ -1,0 +1,51 @@
+.fundacionPlanets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &-img {
+    width: 375px;
+    height: 375px;
+  }
+  &-description {
+    text-align: center;
+    color: #ffffff;
+  }
+  &-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: calc(1.5em * 4);
+    -webkit-line-clamp: 4;
+    font-size: 20px;
+  }
+  &-h2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: calc(1.5em * 4);
+    -webkit-line-clamp: 1;
+    font-family: 'Race-guard';
+    text-decoration:overline;
+    font-size: 220%;
+  }
+  &-resume {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    font-size: 14px;
+    height: 1100px;
+    font-family: 'Merienda';
+  }
+}

@@ -5,13 +5,21 @@
   background-image: url('https://res.cloudinary.com/dqfaa272n/image/upload/v1708439928/HONOVERSO/FONDOS/potw1939a_a5i6qd.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 1rem auto;
+  border: 1px solid #aaa;
+  overflow:auto;
+  box-sizing: border-box;
+  padding:0 1rem;
+  scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+  scrollbar-width:thin;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 90vw;
+  height: 80vh;
   margin: 20px auto;
 }
 
@@ -26,5 +34,36 @@
 
 .h2 {
   text-decoration: underline;
+}
+@media (min-width: 400px)  {
+   
+}
+@media (min-width: 600px)  {
+
+}
+@media (min-width: 800px)  {
+  
+}
+@media (min-width: 1000px)  {
+ 
+}
+@media (min-width: 1200px)  {
+
+}
+@media (min-width: 1400px)  {
+
+}
+@media (min-width: 1600px)  {
+
+}
+@media (min-width: 1800px)  {
+
+}
+@media (min-width: 2000px)  {
+
+}
+@media (min-width: 2200px)  {
+
+
 }
 

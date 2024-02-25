@@ -5,7 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-expanseCharacters',
   templateUrl: './expanseCharacters.component.html',
-  styleUrls: ['./expanseCharacters.component.css']
+  styleUrls: ['./expanseCharacters.component.scss']
 })
 export class expanseCharactersComponent implements OnInit {
 @Input() expanseCharacter: any

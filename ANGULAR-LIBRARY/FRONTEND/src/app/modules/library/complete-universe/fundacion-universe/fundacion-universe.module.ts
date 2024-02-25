@@ -24,4 +24,4 @@ import { fundacionPlanetsModule } from './fundacionPlanets/fundacionPlanets.modu
     fundacionPlanetsModule
   ]
 })
-export class FundacionUniverseModule { }
+export class FundacionUniverseModule { };

@@ -1,8 +1,13 @@
-<div class="expansePlanet-list">
+<div class="expansePlanet-container-list">
+  <button
+  class="expansePlanet-container-list-button"
+  [routerLink]="'/library/completeUniverse/expanse'"
+>Universo THe Expanse
+</button>
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let expansePlanet of expansePlanets"  class="expansePlanet-list--expansePlanet">
+  <div class="expansePlanet-container-list-card">
+      <div *ngFor="let expansePlanet of expansePlanets"  class="expansePlanet-container-list-card-item">
         <app-expansePlanets
         [expansePlanet]="expansePlanet"></app-expansePlanets>
       </div>

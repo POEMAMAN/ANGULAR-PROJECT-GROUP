@@ -1,16 +1,18 @@
 
 <div class="forEverWarCountrie-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="forEverWarCountries-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',forEverWarCountrie._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', forEverWarCountrie._id]" >Eliminar</button>
   </div>
-  <img [src]="forEverWarCountrie.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ forEverWarCountrie.name }}</h2>
-    <p class="short-text">{{ forEverWarCountrie.clan }}</p>
-    <p class="short-text">{{ forEverWarCountrie.foundatorSpecie }}</p>
-    <p class="short-text">{{ forEverWarCountrie.clientSpecie}}</p>
-    <p class="short-text">{{ forEverWarCountrie.resume }}</p>
+  <div class="forEverWarCountries-container-img">
+    <img class="forEverWarCountries-container-img-img" [src]="forEverWarCountrie.picture" />
+  </div>
+  <div class="forEverWarCountries-container-description">
+    <h2 class="forEverWarCountries-container-h2">{{ forEverWarCountrie.name }}</h2>
+    <p class="forEverWarCountries-container-p">{{ forEverWarCountrie.clan }}</p>
+    <p class="forEverWarCountries-container-p">{{ forEverWarCountrie.foundatorSpecie }}</p>
+    <p class="forEverWarCountries-container-p">{{ forEverWarCountrie.clientSpecie}}</p>
+    <p class="forEverWarCountries-container-resume">{{ forEverWarCountrie.resume }}</p>
   </div>
 </div>
 

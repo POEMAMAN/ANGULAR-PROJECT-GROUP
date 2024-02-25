@@ -1,8 +1,13 @@
-<div class="gauntW40KCharacter-list">
+<div class="gauntW40KCharacter-container-list">
+  <button
+  class="gauntW40KCharacter-container-list-button"
+  [routerLink]="'/library/completeUniverse/gauntW40K'"
+>Universo Ghaunt`s Ghost
+</button>
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let gauntW40KCharacter of gauntW40KCharacters"  class="gauntW40KCharacter-list--gauntW40KCharacter">
+  <div class="gauntW40KCharacter-container-list-card">
+      <div *ngFor="let gauntW40KCharacter of gauntW40KCharacters"  class="gauntW40KCharacter-container-list-card-item">
         <app-gauntW40KCharacters
         [gauntW40KCharacter]="gauntW40KCharacter"></app-gauntW40KCharacters>
       </div>

@@ -1,18 +1,18 @@
 
-<div class="honorverseCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+<div class="honorverseCharacters-container">
+  <div class="honorverseCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',honorverseCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', honorverseCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="honorverseCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ honorverseCharacter.name }}</h2>
-    <p class="short-text">{{ honorverseCharacter.profession }}</p>
-    <p class="short-text">{{ honorverseCharacter.rank }}</p>
-    <p class="short-text">{{ honorverseCharacter.birthday }}</p>
-    <p class="short-text">{{ honorverseCharacter.planet }}</p>
-    <p class="short-text">{{ honorverseCharacter.country }}</p>
-    <p class="short-text">{{ honorverseCharacter.resume }}</p>
+  <img class="honorverseCharacters-container-img" [src]="honorverseCharacter.picture" />
+  <div class="honorverseCharacters-container-description">
+    <h2 class="honorverseCharacters-container-h2">{{ honorverseCharacter.name }}</h2>
+    <p class="honorverseCharacters-container-p">{{ honorverseCharacter.profession }}</p>
+    <p class="honorverseCharacters-container-p">{{ honorverseCharacter.rank }}</p>
+    <p class="honorverseCharacters-container-p">{{ honorverseCharacter.birthday }}</p>
+    <p class="honorverseCharacters-container-p">{{ honorverseCharacter.planet }}</p>
+    <p class="honorverseCharacters-container-p">{{ honorverseCharacter.country }}</p>
+    <p class="honorverseCharacters-container-resume">{{ honorverseCharacter.resume }}</p>
   </div>
 </div>
 

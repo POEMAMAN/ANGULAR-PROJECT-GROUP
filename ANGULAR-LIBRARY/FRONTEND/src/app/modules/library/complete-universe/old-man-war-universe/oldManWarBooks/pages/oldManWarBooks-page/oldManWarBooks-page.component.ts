@@ -1,11 +1,11 @@
 import { OldManWarBook } from '../../interfaces/OldManWarBooks.interface';
 import { Component, OnInit } from '@angular/core';
-import { oldManWarBooksService } from '../../services/oldManWarBooks.service';
+import { oldManWarBooksService } from '../../services/OldManWarBooks.service';
 
 @Component({
   selector: 'app-oldManWarBooks-page',
   templateUrl: './oldManWarBooks-page.component.html',
-  styleUrls: ['./oldManWarBooks-page.component.css']
+  styleUrls: ['./oldManWarBooks-page.component.scss']
 })
 export class oldManWarBooksPageComponent implements OnInit {
   oldManWarBooks: OldManWarBook[] = []

@@ -1,20 +1,20 @@
 
-<div class="oldManWarPlanet-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+<div class="oldManWarPlanets-container">
+  <div class="oldManWarPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',oldManWarPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', oldManWarPlanet._id]" >Eliminar</button>
   </div>
-  <img [src]="oldManWarPlanet.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ oldManWarPlanet.name }}</h2>
-    <p class="short-text">{{ oldManWarPlanet.settled}}</p>
-    <p class="short-text">{{ oldManWarPlanet.population}}</p>
-    <p class="short-text">{{ oldManWarPlanet.capital }}</p>
-    <p class="short-text">{{ oldManWarPlanet.location }}</p>
-    <p class="short-text">{{ oldManWarPlanet.gravity }}</p>
-    <p class="short-text">{{ oldManWarPlanet.country }}</p>
-    <p class="short-text">{{ oldManWarPlanet.moons }}</p>
-    <p class="short-text">{{ oldManWarPlanet.resume }}</p>
+  <img class="oldManWarPlanets-container-img" [src]="oldManWarPlanet.picture" />
+  <div class="oldManWarPlanets-container-description">
+    <h2 class="oldManWarPlanets-container-h2">{{ oldManWarPlanet.name }}</h2>
+    <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.settled}}</p>
+    <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.population}}</p>
+    <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.capital }}</p>
+    <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.location }}</p>
+    <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.gravity }}</p>
+    <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.country }}</p>
+    <p class="oldManWarPlanets-container-p">{{ oldManWarPlanet.moons }}</p>
+    <p class="oldManWarPlanets-container-resume">{{ oldManWarPlanet.resume }}</p>
   </div>
 </div>
 

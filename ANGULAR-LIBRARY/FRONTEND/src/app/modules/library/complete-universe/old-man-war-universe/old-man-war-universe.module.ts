@@ -24,4 +24,4 @@ import { OldManWarUniverseComponent } from './old-man-war-universe.component';
     oldManWarPlanetsModule
   ]
 })
-export class OldManWarUniverseModule { }
+export class OldManWarUniverseModule { };

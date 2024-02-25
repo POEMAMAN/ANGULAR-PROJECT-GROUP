@@ -1,8 +1,13 @@
-<div class="gauntW40KPlanet-list">
+<div class="gauntW40KPlanet-container-list">
+  <button
+  class="gauntW40KPlanet-container-list-button"
+  [routerLink]="'/library/completeUniverse/gauntW40K'"
+>Universo Ghaunt`s Ghost
+</button>
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let gauntW40KPlanet of gauntW40KPlanets"  class="gauntW40KPlanet-list--gauntW40KPlanet">
+  <div class="gauntW40KPlanet-container-list-card">
+      <div *ngFor="let gauntW40KPlanet of gauntW40KPlanets"  class="gauntW40KPlanet-container-list-card-item">
         <app-gauntW40KPlanets
         [gauntW40KPlanet]="gauntW40KPlanet"></app-gauntW40KPlanets>
       </div>

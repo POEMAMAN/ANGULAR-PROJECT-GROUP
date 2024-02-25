@@ -1,18 +1,20 @@
 
-<div class="galacticCentCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+<div class="galacticCentCharacters-container">
+  <div class="galacticCentCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',galacticCentCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', galacticCentCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="galacticCentCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ galacticCentCharacter.name }}</h2>
-    <p class="short-text">{{ galacticCentCharacter.profession }}</p>
-    <p class="short-text">{{ galacticCentCharacter.rank }}</p>
-    <p class="short-text">{{ galacticCentCharacter.birthday }}</p>
-    <p class="short-text">{{ galacticCentCharacter.planet }}</p>
-    <p class="short-text">{{ galacticCentCharacter.country }}</p>
-    <p class="short-text">{{ galacticCentCharacter.resume }}</p>
+  <div class="galacticCentCharacters-container-img">
+    <img class="galacticCentCharacters-container-img-img" [src]="galacticCentCharacter.picture" />
+  </div>
+  <div class="galacticCentCharacters-container-description">
+    <h2 class="galacticCentCharacters-container-h2">{{ galacticCentCharacter.name }}</h2>
+    <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.profession }}</p>
+    <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.rank }}</p>
+    <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.birthday }}</p>
+    <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.planet }}</p>
+    <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.country }}</p>
+    <p class="galacticCentCharacters-container-resume">{{ galacticCentCharacter.resume }}</p>
   </div>
 </div>
 

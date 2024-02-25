@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-honorverseCountries-page',
   templateUrl: './honorverseCountries-page.component.html',
-  styleUrls: ['./honorverseCountries-page.component.css']
+  styleUrls: ['./honorverseCountries-page.component.scss']
 })
 export class honorverseCountriesPageComponent implements OnInit {
   honorverseCountries: HonorverseCountrie[] = []

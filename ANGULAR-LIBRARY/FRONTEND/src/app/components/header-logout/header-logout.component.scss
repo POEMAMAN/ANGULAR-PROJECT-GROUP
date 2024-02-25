@@ -21,7 +21,13 @@
         width: 15%;
         align-items: center;
         &-button{
-            border: solid 2px;
+            height: 12vw;
+            width: 17vw;
+            font-size: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
         }
         &-p{
             font-size: 70%;
@@ -40,36 +46,87 @@
     .header-title{
         font-size: 29%;
     }
+    .header-logout-c-button{
+        height: 9vw;
+        width: 15vw;
+        font-size: small;
+    }
+    .header-logout-c-p{
+      font-size: 90%;
+    }
 }
 @media (min-width: 800px)  {
     .header-title{
         font-size: 38%;
     }
-
+    .header-logout-c-button{
+        height: 6vw;
+        width: 14vw;
+        font-size: small;
+    }
+    .header-logout-c-p{
+        font-size: 105%;
+      }
 }
 @media (min-width: 1000px)  {
     .header-title{
         font-size: 48%;
     }
+    .header-logout-c-button{
+        height: 5vw;
+        width: 11vw;
+        font-size: small;
+    }
+    .header-logout-c-p{
+        font-size: 115%;
+      }
 }
 @media (min-width: 1200px)  {
     .header-title{
         font-size: 58%;
     }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 10vw;
+        font-size: small;
+    }
+    .header-logout-c-p{
+        font-size: 135%;
+      }
 }
 @media (min-width: 1400px)  {
     .header-title{
         font-size: 68%;
     }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 8vw;
+        font-size: small;
+    }  .header-logout-c-p{
+        font-size: 155%;
+      }
 }
 @media (min-width: 1600px)  {
     .header-title{
         font-size: 78%;
     }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 8vw;
+        font-size: small;
+    }
+    .header-logout-c-p{
+        font-size: 175%;
+      }
 }
 @media (min-width: 1800px)  {
     .header-title{
         font-size: 88%;
+    }
+    .header-logout-c-button{
+        height: 3vw;
+        width: 7vw;
+        font-size: small;
     }
 }
 
@@ -77,5 +134,26 @@
     .header-title{
         font-size: 98%;
     }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 8vw;
+        font-size: small;
+    }
+}
+@media (min-width: 2200px)  {
+    .header-title{
+        font-size: 200%;
+    }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 8vw;
+        font-size: 50px;
+    }
+    .header {
+        margin-bottom: 5%;
+    }
+    .header-logout-c-p{
+        font-size: 500%;
+      }
 }
 

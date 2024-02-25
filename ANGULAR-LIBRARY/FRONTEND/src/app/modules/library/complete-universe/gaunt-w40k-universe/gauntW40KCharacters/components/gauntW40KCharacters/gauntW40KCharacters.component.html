@@ -1,18 +1,20 @@
 
 <div class="gauntW40KCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="gauntW40KCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',gauntW40KCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', gauntW40KCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="gauntW40KCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ gauntW40KCharacter.name }}</h2>
-    <p class="short-text">{{ gauntW40KCharacter.profession }}</p>
-    <p class="short-text">{{ gauntW40KCharacter.rank }}</p>
-    <p class="short-text">{{ gauntW40KCharacter.birthday }}</p>
-    <p class="short-text">{{ gauntW40KCharacter.planet }}</p>
-    <p class="short-text">{{ gauntW40KCharacter.country }}</p>
-    <p class="short-text">{{ gauntW40KCharacter.resume }}</p>
+  <div class="gauntW40KCharacters-container-img">
+    <img class="gauntW40KCharacters-container-img-img" [src]="gauntW40KCharacter.picture" />
+  </div>
+  <div class="gauntW40KCharacters-container-description">
+    <h2 class="gauntW40KCharacters-container-h2">{{ gauntW40KCharacter.name }}</h2>
+    <p class="gauntW40KCharacters-container-p">{{ gauntW40KCharacter.profession }}</p>
+    <p class="gauntW40KCharacters-container-p">{{ gauntW40KCharacter.rank }}</p>
+    <p class="gauntW40KCharacters-container-p">{{ gauntW40KCharacter.birthday }}</p>
+    <p class="gauntW40KCharacters-container-p">{{ gauntW40KCharacter.planet }}</p>
+    <p class="gauntW40KCharacters-container-p">{{ gauntW40KCharacter.country }}</p>
+    <p class="gauntW40KCharacters-container-resume">{{ gauntW40KCharacter.resume }}</p>
   </div>
 </div>
 

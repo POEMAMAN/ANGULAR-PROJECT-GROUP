@@ -1,20 +1,20 @@
 
-<div class="forEverWarPlanet-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+<div class="forEverWarPlanets-container">
+  <div class="forEverWarPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',forEverWarPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', forEverWarPlanet._id]" >Eliminar</button>
   </div>
-  <img [src]="forEverWarPlanet.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ forEverWarPlanet.name }}</h2>
-    <p class="short-text">{{ forEverWarPlanet.settled}}</p>
-    <p class="short-text">{{ forEverWarPlanet.population}}</p>
-    <p class="short-text">{{ forEverWarPlanet.capital }}</p>
-    <p class="short-text">{{ forEverWarPlanet.location }}</p>
-    <p class="short-text">{{ forEverWarPlanet.gravity }}</p>
-    <p class="short-text">{{ forEverWarPlanet.country }}</p>
-    <p class="short-text">{{ forEverWarPlanet.moons }}</p>
-    <p class="short-text">{{ forEverWarPlanet.resume }}</p>
+  <img class="forEverWarPlanets-container-img" [src]="forEverWarPlanet.picture" />
+  <div class="forEverWarPlanets-container-description">
+    <h2 class="forEverWarPlanets-container-h2">{{ forEverWarPlanet.name }}</h2>
+    <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.settled}}</p>
+    <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.population}}</p>
+    <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.capital }}</p>
+    <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.location }}</p>
+    <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.gravity }}</p>
+    <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.country }}</p>
+    <p class="forEverWarPlanets-container-p">{{ forEverWarPlanet.moons }}</p>
+    <p class="forEverWarPlanets-container-resume">{{ forEverWarPlanet.resume }}</p>
   </div>
 </div>
 

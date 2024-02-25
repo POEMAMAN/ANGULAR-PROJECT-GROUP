@@ -1,5 +1,5 @@
 
-<div class="seafordPlanet-container">
+<div class="seafordPlanets-container">
   <div class="seafordPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',seafordPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', seafordPlanet._id]" >Eliminar</button>
@@ -14,7 +14,7 @@
     <p class="seafordPlanets-container-p">{{ seafordPlanet.gravity }}</p>
     <p class="seafordPlanets-container-p">{{ seafordPlanet.country }}</p>
     <p class="seafordPlanets-container-p">{{ seafordPlanet.moons }}</p>
-    <p class="seafordPlanets-container-p">{{ seafordPlanet.resume }}</p>
+    <p class="seafordPlanets-container-resume">{{ seafordPlanet.resume }}</p>
   </div>
 </div>
 

@@ -1,12 +1,18 @@
-<div class="duneCharacter-list">
+<div class="duneCharacter-container-list">
+  <button
+        class="duneCharacter-container-list-button"
+        [routerLink]="'/library/completeUniverse/dune'"
+      >Universo Dune
+    </button>
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let duneCharacter of duneCharacters"  class="duneCharacter-list--duneCharacter">
+  <div class="duneCharacter-container-list-card">
+      <div *ngFor="let duneCharacter of duneCharacters"  class="duneCharacter-container-list-card-item">
         <app-duneCharacters
         [duneCharacter]="duneCharacter"></app-duneCharacters>
       </div>
     </div>
   </div>
+
 
 

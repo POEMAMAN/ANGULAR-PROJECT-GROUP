@@ -18,6 +18,7 @@
 .main-menu-button{
     display: flex;
     margin: 0 5% 0 0;
+    text-decoration: none;
 }
 
 

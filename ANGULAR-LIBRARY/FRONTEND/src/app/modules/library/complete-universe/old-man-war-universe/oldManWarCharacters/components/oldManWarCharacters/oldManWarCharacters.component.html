@@ -1,18 +1,18 @@
 
-<div class="oldManWarCharacter-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+<div class="oldManWarCharacters-container">
+  <div class="oldManWarCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',oldManWarCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', oldManWarCharacter._id]" >Eliminar</button>
   </div>
-  <img [src]="oldManWarCharacter.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ oldManWarCharacter.name }}</h2>
-    <p class="short-text">{{ oldManWarCharacter.profession }}</p>
-    <p class="short-text">{{ oldManWarCharacter.rank }}</p>
-    <p class="short-text">{{ oldManWarCharacter.birthday }}</p>
-    <p class="short-text">{{ oldManWarCharacter.planet }}</p>
-    <p class="short-text">{{ oldManWarCharacter.country }}</p>
-    <p class="short-text">{{ oldManWarCharacter.resume }}</p>
+  <img class="oldManWarCharacters-container-img" [src]="oldManWarCharacter.picture" />
+  <div class="oldManWarCharacters-container-description">
+    <h2 class="oldManWarCharacters-container-h2">{{ oldManWarCharacter.name }}</h2>
+    <p class="oldManWarCharacters-container-p">{{ oldManWarCharacter.profession }}</p>
+    <p class="oldManWarCharacters-container-p">{{ oldManWarCharacter.rank }}</p>
+    <p class="oldManWarCharacters-container-p">{{ oldManWarCharacter.birthday }}</p>
+    <p class="oldManWarCharacters-container-p">{{ oldManWarCharacter.planet }}</p>
+    <p class="oldManWarCharacters-container-p">{{ oldManWarCharacter.country }}</p>
+    <p class="oldManWarCharacters-container-resume">{{ oldManWarCharacter.resume }}</p>
   </div>
 </div>
 

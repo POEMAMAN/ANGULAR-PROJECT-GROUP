@@ -11,6 +11,7 @@ const arrayCharactersExpanse = [
     birthday: '24 CENTURY',
     planet: 'Earth',
     country: 'Royal Charter Energy',
+    resume: "Murtry proviene de la Tierra, y ha trabajado durante mucho tiempo como oficial de seguridad para Royal Charter Energy, llegando finalmente a la posición de jefe. Como le dice a Chandra, ha hecho una carrera derramando sangre para que las corporaciones aumenten sus ganancias, lo que a su vez aumenta sus propios pagos.El comportamiento de Murtry es frío y recogido, y a menudo se describe como un pragmático y un buscador de justicia. Esta narración auto-descrita es un velo delgado para su verdadera naturaleza, que es cruel, sanguinaria y despiadada. Como señaló Amos, Murtry es un asesino, que a menudo busca incluso las oportunidades más pequeñas para justificar sus impulsos asesinos.                                                                                                                                                                                                                                                                                    Murtry es odioso y prejuicioso, ya que en su introducción se muestra enojado porque tuvo que comprometerse con los cinturinos, a quienes considera inferiores. En numerosas ocasiones, se le ve conspirando para asesinar a los colonos cinturinos en Ilus, justificando sus planes a Chandra con la prevención de posibles conflictos futuros sobre los recursos o moralizando sobre la protección de su pueblo de posibles terroristas. En palabras de Naomi, Murtry asume la autoridad de jugar a ser juez, jurado y verdugo y no tiene reparos en abusar de su poder. Murtry también es altamente materialista, ya que finalmente le confiesa a Chandra que su razón para querer matar a los cinturinos es que, si lo hace, significará más ganancias para RCE y, por lo tanto, para sí mismo.Cuando Holden se enfrenta a Murtry por sus crímenes, Murtry ridiculiza a Holden por su creencia en la civilización y la cooperación, que él ve como partes secundarias y menores de la naturaleza humana; Murtry tiene una creencia megalómana de que el derramamiento de sangre es necesario para construir la civilización, y que es el tipo de hombre que el mundo necesita para ser civilizado. Murtry se compara con los colonizadores europeos que invadieron la tierra de los nativos americanos como un ejemplo de su 'grandeza', que Holden señala es Murtry usando genocidios pasados para justificar su brutalidad",
     picture:
       'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171646/THE%20EXPANSE/PERSONAJES/ADOLPHUS_MURTRY_S_sx29ox.png',
   },
@@ -34,7 +35,7 @@ const arrayCharactersExpanse = [
     country: 'O.N.U.',
     resume: 'Amos Burton, anteriormente conocido como Timothy, es un mecánico de barcos originario de la Tierra. Actualmente, trabaja a bordo del Rocinante y es uno de los cuatro miembros de la tripulación. Un hábil mecánico y combatiente, es un maestro de la supervivencia en el mundo de perro-come-perro del sistema, y tiene una tendencia hacia la violencia.Amos sirvió como mecánico a bordo del camión de hielo Pur"n"Kleen, el Canterbury, que suministraba agua para el cinturón de asteroides. Es un terrícola que no habla de su pasado - pero sabe mucho sobre burdeles y Baltimore. Está extrañamente cómodo, e incluso alegre, ante la perspectiva de la violencia.                                                                                                 Amos parece haber tenido un pasado difícil con lo poco que revela. En "Rock Bottom", mientras él y Alex están en un club nocturno, Amos dice que "creció en lugares como este", y hace vaga referencia a una historia de trabajo sexual. Probablemente fue prostituido cuando era niño, lo que puede explicar tanto el impacto en él como su protección hacia los niños.Habla con un ligero acento estadounidense del Atlántico Medio común con los que crecieron en la costa este de América del Norte.Amos es un hombre con el pelo castaño que mantiene corto. Al principio de la serie, su cabello es muy corto, pero crece un poco más a medida que pasa el tiempo, junto con su sombra de cinco horas. Tiene una mandíbula sólida y angular y sus ojos son marrones.                       Amos es de altura media, pero más allá de la media en construcción. Él es muy musculoso y sólidamente construido, siendo fuerte incluso para un terrícola, lo que le da una ventaja en mano, ya que puede golpear las luces del día de cualquiera que intente puñetazos con él, como cuando fácilmente domina a Miller cuando el detective lo golpeó.',
     picture:
-      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171449/THE%20EXPANSE/PERSONAJES/Anderson_Dawes_o28bcl.webp',
+      'https://res.cloudinary.com/dqfaa272n/image/upload/v1708171433/THE%20EXPANSE/PERSONAJES/AMOS_BURTON_s1ry9d.png',
   },
   {
     name: 'Anderson Drawes',
@@ -139,7 +140,7 @@ const arrayCharactersExpanse = [
 ];
 
 mongoose
-  .connect(process.env.DB_URL, {
+  .connect('mongodb+srv://dcpousa:Cunado1978@angular-library.cnzt7z4.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

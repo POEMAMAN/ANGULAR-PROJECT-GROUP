@@ -1,18 +1,21 @@
 
 <div class="fundacionBook-container">
-  <div *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
+  <div class="fundacionBooks-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',fundacionBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', fundacionBook._id]" >Eliminar</button>
   </div>
-  <img [src]="fundacionBook.picture" />
-  <div class="description-award">
-    <h2 class="short-tittle">{{ fundacionBook.title }}</h2>
-    <p class="short-text">{{ fundacionBook.publication_year }}</p>
-    <p class="short-text">{{ fundacionBook.saga }}</p>
-    <p class="short-text">{{ fundacionBook.saga_index }}</p>
-    <p class="short-text">{{ fundacionBook.universe }}</p>
-    <p class="short-text">{{ fundacionBook.author }}</p>
-    <p class="short-text">{{ fundacionBook.resume }}</p>
+  <div class="fundacionBooks-container-img">
+      <img class="fundacionBooks-container-img-img" [src]="fundacionBook.picture" />
+  </div>
+
+  <div class="fundacionBooks-container-description">
+    <h2 class="fundacionBooks-container-h2">{{ fundacionBook.title }}</h2>
+    <p class="fundacionBooks-container-p">{{ fundacionBook.publication_year }}</p>
+    <p class="fundacionBooks-container-p">{{ fundacionBook.saga }}</p>
+    <p class="fundacionBooks-container-p">{{ fundacionBook.saga_index }}</p>
+    <p class="fundacionBooks-container-p">{{ fundacionBook.universe }}</p>
+    <p class="fundacionBooks-container-p">{{ fundacionBook.author }}</p>
+    <p class="fundacionBooks-container-resume">{{ fundacionBook.resume }}</p>
   </div>
 </div>
 
