@@ -24,6 +24,9 @@
             height: 12vw;
             width: 17vw;
             font-size: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
             text-decoration: none;
         }
         &-p{
@@ -135,6 +138,19 @@
         height: 4vw;
         width: 8vw;
         font-size: small;
+    }
+}
+@media (min-width: 2200px)  {
+    .header-title{
+        font-size: 200%;
+    }
+    .header-logout-c-button{
+        height: 4vw;
+        width: 8vw;
+        font-size: 50px;
+    }
+    .header {
+        margin-bottom: 5%;
     }
 }
 
