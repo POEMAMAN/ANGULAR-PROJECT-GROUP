@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class SeafordCountriesService {
+export class seafordCountriesService {
 
   
 
