@@ -4,7 +4,9 @@
       <button [routerLink]="['/admin/edit-product',galacticCentPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', galacticCentPlanet._id]" >Eliminar</button>
   </div>
-  <img class="galacticCentPlanets-container-img" [src]="galacticCentPlanet.picture" />
+  <div class="galacticCentPlanets-container-img">
+    <img class="galacticCentPlanets-container-img-img" [src]="galacticCentPlanet.picture" />
+  </div>
   <div class="galacticCentPlanets-container-description">
     <h2 class="galacticCentPlanets-container-h2">{{ galacticCentPlanet.name }}</h2>
     <p class="galacticCentPlanets-container-p">{{ galacticCentPlanet.settled}}</p>
@@ -14,7 +16,7 @@
     <p class="galacticCentPlanets-container-p">{{ galacticCentPlanet.gravity }}</p>
     <p class="galacticCentPlanets-container-p">{{ galacticCentPlanet.country }}</p>
     <p class="galacticCentPlanets-container-p">{{ galacticCentPlanet.moons }}</p>
-    <p class="galacticCentPlanets-container-p">{{ galacticCentPlanet.resume }}</p>
+    <p class="galacticCentPlanets-container-resume">{{ galacticCentPlanet.resume }}</p>
   </div>
 </div>
 

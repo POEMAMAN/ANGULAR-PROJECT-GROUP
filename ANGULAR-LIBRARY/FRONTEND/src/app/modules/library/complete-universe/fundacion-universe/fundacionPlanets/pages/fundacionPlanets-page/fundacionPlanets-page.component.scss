@@ -10,7 +10,7 @@
   scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
   scrollbar-width:thin;
   background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708866074/APISCIFI/Fondos%20Universos/asimov_fondo_iuuelr.jpg");
-  background-size: cover;
+  background-size: contain;
   &-card {
     display: flex;
     flex-wrap: wrap;
