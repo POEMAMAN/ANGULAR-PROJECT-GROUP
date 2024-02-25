@@ -1,5 +1,5 @@
 
-<div class="fundacionPlanet-container">
+<div class="fundacionPlanets-container">
   <div class="fundacionPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',fundacionPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', fundacionPlanet._id]" >Eliminar</button>
@@ -14,7 +14,7 @@
     <p class="fundacionPlanets-container-p">{{ fundacionPlanet.gravity }}</p>
     <p class="fundacionPlanets-container-p">{{ fundacionPlanet.country }}</p>
     <p class="fundacionPlanets-container-p">{{ fundacionPlanet.moons }}</p>
-    <p class="fundacionPlanets-container-p">{{ fundacionPlanet.resume }}</p>
+    <p class="fundacionPlanets-container-resume">{{ fundacionPlanet.resume }}</p>
   </div>
 </div>
 

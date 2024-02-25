@@ -2,24 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-    ///BARRA DESLIZADORA
-    margin: 1rem auto;
-    border: 1px solid #aaa;
-    overflow:auto;
-    box-sizing: border-box;
-    padding:0 1rem;
-    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
-    scrollbar-width:thin;
-    ///
+  margin: 1rem auto;
+  border: 1px solid #aaa;
+  overflow:auto;
+  box-sizing: border-box;
+  padding:0 1rem;
+  scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+  scrollbar-width:thin;
+  background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708444216/FUNDACION/fondos/FondoFundacion9_fsdkg5.webp");
+  background-size: contain;
   &-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
     margin: 20px auto;
       &-item {
       background-color: #037bc0;
-      width: 300px;
+      width: 400px;
       margin: 10px;
       border-radius: 8px;
       padding: 15px;
@@ -27,3 +26,8 @@
     }
   }
 }
+@media (min-width: 2200px)  {
+  .fundacionCharacter-container-list-button{
+    font-size: 300%;
+  }
+  }

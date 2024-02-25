@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  &-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
+  &-img{
+    display: flex;
+    &-img {
+      width: 360px;
+      height: 375px;
+    }
   }
   &-description {
     text-align: center;
@@ -29,8 +30,8 @@
     overflow: hidden;
     max-height: calc(1.5em * 4);
     -webkit-line-clamp: 4;
+    font-size: 20px;
   }
-
   &-h2 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -38,5 +39,16 @@
     max-height: calc(1.5em * 4);
     -webkit-line-clamp: 1;
     font-family: 'Race-guard';
+    text-decoration:overline;
+    font-size: 200%;
+  }
+  &-resume {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    font-size: 14px;
+    height: 1000px;
+    font-family: 'Merienda';
   }
 }

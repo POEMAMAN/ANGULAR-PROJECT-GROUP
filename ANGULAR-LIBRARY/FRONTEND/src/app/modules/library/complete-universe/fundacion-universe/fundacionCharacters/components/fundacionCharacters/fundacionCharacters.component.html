@@ -1,10 +1,12 @@
 
-<div class="fundacionCharacter-container">
+<div class="fundacionCharacters-container">
   <div class="fundacionCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',fundacionCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', fundacionCharacter._id]" >Eliminar</button>
   </div>
-  <img class="fundacionCharacters-container-img" [src]="fundacionCharacter.picture" />
+  <div class="fundacionCharacters-container-img">
+    <img class="fundacionCharacters-container-img-img" [src]="fundacionCharacter.picture" />
+  </div>
   <div class="fundacionCharacters-container-description">
     <h2 class="fundacionCharacters-container-h2">{{ fundacionCharacter.name }}</h2>
     <p class="fundacionCharacters-container-p">{{ fundacionCharacter.profession }}</p>
@@ -12,7 +14,7 @@
     <p class="fundacionCharacters-container-p">{{ fundacionCharacter.birthday }}</p>
     <p class="fundacionCharacters-container-p">{{ fundacionCharacter.planet }}</p>
     <p class="fundacionCharacters-container-p">{{ fundacionCharacter.country }}</p>
-    <p class="fundacionCharacters-container-p">{{ fundacionCharacter.resume }}</p>
+    <p class="fundacionCharacters-container-resume">{{ fundacionCharacter.resume }}</p>
   </div>
 </div>
 
