@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
-const PlanetDune = require('../../api/models/models.dune/planets.dune.model');
+const PlanetFundacion = require('../../api/models/models.fundacion/planets.fundacion.model');
 
-const arrayPlanetsDune = [
+const arrayPlanetsFundacion = [
   {
     name: 'Trantor',
     settled: '(5708 TIERRA -10238 ERAGALACTICA -22305 ERAFUNDACIONAL)',
@@ -103,9 +103,9 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(async () => {
-    const allPlanetsDune = await PlanetDune.find();
-    if (allPlanetsDune.length > 0) {
-      await PlanetDune.collection.drop();
+    const allPlanetsFundacion = await PlanetFundacion.find();
+    if (allPlanetsFundacion.length > 0) {
+      await PlanetFundacion.collection.drop();
       console.log('PLanetas borrados');
     }
   })
@@ -113,8 +113,8 @@ mongoose
     console.log('error borrando los planetas', err);
   })
   .then(async () => {
-    const planetsDuneMap = arrayPlanetsDune.map((planet) => new PlanetDune(planet));
-    await PlanetDune.insertMany(planetsDuneMap);
+    const planetsFundacionMap = arrayPlanetsFundacion.map((planet) => new PlanetFundacion(planet));
+    await PlanetFundacion.insertMany(planetsFundacionMap);
     console.log('planetas insertados');
   })
   .catch((err) => {

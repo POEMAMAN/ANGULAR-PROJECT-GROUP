@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { SeafordUniverseRoutingModule } from './seaford-universe-routing.module';
 import { seafordBooksModule } from './seafordBooks/seafordBooks.module';
 import { seafordCharactersModule } from './seafordCharacters/seafordCharacters.module';
-import { seafordCountriesModule } from './seafordCountries/seafordCountries.module';
 import { seafordPlanetsModule } from './seafordPlanets/seafordPlanets.module';
 import { SeafordUniverseComponent } from './seaford-universe.component';
 
@@ -20,7 +19,6 @@ import { SeafordUniverseComponent } from './seaford-universe.component';
     SeafordUniverseRoutingModule,
     seafordBooksModule,
     seafordCharactersModule,
-    seafordCountriesModule,
     seafordPlanetsModule
   ]
 })
