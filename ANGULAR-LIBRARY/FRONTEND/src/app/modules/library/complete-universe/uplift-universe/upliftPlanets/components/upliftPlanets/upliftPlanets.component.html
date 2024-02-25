@@ -1,5 +1,5 @@
 
-<div class="upliftPlanet-container">
+<div class="upliftPlanets-container">
   <div class="upliftPlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',upliftPlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', upliftPlanet._id]" >Eliminar</button>
@@ -14,7 +14,7 @@
     <p class="upliftPlanets-container-p">{{ upliftPlanet.gravity }}</p>
     <p class="upliftPlanets-container-p">{{ upliftPlanet.country }}</p>
     <p class="upliftPlanets-container-p">{{ upliftPlanet.moons }}</p>
-    <p class="upliftPlanets-container-p">{{ upliftPlanet.resume }}</p>
+    <p class="upliftPlanets-container-resume">{{ upliftPlanet.resume }}</p>
   </div>
 </div>
 

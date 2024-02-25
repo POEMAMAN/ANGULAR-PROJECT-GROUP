@@ -1,5 +1,5 @@
 
-<div class="honorversePlanet-container">
+<div class="honorversePlanets-container">
   <div class="honorversePlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',honorversePlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', honorversePlanet._id]" >Eliminar</button>
@@ -14,7 +14,7 @@
     <p class="honorversePlanets-container-p">{{ honorversePlanet.gravity }}</p>
     <p class="honorversePlanets-container-p">{{ honorversePlanet.country }}</p>
     <p class="honorversePlanets-container-p">{{ honorversePlanet.moons }}</p>
-    <p class="honorversePlanets-container-p">{{ honorversePlanet.resume }}</p>
+    <p class="honorversePlanets-container-resume">{{ honorversePlanet.resume }}</p>
   </div>
 </div>
 
