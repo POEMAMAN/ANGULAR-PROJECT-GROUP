@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-    ///BARRA DESLIZADORA
     margin: 1rem auto;
     border: 1px solid #aaa;
     overflow:auto;
@@ -10,26 +9,25 @@
     padding:0 1rem;
     scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
     scrollbar-width:thin;
-    ///
+    background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708870526/APISCIFI/Fondos%20Universos/_d76817e7-f731-4467-9ee0-43b758aa01e9_ivbg9v.jpg");
+    background-size: contain;
   &-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
     margin: 20px auto;
       &-item {
       background-color: #037bc0;
-      width: 300px;
+      width: 400px;
       margin: 10px;
       border-radius: 8px;
       padding: 15px;
       box-sizing: border-box;
+    }
   }
-  }
-
 }
 @media (min-width: 2200px)  {
-  .expansePlanet-container-list-button{
+  .UltraW40KCharacter-container-list-button{
     font-size: 300%;
   }
   }

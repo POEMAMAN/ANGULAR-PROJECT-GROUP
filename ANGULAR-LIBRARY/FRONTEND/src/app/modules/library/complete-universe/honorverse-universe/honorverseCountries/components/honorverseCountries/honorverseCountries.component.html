@@ -1,5 +1,5 @@
 
-<div class="honorverseCountrie-container">
+<div class="honorverseCountries-container">
   <div class="honorverseCountries-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',honorverseCountrie._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', honorverseCountrie._id]" >Eliminar</button>
@@ -10,7 +10,7 @@
     <p class="honorverseCountries-container-p">{{ honorverseCountrie.clan }}</p>
     <p class="honorverseCountries-container-p">{{ honorverseCountrie.foundatorSpecie }}</p>
     <p class="honorverseCountries-container-p">{{ honorverseCountrie.clientSpecie}}</p>
-    <p class="honorverseCountries-container-p">{{ honorverseCountrie.resume }}</p>
+    <p class="honorverseCountries-container-resume">{{ honorverseCountrie.resume }}</p>
   </div>
 </div>
 

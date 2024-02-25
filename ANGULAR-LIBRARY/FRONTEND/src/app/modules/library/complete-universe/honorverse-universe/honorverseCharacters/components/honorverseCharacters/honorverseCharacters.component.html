@@ -1,5 +1,5 @@
 
-<div class="honorverseCharacter-container">
+<div class="honorverseCharacters-container">
   <div class="honorverseCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',honorverseCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', honorverseCharacter._id]" >Eliminar</button>
@@ -12,7 +12,7 @@
     <p class="honorverseCharacters-container-p">{{ honorverseCharacter.birthday }}</p>
     <p class="honorverseCharacters-container-p">{{ honorverseCharacter.planet }}</p>
     <p class="honorverseCharacters-container-p">{{ honorverseCharacter.country }}</p>
-    <p class="honorverseCharacters-container-p">{{ honorverseCharacter.resume }}</p>
+    <p class="honorverseCharacters-container-resume">{{ honorverseCharacter.resume }}</p>
   </div>
 </div>
 
