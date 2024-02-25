@@ -3,8 +3,10 @@
   <div class="expanseCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',expanseCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', expanseCharacter._id]" >Eliminar</button>
+  </div >
+  <div class="expanseCharacters-container-img">
+    <img class="expanseCharacters-container-img-img" [src]="expanseCharacter.picture" />
   </div>
-  <img class="expanseCharacters-container-img" [src]="expanseCharacter.picture" />
   <div class="expanseCharacters-container-description">
     <h2 class="expanseCharacters-container-h2">{{ expanseCharacter.name }}</h2>
     <p class="expanseCharacters-container-p">{{ expanseCharacter.profession }}</p>
@@ -12,7 +14,7 @@
     <p class="expanseCharacters-container-p">{{ expanseCharacter.birthday }}</p>
     <p class="expanseCharacters-container-p">{{ expanseCharacter.planet }}</p>
     <p class="expanseCharacters-container-p">{{ expanseCharacter.country }}</p>
-    <p class="expanseCharacters-container-p">{{ expanseCharacter.resume }}</p>
+    <p class="expanseCharacters-container-resume">{{ expanseCharacter.resume }}</p>
   </div>
 </div>
 
