@@ -3,9 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  &-img {
-    width: 375px;
-    height: 375px;
+  &-img{
+    display: flex;
+    &-img {
+      width: 375px;
+      height: 375px;
+    }
   }
   &-description {
     text-align: center;
