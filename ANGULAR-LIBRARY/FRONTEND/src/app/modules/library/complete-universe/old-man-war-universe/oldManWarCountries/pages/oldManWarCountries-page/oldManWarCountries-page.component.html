@@ -1,8 +1,8 @@
-<div class="oldManWarCountrie-list">
+<div class="oldManWarCountrie-container-list">
   <div style="margin-top: 5px;" class="container">
   </div>
-    <div class="card-container">
-      <div *ngFor="let oldManWarCountrie of oldManWarCountries"  class="oldManWarCountrie-list--oldManWarCountrie">
+  <div class="oldManWarCountrie-container-list-card">
+      <div *ngFor="let oldManWarCountrie of oldManWarCountries"  class="oldManWarCountrie-container-list-card-item">
         <app-oldManWarCountries
         [oldManWarCountrie]="oldManWarCountrie"></app-oldManWarCountries>
       </div>

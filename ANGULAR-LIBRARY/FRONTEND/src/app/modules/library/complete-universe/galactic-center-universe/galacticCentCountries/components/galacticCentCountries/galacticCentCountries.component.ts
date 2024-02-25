@@ -5,7 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-galacticCentCountries',
   templateUrl: './galacticCenCountries.component.html',
-  styleUrls: ['./galacticCentCountries.component.css']
+  styleUrls: ['./galacticCentCountries.component.scss']
 })
 export class galacticCentCountriesComponent implements OnInit {
 @Input() galacticCentCountrie: any
