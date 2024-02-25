@@ -1,10 +1,12 @@
 
-<div class="galacticCentCharacter-container">
+<div class="galacticCentCharacters-container">
   <div class="galacticCentCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',galacticCentCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', galacticCentCharacter._id]" >Eliminar</button>
   </div>
-  <img class="galacticCentCharacters-container-img" [src]="galacticCentCharacter.picture" />
+  <div class="galacticCentCharacters-container-img">
+    <img class="galacticCentCharacters-container-img-img" [src]="galacticCentCharacter.picture" />
+  </div>
   <div class="galacticCentCharacters-container-description">
     <h2 class="galacticCentCharacters-container-h2">{{ galacticCentCharacter.name }}</h2>
     <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.profession }}</p>
@@ -12,7 +14,7 @@
     <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.birthday }}</p>
     <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.planet }}</p>
     <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.country }}</p>
-    <p class="galacticCentCharacters-container-p">{{ galacticCentCharacter.resume }}</p>
+    <p class="galacticCentCharacters-container-resume">{{ galacticCentCharacter.resume }}</p>
   </div>
 </div>
 
