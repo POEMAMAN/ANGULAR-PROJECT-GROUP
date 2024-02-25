@@ -1,5 +1,6 @@
-import { SeafordCountrie } from './../../interfaces/SeafordCountries.interface';
-import { SeafordCountriesService } from '../../services/seafordCountries.service';
+
+import { SeafordCountrie } from '../../interfaces/SeafordCountries.interface';
+import { seafordCountriesService } from '../../services/seafordCountries.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class seafordCountriesPageComponent implements OnInit {
   seafordCountries: SeafordCountrie[] = []
-  constructor(private seafordCountriesService: SeafordCountriesService ) {}
+  constructor(private seafordCountriesService: seafordCountriesService ) {}
 
 
   ngOnInit(){

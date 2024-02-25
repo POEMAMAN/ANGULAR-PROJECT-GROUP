@@ -151,4 +151,5 @@ button {
   border-radius: 10px;
   font-weight: bolder;
   font-size: large;
+  text-decoration: underline;
 }
