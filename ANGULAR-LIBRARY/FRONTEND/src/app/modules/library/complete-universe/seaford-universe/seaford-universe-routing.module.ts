@@ -16,9 +16,6 @@ const routes: Routes = [
     path: 'characters', canActivate: [verifyTokenGuard],loadChildren: () => import('../seaford-universe/seafordCharacters/seafordCharacters.module').then(m => m.seafordCharactersModule),
   },
   {
-    path: 'countries', canActivate: [verifyTokenGuard],loadChildren: () => import('../seaford-universe/seafordCountries/seafordCountries.module').then(m => m.seafordCountriesModule),
-  },
-  {
     path: 'planets', canActivate: [verifyTokenGuard],loadChildren: () => import('../seaford-universe/seafordPlanets/seafordPlanets.module').then(m => m.seafordPlanetsModule),
   },
   ]

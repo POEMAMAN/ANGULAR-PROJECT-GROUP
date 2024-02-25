@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
-const CountryDune = require('../../api/models/models.dune/countries.dune.model');
+const CountryFundacion = require('../../api/models/models.fundacion/countries.fundacion.model');
 
-const arrayCountriesDune = [
+const arrayCountriesFundacion = [
   {
     name: 'Reino de Daribor',
     capital: 'Ix',
@@ -67,9 +67,9 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(async () => {
-    const allCountriesDune = await CountryDune.find();
-    if (allCountriesDune.length > 0) {
-      await CountryDune.collection.drop();
+    const allCountriesFundacion = await CountryFundacion.find();
+    if (allCountriesFundacion.length > 0) {
+      await CountryFundacion.collection.drop();
       console.log('Paises borrados');
     }
   })
@@ -77,8 +77,8 @@ mongoose
     console.log('error borrando los paises', err);
   })
   .then(async () => {
-    const countriesDuneMap = arrayCountriesDune.map((country) => new CountryDune(country));
-    await CountryDune.insertMany(countriesDuneMap);
+    const countriesFundacionMap = arrayCountriesFundacion.map((country) => new CountryFundacion(country));
+    await CountryFundacion.insertMany(countriesFundacionMap);
     console.log('paises insertados');
   })
   .catch((err) => {
