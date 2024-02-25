@@ -4,7 +4,9 @@
       <button [routerLink]="['/admin/edit-product',UltraW40KBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', UltraW40KBook._id]" >Eliminar</button>
   </div>
-  <img class="UltraW40KBooks-container-img" [src]="UltraW40KBook.picture" />
+  <div class="UltraW40KBooks-container-img">
+      <img class="UltraW40KBooks-container-img-img" [src]="UltraW40KBook.picture" />
+  </div>
   <div class="UltraW40KBooks-container-description">
     <h2 class="UltraW40KBooks-container-h2">{{ UltraW40KBook.title }}</h2>
     <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.publication_year }}</p>
@@ -12,7 +14,7 @@
     <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.saga_index }}</p>
     <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.universe }}</p>
     <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.author }}</p>
-    <p class="UltraW40KBooks-container-p">{{ UltraW40KBook.resume }}</p>
+    <p class="UltraW40KBooks-container-resume">{{ UltraW40KBook.resume }}</p>
   </div>
 </div>
 

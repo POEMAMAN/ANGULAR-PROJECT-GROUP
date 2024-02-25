@@ -4,7 +4,9 @@
       <button [routerLink]="['/admin/edit-product',honorverseBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', honorverseBook._id]" >Eliminar</button>
   </div>
-  <img class="honorverseBooks-container-img" [src]="honorverseBook.picture" />
+  <div class="honorverseBooks-container-img">
+   <img class="honorverseBooks-container-img-img" [src]="honorverseBook.picture" />   
+  </div>
   <div class="honorverseBooks-container-description">
     <h2 class="honorverseBooks-container-h2">{{ honorverseBook.title }}</h2>
     <p class="honorverseBooks-container-p">{{ honorverseBook.publication_year }}</p>
@@ -12,7 +14,7 @@
     <p class="honorverseBooks-container-p">{{ honorverseBook.saga_index }}</p>
     <p class="honorverseBooks-container-p">{{ honorverseBook.universe }}</p>
     <p class="honorverseBooks-container-p">{{ honorverseBook.author }}</p>
-    <p class="honorverseBooks-container-p">{{ honorverseBook.resume }}</p>
+    <p class="honorverseBooks-container-resume">{{ honorverseBook.resume }}</p>
   </div>
 </div>
 
