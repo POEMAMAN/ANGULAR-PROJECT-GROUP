@@ -1,5 +1,5 @@
 
-<div class="upliftCharacter-container">
+<div class="upliftCharacters-container">
   <div class="upliftCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',upliftCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', upliftCharacter._id]" >Eliminar</button>
@@ -12,7 +12,7 @@
     <p class="upliftCharacters-container-p">{{ upliftCharacter.birthday }}</p>
     <p class="upliftCharacters-container-p">{{ upliftCharacter.planet }}</p>
     <p class="upliftCharacters-container-p">{{ upliftCharacter.country }}</p>
-    <p class="upliftCharacters-container-p">{{ upliftCharacter.resume }}</p>
+    <p class="upliftCharacters-container-resume">{{ upliftCharacter.resume }}</p>
   </div>
 </div>
 

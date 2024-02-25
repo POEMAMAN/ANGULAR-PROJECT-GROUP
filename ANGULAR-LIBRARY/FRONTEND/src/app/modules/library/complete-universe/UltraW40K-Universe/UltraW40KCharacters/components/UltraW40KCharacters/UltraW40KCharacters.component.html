@@ -1,5 +1,5 @@
 
-<div class="UltraW40KCharacter-container">
+<div class="UltraW40KCharacters-container">
   <div class="UltraW40KCharacters-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',UltraW40KCharacter._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', UltraW40KCharacter._id]" >Eliminar</button>
@@ -12,7 +12,7 @@
     <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.birthday }}</p>
     <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.planet }}</p>
     <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.country }}</p>
-    <p class="UltraW40KCharacters-container-p">{{ UltraW40KCharacter.resume }}</p>
+    <p class="UltraW40KCharacters-container-resume">{{ UltraW40KCharacter.resume }}</p>
   </div>
 </div>
 

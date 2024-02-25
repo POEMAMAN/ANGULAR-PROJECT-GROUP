@@ -1,5 +1,5 @@
 
-<div class="oldManWarCountrie-container">
+<div class="oldManWarCountries-container">
   <div class="oldManWarCountries-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',oldManWarCountrie._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', oldManWarCountrie._id]" >Eliminar</button>
@@ -10,7 +10,7 @@
     <p class="oldManWarCountries-container-p">{{ oldManWarCountrie.clan }}</p>
     <p class="oldManWarCountries-container-p">{{ oldManWarCountrie.foundatorSpecie }}</p>
     <p class="oldManWarCountries-container-p">{{ oldManWarCountrie.clientSpecie}}</p>
-    <p class="oldManWarCountries-container-p">{{ oldManWarCountrie.resume }}</p>
+    <p class="oldManWarCountries-container-resume">{{ oldManWarCountrie.resume }}</p>
   </div>
 </div>
 

@@ -1,5 +1,5 @@
 
-<div class="UltraW40KCountrie-container">
+<div class="UltraW40KCountries-container">
   <div class="UltraW40KCountries-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',UltraW40KCountrie._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', UltraW40KCountrie._id]" >Eliminar</button>
@@ -10,7 +10,7 @@
     <p class="UltraW40KCountries-container-p">{{ UltraW40KCountrie.clan }}</p>
     <p class="UltraW40KCountries-container-p">{{ UltraW40KCountrie.foundatorSpecie }}</p>
     <p class="UltraW40KCountries-container-p">{{ UltraW40KCountrie.clientSpecie}}</p>
-    <p class="UltraW40KCountries-container-p">{{ UltraW40KCountrie.resume }}</p>
+    <p class="UltraW40KCountries-container-resume">{{ UltraW40KCountrie.resume }}</p>
   </div>
 </div>
 
