@@ -4,7 +4,9 @@
       <button [routerLink]="['/admin/edit-product',oldManWarBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', oldManWarBook._id]" >Eliminar</button>
   </div>
-  <img class="oldManWarBooks-container-img" [src]="oldManWarBook.picture" />
+  <div class="oldManWarBooks-container-img">
+     <img class="oldManWarBooks-container-img-img" [src]="oldManWarBook.picture" /> 
+  </div>
   <div class="oldManWarBooks-container-description">
     <h2 class="oldManWarBooks-container-h2">{{ oldManWarBook.title }}</h2>
     <p class="oldManWarBooks-container-p">{{ oldManWarBook.publication_year }}</p>
@@ -12,7 +14,7 @@
     <p class="oldManWarBooks-container-p">{{ oldManWarBook.saga_index }}</p>
     <p class="oldManWarBooks-container-p">{{ oldManWarBook.universe }}</p>
     <p class="oldManWarBooks-container-p">{{ oldManWarBook.author }}</p>
-    <p class="oldManWarBooks-container-p">{{ oldManWarBook.resume }}</p>
+    <p class="oldManWarBooks-container-resume">{{ oldManWarBook.resume }}</p>
   </div>
 </div>
 

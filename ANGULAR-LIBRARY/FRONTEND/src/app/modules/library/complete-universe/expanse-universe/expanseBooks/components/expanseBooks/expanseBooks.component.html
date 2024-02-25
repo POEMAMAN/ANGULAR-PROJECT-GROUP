@@ -4,7 +4,10 @@
       <button [routerLink]="['/admin/edit-product',expanseBook._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', expanseBook._id]" >Eliminar</button>
   </div>
-  <img class="expanseBooks-container-img" [src]="expanseBook.picture" />
+  <div class="expanseBooks-container-img"> 
+    <img class="expanseBooks-container-img-img" [src]="expanseBook.picture" />
+  </div>
+
   <div class="expanseBooks-container-description">
     <h2 class="expanseBooks-container-h2">{{ expanseBook.title }}</h2>
     <p class="expanseBooks-container-p">{{ expanseBook.publication_year }}</p>
@@ -12,7 +15,7 @@
     <p class="expanseBooks-container-p">{{ expanseBook.saga_index }}</p>
     <p class="expanseBooks-container-p">{{ expanseBook.universe }}</p>
     <p class="expanseBooks-container-p">{{ expanseBook.author }}</p>
-    <p class="expanseBooks-container-p">{{ expanseBook.resume }}</p>
+    <p class="expanseBooks-container-resume">{{ expanseBook.resume }}</p>
   </div>
 </div>
 

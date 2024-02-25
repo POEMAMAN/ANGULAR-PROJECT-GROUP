@@ -3,18 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  &-img-img {
+  &-img {
+    display: flex;
+    justify-content: center;
+      &-img {
     width: 200px;
     height: 300px;
+    }
   }
   &-description {
     text-align: center;
     color: #ffffff;
-  }
-  &-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   &-button {
     display: flex;
@@ -37,6 +36,7 @@
     -webkit-line-clamp: 1;
     font-family: 'Race-guard';
     text-decoration:overline;
+    font-size: 100%;
   }
   &-resume {
     display: -webkit-box;
