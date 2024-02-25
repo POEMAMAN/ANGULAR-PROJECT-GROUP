@@ -1,5 +1,5 @@
 
-<div class="dunePlanet-container">
+<div class="dunePlanets-container">
   <div class="dunePlanets-container-button" *ngIf="isAdmin" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 5px; gap: 5px">
       <button [routerLink]="['/admin/edit-product',dunePlanet._id]" >Editar</button>
       <button [routerLink]="['/admin/delete-product', dunePlanet._id]" >Eliminar</button>
@@ -14,7 +14,7 @@
     <p class="dunePlanets-container-p">{{ dunePlanet.gravity }}</p>
     <p class="dunePlanets-container-p">{{ dunePlanet.country }}</p>
     <p class="dunePlanets-container-p">{{ dunePlanet.moons }}</p>
-    <p class="dunePlanets-container-p">{{ dunePlanet.resume }}</p>
+    <p class="dunePlanets-container-resume">{{ dunePlanet.resume }}</p>
   </div>
 </div>
 
