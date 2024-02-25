@@ -10,7 +10,7 @@
   scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
   scrollbar-width:thin;
   background-image: url("https://res.cloudinary.com/dqfaa272n/image/upload/v1708854184/DUNE/FONDOS/DUNEPLANETS_dwaxdw.jpg");
-  background-size: contain;
+  background-size: cover;
   &-card {
     display: flex;
     flex-wrap: wrap;
@@ -26,4 +26,13 @@
     }
   }
 }
-
+@media (min-width: 2200px)  {
+  .dunePlanet-container-list-button{
+    font-size: 300%;
+  }
+  }
+  @media (min-width: 2200px)  {
+    .dunePlanet-container-list-button{
+      font-size: 300%;
+    }
+    }
